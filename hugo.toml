@@ -32,7 +32,7 @@ menu = [
 
 # Links to your socials.  Comment or delete any you don't need/use.
 # discord_url = "https://discord.com"
-email_url = "mailto://uniqueduckinbox@duck.com"
+email_url = "mailto:uniqueduckinbox@duck.com"
 # facebook_url = "https://facebook.com"
 # flickr_url = "https://flickr.com"
 github_url = "https://github.com/mmaachado"

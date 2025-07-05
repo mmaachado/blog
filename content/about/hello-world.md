@@ -2,6 +2,7 @@
 date = '2025-07-04T12:23:50-03:00'
 draft = false
 title = 'Hello World'
+tags = ["Introdução"]
 +++
 
 Bem-vindo(a) ao meu espaço pessoal na web. Este blog tem como propósito compartilhar conteúdos relacionados à tecnologia, com foco principal em **Python** e distribuições **GNU/Linux**. As publicações não vão ter uma frequência regular visto que meu tempo é limitado devido às demandas profissionais e acadêmicas, o que me impossibilita de produzir conteúdo com periodicidade. Ainda assim, pretendo utilizar meu tempo livre para escrever sobre os temas mencionados anteriormente.
