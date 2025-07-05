@@ -6,6 +6,21 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>pt-br</language>
+    <lastBuildDate>Sat, 05 Jul 2025 13:58:55 -0300</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNU/Linux</title>
+      <link>/tags/gnu/linux/</link>
+      <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate>
+      <guid>/tags/gnu/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sistemas Operacionais</title>
+      <link>/tags/sistemas-operacionais/</link>
+      <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate>
+      <guid>/tags/sistemas-operacionais/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

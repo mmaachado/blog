@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on </description>
+    <title>Sistemas Operacionais on </title>
+    <link>/tags/sistemas-operacionais/</link>
+    <description>Recent content in Sistemas Operacionais on </description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 05 Jul 2025 13:58:55 -0300</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/sistemas-operacionais/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GNU/Linux e o futuro do mercado de sistemas operacionais</title>
       <link>/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</link>

@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 04 Jul 2025 12:23:50 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jul 2025 13:58:55 -0300</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNU/Linux e o futuro do mercado de sistemas operacionais</title>
+      <link>/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</link>
+      <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate>
+      <guid>/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</guid>
+      <description>&lt;p&gt;Vamos ver até onde essa comunidade pode chegar.&lt;/p&gt;&#xA;&lt;p&gt;O projeto &lt;strong&gt;GNU/Linux&lt;/strong&gt; poderá ser muito mais ou muito menos nos próximos anos, com os altos investimentos que a &lt;strong&gt;Valve&lt;/strong&gt; está fazendo no &lt;em&gt;SteamOS&lt;/em&gt; e &lt;em&gt;Proton&lt;/em&gt;, e com o crescimento das IAs, confio que sistemas baseados em alguma distribuição &lt;strong&gt;GNU/Linux&lt;/strong&gt; serão tendencias e alternativas viáveis ao &lt;strong&gt;Windows&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Infelizmente ainda existem muitos desafios pela frente. Para começar, precisamos que as empresas entendam que esse é um sistema vivo, com uma base de usuários considerável. Muitos softwares ainda não são compatíveis com a maioria das distribuições, e muitas empresas nem fazem questão de prestar um suporte para esses sistemas.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>/about/hello-world/</link>
