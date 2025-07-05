@@ -14,5 +14,3 @@ Infelizmente ainda existem muitos desafios pela frente. Para começar, precisamo
 O maior desafio será convencer o mercado. E isso não se faz da noite para o dia. Significa que ainda não será possível deixar o legado do **Windows** totalmente de lado. Muitos usuários ainda são resistentes quanto à migração para sistemas **GNU/Linux** por que temem utilizar o terminal — muitos ainda acham que para criar um simples diretório o usuário precisa obrigatoriamente abrir o terminal e digitar `mkdir meu_diretório`.
 
 Mas graças ao constante desempenho de projetos como *Gnome* e *KDE Plasma*, a realidade hoje em 2025 já é outra, sistemas **GNU/Linux** possuem quase todas as mesmas funcionalidades e um visual quase idêntico à interfaces visuais de sistemas como **macOS** e **Windows 11**.
-
-<!-- {{ partial "disqus.html" . }} -->

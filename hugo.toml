@@ -113,7 +113,3 @@ tags = 'tags'
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
-
-[services]
-[services.disqus]
-shortname = 'disqus_qMX0jfSfxq'
