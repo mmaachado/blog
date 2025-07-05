@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>//localhost:1313///public/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="//localhost:1313///public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jul 2025 13:58:55 -0300</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>//localhost:1313/posts/test-post/</link>
+      <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate>
+      <guid>//localhost:1313/posts/test-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/about/hello-world/</link>
+      <pubDate>Fri, 04 Jul 2025 12:23:50 -0300</pubDate>
+      <guid>//localhost:1313/about/hello-world/</guid>
+      <description>&lt;p&gt;Bem-vindo(a) ao meu espacinho particular na web, aqui tenho como objetivo escrever sobre tecnologia, principalmente sobre &lt;em&gt;Python&lt;/em&gt; e distribuições &lt;em&gt;GNU/Linux&lt;/em&gt;. No entanto, não tenho como objetivo me profissionalizar, apenas construir algo legal como hobby.&lt;/p&gt;&#xA;&lt;p&gt;Dito isso, todo conteúdo aqui presente está sob licença &lt;em&gt;Creative Commons BY-NC-SA 4.0&lt;/em&gt;, ou seja, qualquer pessoa está autorizada a copiar, distribuir e modificar o conteúdo das postagens, desde que os devidos créditos sejam atribuídos ao autor original, o material não seja utilizado para fins comerciais e por último, o material compartilhado deve ser distribuído sob esta mesma licença.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

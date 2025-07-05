@@ -1,4 +1,4 @@
-baseURL = "/public"
+baseURL = "/"
 languageCode = "pt-br"
 theme = "poison"
 pagination.pagerSize = 10
