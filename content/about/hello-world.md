@@ -4,22 +4,22 @@ draft = false
 title = 'Hello World'
 +++
 
-Bem-vindo(a) ao meu espacinho particular na web, aqui tenho como objetivo escrever sobre tecnologia, principalmente sobre _Python_ e distribuições _GNU/Linux_. Esse é um hobby meu, não esperem conteúdos semanais ou diários neste espaço. Mesmo por que não tenho muito tempo disponível para elaborar conteúdos profissionais ou até mesmo bem estruturados. Pretendo escrever conteúdos relacionados aos dois tópicos que mencionei anteriormente durante meu tempo livre do trabalho ou faculdade.
+Bem-vindo(a) ao meu espaço pessoal na web. Este blog tem como propósito compartilhar conteúdos relacionados à tecnologia, com foco principal em **Python** e distribuições **GNU/Linux**. As publicações não vão ter uma frequência regular visto que meu tempo é limitado devido às demandas profissionais e acadêmicas, o que me impossibilita de produzir conteúdo com periodicidade. Ainda assim, pretendo utilizar meu tempo livre para escrever sobre os temas mencionados anteriormente.
 
-Dito isso, todo conteúdo aqui presente está sob licença _Creative Commons BY-NC-SA 4.0_, ou seja, qualquer pessoa está autorizada a copiar, distribuir e modificar o conteúdo das postagens, desde que os devidos créditos sejam atribuídos ao autor original, o material não seja utilizado para fins comerciais e por último, o material compartilhado deve ser distribuído sob esta mesma licença.
+Todo o conteúdo publicado neste espaç está licenciado sob a **Creative Commons BY-NC-SA 4.0**. Isso significa que qualquer pessoa pode copiar, distribuir e modificar os textos, desde que sejam atribuídos os devidos créditos ao autor original, o material não seja utilizado para fins comerciais e as obras derivadas sejam compartilhadas sob a mesma licença.
 
 ## Quem sou eu?
 
-Prazer, me chamo Marcelo, mas podem me chamar de **Marquês**. Atualmente sou acadêmico de _Ciências da Computação_, já atuei como estagiário de desenvolvimento e atualmente estou trabalhando na Avell.
+Prazer, me chamo Marcelo, mas pode me chamar de **Marquês**. Atualmente sou acadêmico de _Ciência da Computação_, com experiência prévia como estagiário na área de desenvolvimento. Hoje, atuo profissionalmente na Avell.
 
-Minhas principais ferramentas do dia a dia são _Python_, _bash_, _C_ e _GNU/Linux_, aliás, eu uso Arch! Hoje estou trabalhando em projetos internos da Avell e estruturando recursos para nossos clientes que utilizam alguma distribuição GNU/Linux, para assim, fornecermos algum tipo de suporte para esse sistema.
+Minhas principais ferramentas do dia a dia são *Python*, *Bash*, *C* e sistemas baseados em *GNU/Linux* (aliás, eu uso Arch!). Na Avell, estou envolvido com projetos internos e na criação de soluções voltadas a clientes que utilizam distribuições GNU/Linux, com o objetivo de fornecer suporte técnico adequado a esse público.
 
 ## Quais minhas qualificações?
 
-Iniciei minha trilha na tecnologia desde cedo, mas, por preguiça e irresponsabilidade, comecei a estudar efetivamente sobre computação há cerca de 5 anos.
+Meu envolvimento com computadores começou cedo, mas foi somente há cerca de cinco anos que iniciei meus estudos de forma consistente. Minha primeira linguagem de programação foi **Ruby**, graças ao *RPG Maker VX* e *VX Ace*.
 
-Inicialmente, comecei a estudar sobre _Ruby_, essa que foi a primeira linguagem de programação que tive contato, graças ao **RPG Maker VX** e **VX Ace**.
+Tive oportunidades profissionais importantes, como atuar no desenvolvimento de aplicativos iOS utilizando *Swift* e *SwiftUI*. No entanto, minha maior evolução técnica ocorreu durante meu estágio, onde trabalhei com *Python*, *RPA* e *backend*. Foi nesse período, enquanto ainda cursava **Engenharia de Software**, que conheci a área de segurança da informação e comecei a explorar o ecossistema GNU/Linux por conta própria. Instalei minhas primeiras distribuições (Ubunut, Kali Linux e Debian) e mergulhei no universo da **Cibersegurança**.
 
-Tive diversas oportunidades, as principais, foi para atuar como desenvolvedro iOS utilizando _Swift_ e _SwiftUI_, posteriormente e a oportunidade que mudou totalmente meus conceitos sobre tecnologia, foi durante meu estágio, onde tive contato com _Python_ e desenvolvimento de automações e backend, aqui foi onde tive a maior curva de aprendizado da minha vida, nessa época estava cursando _Engenharia de Software_, e, foi onde fui introduzido à segurança de informação e, por opção, ao universo _GNU/Linux_. Nesse período mergulhei no universo de Cibersegurança, instalei minhas primeiras distribuições (Ubuntu, Kali Linux e Debian).
+Atualmente, atuo no setor de *Suporte Técnico* da Avell. Migrei para o curso de **Ciência da Computação** e substituí o *Debian* por *Arch Linux* no meu computador pessoal. Estou envolvido no desenvolvimento de projetos voltados ao suporte de distribuições GNU/Linux para os clientes da empresa - uma iniciativa ainda em fase conceitual, mas que futuramente, acredito que poderá redefinir a forma como a Avell se posiciona nesse mercado.
 
-Hoje, estou atuando na Avell, precisamente, na equipe de Suporte Técnico, mudei meu curso para _Ciências da Computação_ e migrei meu computador pessoal do _Debian_ para o **Arch Linux**. Estou trabalhando em projetos para trazer soluções para o mercado _GNU/Linux_ aos nossos clientes, o projeto hoje é apenas uma idéia, mas tenho certeza que futuramente será uma chave para mudar totalmente o conceito da empresa no mercado.
+---

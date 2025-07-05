@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 05 Jul 2025 13:58:55 -0300</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contribuindo para a comunidade open source</title>
-      <link>//localhost:1313/posts/contribuindo-para-a-comunidade-open-source/</link>
-      <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate>
-      <guid>//localhost:1313/posts/contribuindo-para-a-comunidade-open-source/</guid>
-      <description>&lt;p&gt;Desde que comecei a estudar sobre programação, um dos meus objetivos era contribuir em algum projeto relevante para a comunidade. Lembro de ficar meses procurando projetos públicos para iniciar minhas contribuições.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Fri, 04 Jul 2025 12:23:50 -0300</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>//localhost:1313/about/hello-world/</link>
+      <link>/about/hello-world/</link>
       <pubDate>Fri, 04 Jul 2025 12:23:50 -0300</pubDate>
-      <guid>//localhost:1313/about/hello-world/</guid>
-      <description>&lt;p&gt;Bem-vindo(a) ao meu espacinho particular na web, aqui tenho como objetivo escrever sobre tecnologia, principalmente sobre &lt;em&gt;Python&lt;/em&gt; e distribuições &lt;em&gt;GNU/Linux&lt;/em&gt;. Esse é um hobby meu, não esperem conteúdos semanais ou diários neste espaço. Mesmo por que não tenho muito tempo disponível para elaborar conteúdos profissionais ou até mesmo bem estruturados. Pretendo escrever conteúdos relacionados aos dois tópicos que mencionei anteriormente durante meu tempo livre do trabalho ou faculdade.&lt;/p&gt;&#xA;&lt;p&gt;Dito isso, todo conteúdo aqui presente está sob licença &lt;em&gt;Creative Commons BY-NC-SA 4.0&lt;/em&gt;, ou seja, qualquer pessoa está autorizada a copiar, distribuir e modificar o conteúdo das postagens, desde que os devidos créditos sejam atribuídos ao autor original, o material não seja utilizado para fins comerciais e por último, o material compartilhado deve ser distribuído sob esta mesma licença.&lt;/p&gt;</description>
+      <guid>/about/hello-world/</guid>
+      <description>&lt;p&gt;Bem-vindo(a) ao meu espaço pessoal na web. Este blog tem como propósito compartilhar conteúdos relacionados à tecnologia, com foco principal em &lt;strong&gt;Python&lt;/strong&gt; e distribuições &lt;strong&gt;GNU/Linux&lt;/strong&gt;. As publicações não vão ter uma frequência regular visto que meu tempo é limitado devido às demandas profissionais e acadêmicas, o que me impossibilita de produzir conteúdo com periodicidade. Ainda assim, pretendo utilizar meu tempo livre para escrever sobre os temas mencionados anteriormente.&lt;/p&gt;&#xA;&lt;p&gt;Todo o conteúdo publicado neste espaç está licenciado sob a &lt;strong&gt;Creative Commons BY-NC-SA 4.0&lt;/strong&gt;. Isso significa que qualquer pessoa pode copiar, distribuir e modificar os textos, desde que sejam atribuídos os devidos créditos ao autor original, o material não seja utilizado para fins comerciais e as obras derivadas sejam compartilhadas sob a mesma licença.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
