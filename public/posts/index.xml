@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 05 Jul 2025 13:58:55 -0300</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Post</title>
-      <link>//localhost:1313/posts/test-post/</link>
+      <title>Contribuindo para a comunidade open source</title>
+      <link>//localhost:1313/posts/contribuindo-para-a-comunidade-open-source/</link>
       <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate>
-      <guid>//localhost:1313/posts/test-post/</guid>
-      <description></description>
+      <guid>//localhost:1313/posts/contribuindo-para-a-comunidade-open-source/</guid>
+      <description>&lt;p&gt;Desde que comecei a estudar sobre programação, um dos meus objetivos era contribuir em algum projeto relevante para a comunidade. Lembro de ficar meses procurando projetos públicos para iniciar minhas contribuições.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

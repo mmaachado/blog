@@ -9,18 +9,18 @@
     <lastBuildDate>Sat, 05 Jul 2025 13:58:55 -0300</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Post</title>
-      <link>//localhost:1313/posts/test-post/</link>
+      <title>Contribuindo para a comunidade open source</title>
+      <link>//localhost:1313/posts/contribuindo-para-a-comunidade-open-source/</link>
       <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate>
-      <guid>//localhost:1313/posts/test-post/</guid>
-      <description></description>
+      <guid>//localhost:1313/posts/contribuindo-para-a-comunidade-open-source/</guid>
+      <description>&lt;p&gt;Desde que comecei a estudar sobre programação, um dos meus objetivos era contribuir em algum projeto relevante para a comunidade. Lembro de ficar meses procurando projetos públicos para iniciar minhas contribuições.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
       <link>//localhost:1313/about/hello-world/</link>
       <pubDate>Fri, 04 Jul 2025 12:23:50 -0300</pubDate>
       <guid>//localhost:1313/about/hello-world/</guid>
-      <description>&lt;p&gt;Bem-vindo(a) ao meu espacinho particular na web, aqui tenho como objetivo escrever sobre tecnologia, principalmente sobre &lt;em&gt;Python&lt;/em&gt; e distribuições &lt;em&gt;GNU/Linux&lt;/em&gt;. No entanto, não tenho como objetivo me profissionalizar, apenas construir algo legal como hobby.&lt;/p&gt;&#xA;&lt;p&gt;Dito isso, todo conteúdo aqui presente está sob licença &lt;em&gt;Creative Commons BY-NC-SA 4.0&lt;/em&gt;, ou seja, qualquer pessoa está autorizada a copiar, distribuir e modificar o conteúdo das postagens, desde que os devidos créditos sejam atribuídos ao autor original, o material não seja utilizado para fins comerciais e por último, o material compartilhado deve ser distribuído sob esta mesma licença.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Bem-vindo(a) ao meu espacinho particular na web, aqui tenho como objetivo escrever sobre tecnologia, principalmente sobre &lt;em&gt;Python&lt;/em&gt; e distribuições &lt;em&gt;GNU/Linux&lt;/em&gt;. Esse é um hobby meu, não esperem conteúdos semanais ou diários neste espaço. Mesmo por que não tenho muito tempo disponível para elaborar conteúdos profissionais ou até mesmo bem estruturados. Pretendo escrever conteúdos relacionados aos dois tópicos que mencionei anteriormente durante meu tempo livre do trabalho ou faculdade.&lt;/p&gt;&#xA;&lt;p&gt;Dito isso, todo conteúdo aqui presente está sob licença &lt;em&gt;Creative Commons BY-NC-SA 4.0&lt;/em&gt;, ou seja, qualquer pessoa está autorizada a copiar, distribuir e modificar o conteúdo das postagens, desde que os devidos créditos sejam atribuídos ao autor original, o material não seja utilizado para fins comerciais e por último, o material compartilhado deve ser distribuído sob esta mesma licença.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

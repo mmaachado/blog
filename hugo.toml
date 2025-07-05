@@ -8,11 +8,11 @@ pluralizelisttitles = false # removes the automatically appended "s" on sidebar 
 # disqusShortname = "yourDisqusShortname"
 
 [params]
-brand = "Marquês" # name of your site - appears in the sidebar
+brand = "Vaults of Parnassus" # name of your site - appears in the sidebar
 # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
 # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
-description = "Update this description..." # Used as default meta description if not specified in front matter
-dark_mode = true                           # optional - defaults to false
+description = "No Ads, No Fluff, Just Tech Stuff" # Used as default meta description if not specified in front matter
+dark_mode = true                                  # optional - defaults to false
 # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
 front_page_content = [
@@ -26,8 +26,8 @@ front_page_content = [
 # HasChildren:  If the directory's files should be listed.  Default is true.
 # Limit:        If the files should be listed, how many should be shown.
 menu = [
-    { Name = "About", URL = "/about/", HasChildren = false },
-    { Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5 },
+    { Name = "Sobre", URL = "/about/", HasChildren = false },
+    { Name = "Posts", URL = "/posts/", Pre = "Recente", HasChildren = true, Limit = 5 },
 ]
 
 # Links to your socials.  Comment or delete any you don't need/use.
@@ -43,7 +43,7 @@ github_url = "https://github.com/mmaachado"
 # matrix_url = "https://matrix.org"
 # telegram_url = "https://telegram.org"
 # tryhackme_url = "https://tryhackme.com"
-# twitter_url = "https://twitter.com"
+twitter_url = "https://twitter.com"
 # x_url = "https://x.com"
 # xmpp_url = "https://xmpp.org"
 # youtube_url = "https://youtube.com"
