@@ -13,7 +13,7 @@ brand = "Vaults of Parnassus" # name of your site - appears in the sidebar
 brand_image = "https://avatars.githubusercontent.com/u/80861021?v=4" # path to the image shown in the sidebar
 description = "No Ads, No Fluff, Just Tech Stuff"                    # Used as default meta description if not specified in front matter
 dark_mode = true                                                     # optional - defaults to false
-favicon = "static/favicon/favicon.ico"                               # path to favicon (defaults to favicon.png)
+favicon = "/static/favicon/favicon.ico"                              # path to favicon (defaults to favicon.png)
 
 front_page_content = [
     "posts",
