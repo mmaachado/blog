@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on </title>
-    <link>/about/</link>
+    <link>//localhost:1313/about/</link>
     <description>Recent content in About on </description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Fri, 04 Jul 2025 12:23:50 -0300</lastBuildDate>
-    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>/about/hello-world/</link>
+      <link>//localhost:1313/about/hello-world/</link>
       <pubDate>Fri, 04 Jul 2025 12:23:50 -0300</pubDate>
-      <guid>/about/hello-world/</guid>
+      <guid>//localhost:1313/about/hello-world/</guid>
       <description>&lt;p&gt;Bem-vindo(a) ao meu espaço pessoal na web. Este blog tem como propósito compartilhar conteúdos relacionados à tecnologia, com foco principal em &lt;strong&gt;Python&lt;/strong&gt; e distribuições &lt;strong&gt;GNU/Linux&lt;/strong&gt;. As publicações não vão ter uma frequência regular visto que meu tempo é limitado devido às demandas profissionais e acadêmicas, o que me impossibilita de produzir conteúdo com periodicidade. Ainda assim, pretendo utilizar meu tempo livre para escrever sobre os temas mencionados anteriormente.&lt;/p&gt;&#xA;&lt;p&gt;Todo o conteúdo publicado neste espaç está licenciado sob a &lt;strong&gt;Creative Commons BY-NC-SA 4.0&lt;/strong&gt;. Isso significa que qualquer pessoa pode copiar, distribuir e modificar os textos, desde que sejam atribuídos os devidos créditos ao autor original, o material não seja utilizado para fins comerciais e as obras derivadas sejam compartilhadas sob a mesma licença.&lt;/p&gt;</description>
     </item>
   </channel>
