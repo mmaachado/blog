@@ -23,4 +23,14 @@ Tive oportunidades profissionais importantes, como atuar no desenvolvimento de a
 
 Atualmente, atuo no setor de *Suporte Técnico* da Avell. Migrei para o curso de **Ciência da Computação** e substituí o *Debian* por *Arch Linux* no meu computador pessoal. Estou envolvido no desenvolvimento de projetos voltados ao suporte de distribuições GNU/Linux para os clientes da empresa - uma iniciativa ainda em fase conceitual, mas que futuramente, acredito que poderá redefinir a forma como a Avell se posiciona nesse mercado.
 
+## Vaults of Parnassus?
+
+O nome não dá uma boa primeira impressão, mas não foi escolhido aleatoriamente. Quem conheceu Python há alguns anos atrás, tinha experiências muito ruins no quesito de módulos e bibliotecas.
+
+Basicamente por que o **PyPI** não existia ainda. Então, a comunidade criou um repositório não oficial para servir como um *hub comunitário* para compartilhar código reutilizável.
+
+Posteriormente foi criado o **PyPI** que oficializou um local para guardar todos os scripts reutilizáveis, módulos e bibliotecas do Python, e, desde 2008, Vaults of Parnassus deixou de receber atualizações. Hoje o site só é possível de ser acessado através do *Wayback Machine*, mas o portal teve um papel fundamental na era inicial da linguagem.
+
+> O nome que escolhi para esse blog, foi justamente em homenagem a esse projeto que foi extremamente útil à comunidade Python na época.
+
 ---
