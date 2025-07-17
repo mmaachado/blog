@@ -2,10 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on </title>
-    <link>/series/</link>
+    <link>http://localhost:1313/series/</link>
     <description>Recent content in Series on </description>
     <generator>Hugo</generator>
-    <language>pt-br</language>
-    <atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-BR</language>
+    <managingEditor>uniqueduckinbox@duck.com (Marquês)</managingEditor>
+    <webMaster>uniqueduckinbox@duck.com (Marquês)</webMaster>
+    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

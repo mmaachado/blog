@@ -1,8 +1,10 @@
-baseURL = "/"
-languageCode = "pt-br"
+baseURL = "https://vaultsofparnassus.netlify.app"
+languageCode = "pt-BR"
 theme = "poison"
 pagination.pagerSize = 10
-pluralizelisttitles = false # removes the automatically appended "s" on sidebar entries
+pluralizelisttitles = false                       # removes the automatically appended "s" on sidebar entries
+defaultContentLanguage = "pt"
+
 
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
 # disqusShortname = "yourDisqusShortname"
@@ -105,6 +107,13 @@ text_color_dark = "#EEE"                     # default is #EEE
 # For this to work though og_image and brand_url must be a path inside the assets directory
 # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
 # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
+
+[params.author]
+name = "Marquês"
+email = "uniqueduckinbox@duck.com"
+
+[markup.highlight]
+style = "catppuccin-latte"
 
 [taxonomies]
 series = 'series'
