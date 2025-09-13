@@ -5,6 +5,8 @@ title = 'Hello World'
 tags = ["Introdução"]
 +++
 
+## Introdução
+
 Bem-vindo(a) ao meu espaço pessoal na web. Este blog tem como propósito compartilhar conteúdos relacionados a tecnologia, com foco principal em **Python** e distribuições **GNU/Linux**. As publicações não vão ter uma frequência regular visto que meu tempo é limitado devido às demandas profissionais e acadêmicas, o que me impossibilita de produzir conteúdo com periodicidade. Ainda assim, pretendo utilizar meu tempo livre para escrever sobre os temas mencionados anteriormente.
 
 Todo o conteúdo publicado neste espaço está licenciado sob a **Creative Commons BY-NC-SA 4.0**. Isso significa que qualquer pessoa pode copiar, distribuir e modificar os textos, desde que sejam atribuídos os devidos créditos ao autor original, o material não seja utilizado para fins comerciais e as obras derivadas sejam compartilhadas sob a mesma licença.

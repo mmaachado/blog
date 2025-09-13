@@ -4,7 +4,6 @@ draft = false
 title = 'Velocidade Importa?'
 tags = ['Python', 'Tech']
 +++
-
 ## Introdução
 > **TL;DR**: Python é mais lento que linguagens compiladas. Mas em 2025, essa diferença ainda é relevante na prática?
 

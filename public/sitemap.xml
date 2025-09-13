@@ -2,45 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/</loc>
+    <lastmod>2025-08-18T13:19:31-03:00</lastmod>
+  </url><url>
+    <loc>https://vaultsofparnassus.netlify.app/posts/</loc>
+    <lastmod>2025-08-18T13:19:31-03:00</lastmod>
+  </url><url>
+    <loc>https://vaultsofparnassus.netlify.app/tags/python/</loc>
     <lastmod>2025-07-21T09:36:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/tags/</loc>
     <lastmod>2025-07-21T09:36:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/tags/tech/</loc>
     <lastmod>2025-07-21T09:36:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/posts/velocidade-importa/</loc>
     <lastmod>2025-07-21T09:36:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
-    <lastmod>2025-07-21T09:36:37-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/velocidade-importa/</loc>
-    <lastmod>2025-07-21T09:36:37-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/calculando-o-custo-de-uma-distro/</loc>
-    <lastmod>2025-07-17T09:46:04-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/gnu/linux/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/tags/gnu/linux/</loc>
     <lastmod>2025-07-05T13:58:55-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</loc>
     <lastmod>2025-07-05T13:58:55-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sistemas-operacionais/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/tags/sistemas-operacionais/</loc>
     <lastmod>2025-07-05T13:58:55-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/about/</loc>
     <lastmod>2025-07-04T12:23:50-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/hello-world/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/about/hello-world/</loc>
     <lastmod>2025-07-04T12:23:50-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/introdu%C3%A7%C3%A3o/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/tags/introdu%C3%A7%C3%A3o/</loc>
     <lastmod>2025-07-04T12:23:50-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://vaultsofparnassus.netlify.app/series/</loc>
   </url>
 </urlset>
