@@ -5,6 +5,7 @@ title = 'Velocidade Importa?'
 tags = ['Python', 'Tech']
 +++
 
+## Introdução
 > **TL;DR**: Python é mais lento que linguagens compiladas. Mas em 2025, essa diferença ainda é relevante na prática?
 
 Todo programador iniciante precisa escolher uma linguagem para começar. Apesar do discurso de que linguagem não importa --- _e de que um bom profissional resolve problemas em qualquer stack_ ---, na prática, é inviável aprender múltiplas linguagens do zero ao mesmo tempo. A escolha inicial direciona o estilo, os conceitos e até o tipo de projeto que você vai construir.
