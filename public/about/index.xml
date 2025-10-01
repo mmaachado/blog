@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on </title>
-    <link>https://vaultsofparnassus.netlify.app/about/</link>
+    <link>http://localhost:1313/about/</link>
     <description>Recent content in About on </description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
     <managingEditor>uniqueduckinbox@duck.com (Marquês)</managingEditor>
     <webMaster>uniqueduckinbox@duck.com (Marquês)</webMaster>
     <lastBuildDate>Fri, 04 Jul 2025 12:23:50 -0300</lastBuildDate>
-    <atom:link href="https://vaultsofparnassus.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://vaultsofparnassus.netlify.app/about/hello-world/</link>
+      <link>http://localhost:1313/about/hello-world/</link>
       <pubDate>Fri, 04 Jul 2025 12:23:50 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>https://vaultsofparnassus.netlify.app/about/hello-world/</guid>
+      <guid>http://localhost:1313/about/hello-world/</guid>
       <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Bem-vindo(a) ao meu espaço pessoal na web. Este blog tem como propósito compartilhar conteúdos relacionados a tecnologia, com foco principal em &lt;strong&gt;Python&lt;/strong&gt; e distribuições &lt;strong&gt;GNU/Linux&lt;/strong&gt;. As publicações não vão ter uma frequência regular visto que meu tempo é limitado devido às demandas profissionais e acadêmicas, o que me impossibilita de produzir conteúdo com periodicidade. Ainda assim, pretendo utilizar meu tempo livre para escrever sobre os temas mencionados anteriormente.&lt;/p&gt;&#xA;&lt;p&gt;Todo o conteúdo publicado neste espaço está licenciado sob a &lt;strong&gt;Creative Commons BY-NC-SA 4.0&lt;/strong&gt;. Isso significa que qualquer pessoa pode copiar, distribuir e modificar os textos, desde que sejam atribuídos os devidos créditos ao autor original, o material não seja utilizado para fins comerciais e as obras derivadas sejam compartilhadas sob a mesma licença.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,47 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://vaultsofparnassus.netlify.app/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
     <managingEditor>uniqueduckinbox@duck.com (Marquês)</managingEditor>
     <webMaster>uniqueduckinbox@duck.com (Marquês)</webMaster>
-    <lastBuildDate>Mon, 21 Jul 2025 09:36:37 -0300</lastBuildDate>
-    <atom:link href="https://vaultsofparnassus.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Aug 2025 13:19:31 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anonimato</title>
+      <link>http://localhost:1313/tags/anonimato/</link>
+      <pubDate>Mon, 18 Aug 2025 13:19:31 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
+      <guid>http://localhost:1313/tags/anonimato/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacidade</title>
+      <link>http://localhost:1313/tags/privacidade/</link>
+      <pubDate>Mon, 18 Aug 2025 13:19:31 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
+      <guid>http://localhost:1313/tags/privacidade/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Segurança</title>
+      <link>http://localhost:1313/tags/seguran%C3%A7a/</link>
+      <pubDate>Mon, 18 Aug 2025 13:19:31 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
+      <guid>http://localhost:1313/tags/seguran%C3%A7a/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Python</title>
-      <link>https://vaultsofparnassus.netlify.app/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Mon, 21 Jul 2025 09:36:37 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>https://vaultsofparnassus.netlify.app/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://vaultsofparnassus.netlify.app/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech/</link>
       <pubDate>Mon, 21 Jul 2025 09:36:37 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>https://vaultsofparnassus.netlify.app/tags/tech/</guid>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDE</title>
+      <link>http://localhost:1313/tags/ide/</link>
+      <pubDate>Mon, 14 Jul 2025 12:31:07 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
+      <guid>http://localhost:1313/tags/ide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zed</title>
+      <link>http://localhost:1313/tags/zed/</link>
+      <pubDate>Mon, 14 Jul 2025 12:31:07 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
+      <guid>http://localhost:1313/tags/zed/</guid>
       <description></description>
     </item>
     <item>
       <title>GNU/Linux</title>
-      <link>https://vaultsofparnassus.netlify.app/tags/gnu/linux/</link>
+      <link>http://localhost:1313/tags/gnu/linux/</link>
       <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>https://vaultsofparnassus.netlify.app/tags/gnu/linux/</guid>
+      <guid>http://localhost:1313/tags/gnu/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Sistemas Operacionais</title>
-      <link>https://vaultsofparnassus.netlify.app/tags/sistemas-operacionais/</link>
+      <link>http://localhost:1313/tags/sistemas-operacionais/</link>
       <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>https://vaultsofparnassus.netlify.app/tags/sistemas-operacionais/</guid>
+      <guid>http://localhost:1313/tags/sistemas-operacionais/</guid>
       <description></description>
     </item>
     <item>
       <title>Introdução</title>
-      <link>https://vaultsofparnassus.netlify.app/tags/introdu%C3%A7%C3%A3o/</link>
+      <link>http://localhost:1313/tags/introdu%C3%A7%C3%A3o/</link>
       <pubDate>Fri, 04 Jul 2025 12:23:50 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>https://vaultsofparnassus.netlify.app/tags/introdu%C3%A7%C3%A3o/</guid>
+      <guid>http://localhost:1313/tags/introdu%C3%A7%C3%A3o/</guid>
       <description></description>
     </item>
   </channel>
