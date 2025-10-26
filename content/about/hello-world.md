@@ -15,7 +15,7 @@ Todo o conteúdo publicado neste espaço está licenciado sob a **Creative Commo
 
 Prazer, me chamo Marcelo, mas pode me chamar de **Marquês**. Atualmente sou acadêmico de _Ciência da Computação_, com experiência prévia como estagiário na área de desenvolvimento. Hoje, atuo profissionalmente na Avell.
 
-Minhas principais ferramentas do dia a dia são _Python_, _Bash_, _C_ e sistemas baseados em _GNU/Linux_ (aliás, eu uso Arch!). Além de minhas demandas rotineiras, nos meus tempos livres estou envolvido com projetos voltados para distribuições GNU/Linux.
+Minhas principais ferramentas do dia a dia são _Python_, _Bash_, _C_ e sistemas baseados em _GNU/Linux_ (aliás, eu uso Arch!).
 
 ## Quais minhas qualificações?
 

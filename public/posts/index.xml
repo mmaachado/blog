@@ -2,61 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://vaultsofparnassus.netlify.app/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
     <managingEditor>uniqueduckinbox@duck.com (Marquês)</managingEditor>
     <webMaster>uniqueduckinbox@duck.com (Marquês)</webMaster>
-    <lastBuildDate>Sun, 21 Sep 2025 22:04:12 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Configurando o Arch Linux</title>
-      <link>http://localhost:1313/posts/configurando-o-arch-linux/</link>
-      <pubDate>Sun, 21 Sep 2025 22:04:12 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>http://localhost:1313/posts/configurando-o-arch-linux/</guid>
-      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Já faz algum tempo que esse post está em meus &lt;code&gt;drafts&lt;/code&gt;, aproximadamente desde &lt;em&gt;22/05/2025&lt;/em&gt; às &lt;em&gt;09h57&lt;/em&gt;. Sentei na minha mesa e iniciei a escrevê-lo, praticamente como um guia.&lt;/p&gt;&#xA;&lt;p&gt;Havia acabado de decidir comprar meu primeiro notebook para uso pessoal e estava mapeando todas as configurações que eu julgava importante, e que eu lembrava naquele momento. Além do uso para meus estudos e jogos, também queria estudar como o Linux funcionava em nossos notebooks, para quem sabe, futuramente conseguir solucionar alguns problemas e fornecer algum suporte.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>5, 9 e 14 olhos (draft)</title>
-      <link>http://localhost:1313/posts/5-9-14-olhos/</link>
-      <pubDate>Mon, 18 Aug 2025 13:19:31 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>http://localhost:1313/posts/5-9-14-olhos/</guid>
-      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Este vai ser uma daquelas publicações cheias de teorias da conspiração, é um tópico delicado, mas essencial para nossa &lt;a href=&#34;https://g1.globo.com/pb/paraiba/noticia/2025/09/03/lei-felca-e-sancionada-para-combater-adultizacao-de-criancas-na-paraiba.ghtml&#34; target=&#34;_blank&#34;&gt;realidade atual&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;privacidade-vs-anonimato&#34;&gt;Privacidade vs. Anonimato&lt;/h2&gt;&#xA;&lt;p&gt;Não é segredo que na nossa realidade o mundo está conectado e sob constante vigilância. Um exemplo prático é você pesquisar por algo no Google, não vai demorar até que as demais redes sociais comecem a lhe direcionar anúncios e promoções relacionados à determinado produto que você pesquisou anteriormente. Esse é o algoritmo de busca e interesses que nossos influenciadores e políticos tanto falam e demonizam. Mas, esse não é o problema, o algoritmo é essencial para a rede social, e principalmente, para nosso interesse. Afinal, ninguém iria continuar usando uma rede social que não lhe apresenta conteúdos que seja de interesse. Um exemplo disso foi o Threads, que no inicio tinha um algoritmo fraco, não demorou muito para que os usuários abandonassem a rede alegando falta de conteúdo.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 21 Jul 2025 09:36:37 -0300</lastBuildDate>
+    <atom:link href="https://vaultsofparnassus.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Velocidade Importa?</title>
-      <link>http://localhost:1313/posts/velocidade-importa/</link>
+      <link>https://vaultsofparnassus.netlify.app/posts/velocidade-importa/</link>
       <pubDate>Mon, 21 Jul 2025 09:36:37 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>http://localhost:1313/posts/velocidade-importa/</guid>
-      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Python é mais lento que linguagens compiladas. Mas em 2025, essa diferença ainda é relevante na prática?&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Todo programador iniciante precisa escolher uma linguagem para começar. Apesar do discurso de que linguagem não importa &amp;mdash; &lt;em&gt;e de que um bom profissional resolve problemas em qualquer stack&lt;/em&gt; &amp;mdash;, na prática, é inviável aprender múltiplas linguagens do zero ao mesmo tempo. A escolha inicial direciona o estilo, os conceitos e até o tipo de projeto que você vai construir.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Calculando O Custo De Uma Distro (draft)</title>
-      <link>http://localhost:1313/posts/calculando-o-custo-de-uma-distro/</link>
-      <pubDate>Thu, 17 Jul 2025 09:46:04 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>http://localhost:1313/posts/calculando-o-custo-de-uma-distro/</guid>
-      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Devido à alguns projetos internos aqui na empresa, esse assunto me voltou à memória. E para devidos fins, decidi fazer uma releitura do mesmo para os dias atuais.&lt;/p&gt;&#xA;&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;&#xA;&lt;p&gt;Esse artigo foi originalmente postado no portal &lt;strong&gt;linuxfoundation.org&lt;/strong&gt;, atualmente não é possível acessar o tópico do mesmo, somente através deste &lt;a href=&#34;https://www.linuxfoundation.jp/events/2008/10/estimating-the-total-cost-of-a-linux-distribution/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Por: &lt;strong&gt;Amanda McPherson&lt;/strong&gt;, &lt;strong&gt;Brian Proffit&lt;/strong&gt;, e &lt;strong&gt;Ron Hale-Evans&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>Zed (draft)</title>
-      <link>http://localhost:1313/posts/zed/</link>
-      <pubDate>Mon, 14 Jul 2025 12:31:07 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>http://localhost:1313/posts/zed/</guid>
-      <description>&lt;p&gt;Desde que comecei a estudar programação, uma das coisas que mais me tirava a atenção eram as IDEs. Atualmente, a IDE que mais utilizei foi o VSCode, mas, por motivos de privacidade e interesse pessoal, comecei uma busca por um novo editor de texto.&lt;/p&gt;&#xA;&lt;p&gt;Quando comecei a desenvolver, não fazia a menor ideia do que deveria ser uma IDE achava que era apenas um editor de texto aprimorado para programação — &lt;em&gt;de certa forma, estava certo&lt;/em&gt;. Passei por diversas IDEs e editores no início, como &lt;strong&gt;Atom&lt;/strong&gt;, &lt;strong&gt;Visual Studio&lt;/strong&gt;, &lt;strong&gt;Eclipse&lt;/strong&gt;, &lt;strong&gt;Xcode&lt;/strong&gt;, &lt;strong&gt;PyCharm&lt;/strong&gt;, até me estabilizar no &lt;strong&gt;VSCode&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Python por debaixo dos panos (draft)</title>
-      <link>http://localhost:1313/posts/python-por-debaixo-dos-panos/</link>
-      <pubDate>Mon, 07 Jul 2025 11:26:18 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>http://localhost:1313/posts/python-por-debaixo-dos-panos/</guid>
-      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Esse com certeza é o minha postagem mais ambiciosa. Anos atrás sempre imaginei o dia que iria ter capacidade para produzir um conteúdo desse tipo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pvm---python-virtual-machine&#34;&gt;PVM - Python Virtual Machine&lt;/h2&gt;&#xA;&lt;h2 id=&#34;pip&#34;&gt;Pip&lt;/h2&gt;&#xA;&lt;h2 id=&#34;pypi&#34;&gt;PyPI&lt;/h2&gt;</description>
+      <guid>https://vaultsofparnassus.netlify.app/posts/velocidade-importa/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Python é mais lento que linguagens compiladas. Mas em 2025, essa diferença ainda é relevante na prática?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Todo programador iniciante precisa escolher uma linguagem para começar. Apesar do discurso de que linguagem não importa &amp;mdash; &lt;em&gt;e de que um bom profissional resolve problemas em qualquer stack&lt;/em&gt; &amp;mdash;, na prática, é inviável aprender múltiplas linguagens do zero ao mesmo tempo. A escolha inicial direciona o estilo, os conceitos e até o tipo de projeto que você vai construir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GNU/Linux e o futuro do mercado de sistemas operacionais</title>
-      <link>http://localhost:1313/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</link>
+      <link>https://vaultsofparnassus.netlify.app/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</link>
       <pubDate>Sat, 05 Jul 2025 13:58:55 -0300</pubDate><author>uniqueduckinbox@duck.com (Marquês)</author>
-      <guid>http://localhost:1313/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</guid>
+      <guid>https://vaultsofparnassus.netlify.app/posts/gnu-linux-e-o-futuro-do-mercado-de-sistemas-operacionais/</guid>
       <description>&lt;p&gt;Vamos ver até onde essa comunidade pode chegar.&lt;/p&gt;&#xA;&lt;p&gt;O projeto &lt;strong&gt;GNU/Linux&lt;/strong&gt; poderá ser muito mais ou muito menos nos próximos anos, com os altos investimentos que a &lt;strong&gt;Valve&lt;/strong&gt; está fazendo no &lt;em&gt;SteamOS&lt;/em&gt; e &lt;em&gt;Proton&lt;/em&gt;, e com o crescimento das IAs, confio que sistemas baseados em alguma distribuição &lt;strong&gt;GNU/Linux&lt;/strong&gt; serão tendencias e alternativas viáveis ao &lt;strong&gt;Windows&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Infelizmente ainda existem muitos desafios pela frente. Para começar, precisamos que as empresas entendam que esse é um sistema vivo, com uma base de usuários considerável. Muitos softwares ainda não são compatíveis com a maioria das distribuições, e muitas empresas nem fazem questão de prestar um suporte para esses sistemas.&lt;/p&gt;</description>
     </item>
   </channel>

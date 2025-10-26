@@ -1,12 +1,12 @@
 +++
 date = '2025-09-21T22:04:12-03:00'
 draft = true
-title = 'Configurando o Arch Linux'
+title = 'Configurando o Arch Linux (draft)'
 +++
 
 ## Introdução
 
-Já faz algum tempo que esse post está em meus `drafts` (aproximadamente desde *22/05/2025* às *09h57*). Lembro que tinha acabado de chegar no escritório, sentei na minha mesa e iniciei a escrever o que era praticamente um guia, nele linkei os principais tópicos que achei interessante testar na minha nova máquina. 
+Já faz algum tempo que esse post está em meus `drafts` (aproximadamente desde *22/05/2025* às *09h57*). Lembro que tinha acabado de chegar no escritório, sentei na minha mesa e iniciei a escrever o que era praticamente um guia, nele linkei os principais tópicos que achei interessante testar na minha nova máquina.
 
 Havia acabado de decidir comprar meu primeiro notebook para uso pessoal e estava mapeando todas as configurações que eu julgava importante, e que eu lembrava naquele momento. Além do uso para meus estudos e jogos, também queria estudar como o Linux funcionava em nossos notebooks, para quem sabe, futuramente conseguir solucionar alguns problemas e fornecer algum suporte.
 
@@ -51,7 +51,7 @@ Agora você pode salvar essas alterações e fechar o arquivo.
 
 Durante a instalação, provavelmente você selecionou uma mirrorlist. Por padrão, eu sempre escolho a mirror worldwide, mas, após a instalação, executo essas etapas abaixo para ter a mirror mais rápida para baixar meus pacotes:
 
-Instale o pacote reflector: 
+Instale o pacote reflector:
 ```
 $ sudo pacman -S reflector
 ```
@@ -66,19 +66,19 @@ Atualize a mirrorlist com os melhores mirrors:
 $ sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 > Basicamente o que esse comando faz:
-> 
+>
 > *--verbose*: Retorna no terminal cada etapa do comando;
-> 
+>
 > *--latest 10*: Busca os 10 mais recentes;
-> 
+>
 > *--protocol https*: Filtra para retornar apenas mirrors com o protocolo https;
-> 
+>
 > *--sort rate*: Classifica os mirrors pela melhor posição deles;
-> 
+>
 > *--save*: Salva os resultados em um arquivo;
 
-> Obs.: É interessante executar esse comando regularmente, as vezes um mirror pode estar em manutenção ou simplesmente fora do ar. 
-> 
+> Obs.: É interessante executar esse comando regularmente, as vezes um mirror pode estar em manutenção ou simplesmente fora do ar.
+>
 > Assim você evita de misteriosamente não conseguir mais atualizar o seu sistema ou instalar um pacote.
 
 ### 1.3. microcode
