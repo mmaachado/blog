@@ -1,7 +1,8 @@
 +++
 date = '2025-11-10T21:42:34-03:00'
-draft = true
+draft = false
 title = 'Open Source'
+tags = ['Open Source', 'Python', 'FastAPI']
 +++
 
 Esse é um tópico complexo — pode ser entendido mais como um desabafo do que como algo realmente útil —, mas pode trazer uma lição essencial para programadores iniciantes.
@@ -30,4 +31,4 @@ Não precisei criar um SaaS ou um sistema revolucionário, nem reestruturar a l�
 
 A sua primeira contribuição pode ser tão simples quanto isso. Até mesmo criar um **README.md** traduzido para o português pode ser uma grande contribuição para um projeto open source.
 
-![[Screenshot_20251110_215341.png]]
+![open-source.png](/images/open-source.png)
