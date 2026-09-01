@@ -1,0 +1,70 @@
+/* Ajustes próprios sobre o Poison. As cores vêm dos params em hugo.toml,
+   via as variáveis que o tema já gera — aqui só tipografia e espaçamento. */
+
+/* Medida de leitura: linha longa demais cansa, mesmo em tela larga. */
+.content p,
+.content li {
+  max-width: 70ch;
+}
+
+/* Títulos mais firmes e sem quebra órfã. */
+.page-title,
+.post-title,
+.post-title a {
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.content h2,
+.content h3 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.005em;
+}
+
+/* Datas e números alinhados em coluna nas listagens. */
+.headline,
+.entries li .published,
+.article-toc {
+  font-variant-numeric: tabular-nums;
+}
+
+/* A paleta é monocromática: sem cor, o sublinhado é o que distingue um link
+   do texto ao redor. Não remover sem antes devolver cor aos links. */
+.content a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.content a:hover,
+.content a:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
+/* Citação: barra discreta, sem competir com o texto. */
+.content blockquote {
+  border-left: 3px solid var(--date-color);
+  padding-left: 1.1rem;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+/* Tabelas e blocos de código rolam dentro de si, nunca empurram a página. */
+.content pre,
+.content table {
+  overflow-x: auto;
+}
+
+/* Tags como etiquetas discretas, e não como lista. */
+.tags li {
+  border: 1px solid var(--table-border-color);
+  border-radius: 2px;
+  padding: 1px 7px;
+}
+
+/* Nome do site: o Abril Fatface do tema pede um respiro a mais. */
+.sidebar-about h1 {
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}

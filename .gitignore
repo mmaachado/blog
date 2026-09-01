@@ -1,2 +1,11 @@
+# saída do Hugo
+public/
+resources/
+.hugo_build.lock
+
+# segredos
 .env
 .env.build
+
+# verificações locais
+.verify/

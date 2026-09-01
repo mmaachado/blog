@@ -1,0 +1,47 @@
+name: verificações
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  site:
+    name: build e verificações
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout com o submodule do tema
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: ler a versão do Hugo
+        id: hugo
+        run: echo "version=$(tr -d '[:space:]' < .hugo-version)" >> "$GITHUB_OUTPUT"
+
+      - name: cache do binário do Hugo
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/bin/hugo
+          key: hugo-${{ steps.hugo.outputs.version }}
+
+      - name: instalar o Hugo
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/.local/bin
+          curl -sSL "https://github.com/gohugoio/hugo/releases/download/v${{ steps.hugo.outputs.version }}/hugo_extended_${{ steps.hugo.outputs.version }}_linux-amd64.tar.gz" \
+            | tar -xz -C ~/.local/bin hugo
+
+      - name: colocar o Hugo no PATH
+        run: echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: verificar o site
+        run: ./scripts/check.sh
+
+      - name: lint de Markdown
+        run: npx --yes markdownlint-cli2
+
+      - name: validar o build usado no deploy
+        run: ./build.sh

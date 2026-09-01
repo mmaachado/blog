@@ -1,0 +1,4 @@
+# Os scripts são escritos no Windows e executados no Linux, no runner do
+# Actions e no build da Vercel. Um CR no fim da linha do shebang quebra os dois
+# com um erro que não diz o que houve.
+*.sh text eol=lf

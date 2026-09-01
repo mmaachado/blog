@@ -1,0 +1,20 @@
+name: Melhoria
+description: Uma mudança no site em si, não no conteúdo
+labels: ["melhoria"]
+
+body:
+  - type: textarea
+    id: proposta
+    attributes:
+      label: O que mudar
+      description: A mudança que você propõe, no site ou na infraestrutura dele.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Por quê
+      description: O problema que isso resolve. O blog prefere menos peças móveis, então toda adição precisa se justificar.
+    validations:
+      required: true

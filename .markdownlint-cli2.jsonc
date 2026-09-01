@@ -1,0 +1,8 @@
+{
+  // Comprimento de linha é preferência de edição, não qualidade do texto:
+  // os posts são escritos em editor, onde a quebra manual não é natural.
+  "config": {
+    "MD013": false
+  },
+  "globs": ["content/**/*.md", "*.md"]
+}
