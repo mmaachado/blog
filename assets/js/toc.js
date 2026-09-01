@@ -77,6 +77,7 @@
 
     var rolagem = acharRolagem(post);
     var ouvinte = rolagem || window;
+    var caixaDoSumario = acharRolagem(nav);
     var ativo = null;
     var fixado = null;
     var agendado = false;
@@ -120,6 +121,25 @@
         outro.li.classList.toggle("active", atual);
         outro.li.classList.toggle("inactive", !atual);
       });
+      revelar(item);
+    }
+
+    // Sumário longo rola por dentro, então a seção marcada pode estar fora da
+    // faixa visível. A conta é feita na mão, e não com scrollIntoView, que
+    // também mexeria em quem rola acima — aqui só a caixa do sumário anda, e
+    // só quando a entrada já saiu da vista.
+    function revelar(item) {
+      if (!caixaDoSumario) {
+        return;
+      }
+      var caixa = caixaDoSumario.getBoundingClientRect();
+      var entrada = item.li.getBoundingClientRect();
+      var folga = 16;
+      if (entrada.top < caixa.top + folga) {
+        caixaDoSumario.scrollTop -= caixa.top + folga - entrada.top;
+      } else if (entrada.bottom > caixa.bottom - folga) {
+        caixaDoSumario.scrollTop += entrada.bottom - (caixa.bottom - folga);
+      }
     }
 
     function atualizar() {
