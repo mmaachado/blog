@@ -56,11 +56,11 @@
   overflow-x: auto;
 }
 
-/* Tags como etiquetas discretas, e não como lista. */
-.tags li {
-  border: 1px solid var(--table-border-color);
-  border-radius: 2px;
-  padding: 1px 7px;
+/* O tema já desenha a tag como pílula. O sublinhado dos links, porém, alcança
+   as tags porque elas ficam dentro de .content — e sublinhado dentro de uma
+   pílula preenchida fica sujo. */
+.tags li a {
+  text-decoration: none;
 }
 
 /* Nome do site: o Abril Fatface do tema pede um respiro a mais. */
