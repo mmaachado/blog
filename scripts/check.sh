@@ -76,6 +76,8 @@ quebrados=$(
       | while IFS= read -r alvo; do
           case "$alvo" in
             ''|'#'*|http*|mailto:*|data:*|//*) continue ;;
+            # Rotas servidas pela plataforma, não pelo build: não existem em disco.
+            /_vercel/*) continue ;;
             /*) ;;
             *) continue ;;
           esac

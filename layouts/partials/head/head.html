@@ -20,4 +20,12 @@
 
     <!-- Custom style tag for parameterized CSS -->
     {{ partial "head/css.html" . }}
+
+    {{ if .Site.Params.vercel_analytics }}
+    <!-- Vercel Web Analytics: sem cookies e sem identificador de visitante.
+         A rota só existe depois de habilitar Analytics no painel do projeto,
+         e o caminho pode ser específico do projeto. -->
+    <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
+    <script defer src="{{ .Site.Params.vercel_analytics_script | default "/_vercel/insights/script.js" }}"></script>
+    {{ end }}
 </head>
