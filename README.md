@@ -46,6 +46,16 @@ Antes de abrir o pull request, confirme que o build de produção está limpo:
 hugo --gc --minify
 ```
 
+## Deploy
+
+O site é publicado na Vercel a cada push em `master`; pull requests geram um preview com URL
+própria. O build não usa o preset da plataforma: `vercel.json` aponta para `build.sh`, que
+baixa a versão exata do Hugo extended e garante que o submodule do tema esteja inicializado.
+É isso que faz a nuvem produzir o mesmo site que a máquina local.
+
+Para trocar a versão do Hugo, altere `HUGO_VERSION` em `build.sh` e atualize a máquina local
+junto — as duas devem andar iguais.
+
 ## Estrutura
 
 | Caminho | O que é |
