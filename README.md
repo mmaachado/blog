@@ -29,11 +29,16 @@ O `-D` inclui os rascunhos, que ficam de fora do site publicado.
 ## Como publicar
 
 ```sh
-hugo new posts/nome-do-post.md
+hugo new posts/nome-do-post.md                       # post de texto
+hugo new --kind post-bundle posts/nome-do-post       # post com imagens
+hugo new --kind page nome-da-pagina/_index.md        # página avulsa, fora do blog
 ```
 
-Escreva, preencha `description` e troque `draft: true` para `false`. Um post com imagens vira
-um diretório com `index.md` e as imagens ao lado, para que texto e mídia andem juntos.
+Escreva, preencha `description` e troque `draft: true` para `false`.
+
+Um post com imagens é um diretório com `index.md` e as imagens ao lado, referenciadas pelo nome
+do arquivo (`![legenda](imagem.jpg)`). Texto e mídia andam juntos: renomear ou arquivar o post
+não quebra nada.
 
 Antes de abrir o pull request, confirme que o build de produção está limpo:
 

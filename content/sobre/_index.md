@@ -3,7 +3,7 @@ title: "Sobre"
 description: "Quem escreve o Vaults of Parnassus."
 layout: single
 date: 2026-04-20
-hideToc: false
+aliases: ["/about/"]
 ---
 
 Atualizado em 20 de abril de 2026.

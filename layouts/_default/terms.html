@@ -1,0 +1,16 @@
+{{ define "main" -}}
+<h1 class="title">{{ .Title }}</h1>
+{{ with .Content }}{{ . }}{{ end }}
+<ul class="entries">
+    {{ range .Pages.ByTitle }}
+        <li>
+            <span class="title">
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            </span>
+            <span class="published">
+                {{ len .Pages }} {{ if eq (len .Pages) 1 }}post{{ else }}posts{{ end }}
+            </span>
+        </li>
+    {{ end }}
+</ul>
+{{ end }}
