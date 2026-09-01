@@ -1,10 +1,16 @@
 ---
-title: "Vibe Coding e seus impactos"
+title: Vibe Coding e seus impactos
 date: 2026-04-20
 draft: false
-description: "Análise crítica do desenvolvimento assistido por IA e seus impactos no mercado, segurança e competência técnica"
-tags: ["mercado"]
+description: Análise crítica do desenvolvimento assistido por IA e seus impactos no mercado, segurança e competência técnica
+tags:
+  - engenharia-de-software
+  - llm
+  - vibe-coding
 ---
+## Introdução
+
+> TL;DR: O avanço das LLMs trouxe a democratização do desenvolvimento, mas o custo pode ser muito alto nos próximos anos.
 
 Esse post nada mais é do que um paper que eu estava elaborando. O objetivo principal era publicar em alguma revista/magazine, como a IEEE. Mas, por falta de tempo para concluir e passar a limpo, optei por publicar o rascunho inicial aqui até que a ideia central esteja lapidada e definida.
 
