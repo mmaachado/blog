@@ -108,8 +108,8 @@ menu = [
 # Métricas. Habilite Analytics no painel do projeto antes de ligar aqui: a rota
 # do script só passa a existir depois disso. Se o painel indicar um caminho
 # específico do projeto, informe em vercel_analytics_script.
-vercel_analytics = false
-# vercel_analytics_script = "/_vercel/insights/script.js"
+vercel_analytics = true
+vercel_analytics_script = "/_vercel/insights/script.js"
 
 # Comentários sobre GitHub Discussions. Os quatro valores saem de giscus.app,
 # depois de habilitar Discussions no repositório e instalar o app giscus.
