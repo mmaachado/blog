@@ -8,36 +8,82 @@ enableGitInfo = false
 pluralizeListTitles = false
 
 [pagination]
-  pagerSize = 10
+pagerSize = 10
 
 [taxonomies]
-  series = "series"
-  tags = "tags"
+series = "series"
+tags = "tags"
 
 [markup]
-  [markup.goldmark.renderer]
-    unsafe = true          # permite HTML embutido no Markdown
-  [markup.highlight]
-    noClasses = false
-    lineNos = false
-    tabWidth = 2
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 4
+[markup.goldmark.renderer]
+unsafe = true # permite HTML embutido no Markdown
+[markup.highlight]
+noClasses = false
+lineNos = false
+tabWidth = 2
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
 
 [params]
-  brand = "Vaults of Parnassus"
-  description = "Anotações sobre desenvolvimento, ferramentas e o que aprendo pelo caminho."
-  dark_mode = true
-  front_page_content = ["posts"]
+brand = "Vaults of Parnassus"
+description = "Anotações sobre desenvolvimento, ferramentas e o que aprendo pelo caminho."
+dark_mode = true
+favicon = "/favicon.svg"
+front_page_content = ["posts"]
 
-  # Ícone RSS ao final dos links sociais, apontando para o feed dos posts.
-  rss_icon = true
-  rss_section = "posts"
+# Monocromático: sem cor de destaque. Os links se distinguem por sublinhado,
+# aplicado em assets/css/custom.css — sem ele, link e texto ficam indistintos.
 
-  # Cada item precisa de um arquivo correspondente em content/ para não gerar link morto.
-  menu = [
-    { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 5 },
-  ]
+# Barra lateral.
+sidebar_bg_color = "#1A1A1A"
+sidebar_h1_color = "#F2F2F0"
+sidebar_a_color = "#F2F2F0"
+sidebar_p_color = "#9A9A97"
+sidebar_socials_color = "#F2F2F0"
+sidebar_img_border_color = "#3A3A38"
+moon_sun_background_color = "#3A3A38"
+moon_sun_color = "#F2F2F0"
 
-  github_url = "https://github.com/mmaachado"
+# Conteúdo, modo claro.
+content_bg_color = "#FBFBFA"
+text_color = "#1F1F1F"
+post_title_color = "#141414"
+link_color = "#1F1F1F"
+date_color = "#6E6E6B"
+list_color = "#3A3A38"
+table_border_color = "#E4E4E1"
+table_stripe_color = "#F4F4F2"
+code_color = "#1F1F1F"
+code_background_color = "#ECECE9"
+code_block_color = "#F2F2F0"
+code_block_background_color = "#1A1A1A"
+
+# Conteúdo, modo escuro.
+content_bg_color_dark = "#141414"
+text_color_dark = "#EDEDEB"
+post_title_color_dark = "#F5F5F3"
+link_color_dark = "#EDEDEB"
+date_color_dark = "#8C8C89"
+list_color_dark = "#B4B4B1"
+table_border_color_dark = "#2E2E2C"
+table_stripe_color_dark = "#1B1B1B"
+code_color_dark = "#EDEDEB"
+code_background_color_dark = "#2E2E2C"
+code_block_color_dark = "#EDEDEB"
+code_block_background_color_dark = "#1A1A1A"
+
+# Ícone RSS ao final dos links sociais, apontando para o feed dos posts.
+rss_icon = true
+rss_section = "posts"
+
+# Cada item precisa de um arquivo correspondente em content/ para não gerar link morto.
+menu = [
+  { Name = "Sobre", URL = "/sobre/", HasChildren = false },
+  { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 5 },
+]
+
+# O tema usa esses valores direto no href: precisam ser URLs completas, não handles.
+github_url = "https://github.com/mmaachado"
+linkedin_url = "https://linkedin.com/in/marcelo-machado"
+twitter_url = "https://x.com/0x6d61727175657"

@@ -55,6 +55,5 @@ hugo --gc --minify
 
 ## Licença
 
-A definir: a intenção é uma licença permissiva para o código e uma nota de direitos autorais
-separada para os textos em `content/`. O tema, distribuído como submodule, é GPL-3.0 do autor
-original.
+Os textos em `content/` estão sob
+[Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).
