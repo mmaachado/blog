@@ -61,7 +61,10 @@ request.
 ## Deploy
 
 O site é publicado na Vercel a cada push em `master`; pull requests geram um preview com URL
-própria. O build não usa o preset da plataforma: `vercel.json` aponta para `build.sh`, que
+própria.
+
+O repositório nasceu do boilerplate de Hugo da Vercel, onde a plataforma construía o site sem
+configuração nenhuma. Não é mais assim: `vercel.json` aponta para `build.sh`, que
 baixa a versão exata do Hugo extended e garante que o submodule do tema esteja inicializado.
 É isso que faz a nuvem produzir o mesmo site que a máquina local.
 
