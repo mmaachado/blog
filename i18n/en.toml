@@ -1,0 +1,64 @@
+# English interface strings. Nothing is published in English yet: this file
+# exists so that adding the language is a configuration change, not a rewrite
+# of every template.
+
+[readingTime]
+one = "{{ . }} minute read"
+other = "{{ . }} minutes read"
+
+[seriesLabel]
+other = "Series:"
+
+[seriesIntro]
+other = "This post is part of the series"
+
+[seriesOthers]
+other = "Other posts in this series:"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[previousPage]
+other = "Newer"
+
+[nextPage]
+other = "Older"
+
+[notFoundTitle]
+other = "404: page not found"
+
+[notFoundBody]
+other = "This address does not exist, or points to something that is gone."
+
+[notFoundHome]
+other = "Head back home"
+
+[builtWith]
+other = "built with"
+
+[themedWith]
+other = "and the theme"
+
+[textsUnder]
+other = "texts under"
+
+[privacy]
+other = "Privacy"
+
+[licenseUrl]
+other = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+
+[privacyUrl]
+other = "privacy/"
+
+[languageLabel]
+other = "Language"
+
+[giscusLang]
+other = "en"
+
+[commentsNoscript]
+other = "Comments need JavaScript. The discussion is also open on GitHub."

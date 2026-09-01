@@ -3,9 +3,30 @@ title = "Vaults of Parnassus"
 theme = "poison"
 locale = "pt-br"
 defaultContentLanguage = "pt-br"
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 enableGitInfo = false
 pluralizeListTitles = false
+
+# Estrutura multilíngue pronta, com um idioma só ativo. Os textos de
+# interface vivem em i18n/pt-br.toml e i18n/en.toml; os templates em
+# layouts/ não têm português cravado.
+#
+# Para publicar em inglês: descomente o bloco abaixo, crie
+# content/en/posts/<slug>.md e o seletor de idioma aparece sozinho
+# na barra lateral. Enquanto o bloco estiver comentado, o site é
+# monolíngue e nada muda.
+#
+# [languages]
+#   [languages.pt-br]
+#   languageName = "Português"
+#   contentDir = "content"
+#   weight = 1
+#   [languages.en]
+#   languageName = "English"
+#   contentDir = "content/en"
+#   weight = 2
+#   title = "Vaults of Parnassus"
 
 [pagination]
 pagerSize = 10

@@ -14,12 +14,12 @@
                 data-emit-metadata="0"
                 data-input-position="top"
                 data-theme="preferred_color_scheme"
-                data-lang="pt"
+                data-lang="{{ i18n "giscusLang" }}"
                 data-loading="lazy"
                 crossorigin="anonymous"
                 async>
         </script>
-        <noscript>Os comentários precisam de JavaScript. A discussão também fica aberta no GitHub.</noscript>
+        <noscript>{{ i18n "commentsNoscript" }}</noscript>
     {{ else if .Site.Params.remark42 }}
         <div id="remark42"></div>
         <script>
