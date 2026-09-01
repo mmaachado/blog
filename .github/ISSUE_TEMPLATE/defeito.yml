@@ -1,0 +1,33 @@
+name: Defeito
+description: Algo no site está quebrado ou aparece errado
+labels: ["defeito"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Erro de digitação ou informação desatualizada em um post também conta.
+
+  - type: input
+    id: pagina
+    attributes:
+      label: Onde acontece
+      description: O endereço da página, ou o caminho do arquivo se você já localizou.
+      placeholder: /posts/velocidade-importa/
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que acontece
+      description: O que você viu, e o que esperava ver no lugar.
+    validations:
+      required: true
+
+  - type: input
+    id: ambiente
+    attributes:
+      label: Navegador e dispositivo
+      description: Só se o problema for visual ou de layout.
+      placeholder: Firefox no Android

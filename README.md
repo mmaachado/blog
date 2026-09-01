@@ -85,5 +85,9 @@ Para trocar, altere esse arquivo e atualize a máquina local junto.
 
 ## Licença
 
+O código está sob [GPL-3.0](LICENSE). A escolha acompanha o tema: quatro templates em
+`layouts/` são cópias modificadas de arquivos do Poison, que é GPL-3.0, e adotar a mesma
+licença no repositório inteiro evita a ambiguidade de misturar as duas.
+
 Os textos em `content/` estão sob
 [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).

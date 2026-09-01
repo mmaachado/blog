@@ -1,0 +1,23 @@
+name: Ideia de pauta
+description: Sugerir um assunto para um post
+labels: ["pauta"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sugestões são bem-vindas, mas a fila anda no ritmo do tempo livre.
+
+  - type: textarea
+    id: assunto
+    attributes:
+      label: O assunto
+      description: Sobre o que seria o post, e por que ele valeria a pena.
+    validations:
+      required: true
+
+  - type: textarea
+    id: referencias
+    attributes:
+      label: Referências
+      description: Links, papers ou leituras que ajudariam a começar.
