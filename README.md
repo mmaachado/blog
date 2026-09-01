@@ -1,19 +1,60 @@
-# Hugo Example
+# Vaults of Parnassus
 
-This directory is a brief example of a [Hugo](https://gohugo.io/) app that can be deployed to Vercel with zero configuration.
+Blog pessoal, escrito em Markdown e gerado por [Hugo](https://gohugo.io/) com o tema
+[Poison](https://github.com/lukeorth/poison). Publicado no Vercel a cada push em `master`.
 
-## Deploy Your Own
+## Requisitos
 
-Deploy your own Hugo project with Vercel.
+- Hugo **extended** 0.158 ou superior (desenvolvido na 0.165)
+- Git
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/hugo&template=hugo)
+## Como rodar
 
-_Live Example: https://hugo-template.vercel.app_
+O tema é um submodule, então o clone precisa trazê-lo junto:
 
-### How We Created This Example
-
-To get started with Hugo for deployment with Vercel, you can use the [Hugo CLI](https://gohugo.io/commands/) to initialize the project:
-
-```shell
-$ hugo new site project-name
+```sh
+git clone --recurse-submodules https://github.com/mmaachado/blog.git
+cd blog
+hugo server -D
 ```
+
+Se você já clonou sem o flag:
+
+```sh
+git submodule update --init --recursive
+```
+
+O `-D` inclui os rascunhos, que ficam de fora do site publicado.
+
+## Como publicar
+
+```sh
+hugo new posts/nome-do-post.md
+```
+
+Escreva, preencha `description` e troque `draft: true` para `false`. Um post com imagens vira
+um diretório com `index.md` e as imagens ao lado, para que texto e mídia andem juntos.
+
+Antes de abrir o pull request, confirme que o build de produção está limpo:
+
+```sh
+hugo --gc --minify
+```
+
+## Estrutura
+
+| Caminho | O que é |
+| --- | --- |
+| `content/posts/` | as publicações |
+| `archetypes/` | modelos de front matter usados pelo `hugo new` |
+| `layouts/` | apenas os templates que sobrescrevem o tema |
+| `assets/css/custom.css` | CSS próprio |
+| `static/` | favicon e arquivos servidos como estão |
+| `themes/poison/` | submodule; nunca editado diretamente |
+| `hugo.toml` | configuração do site |
+
+## Licença
+
+A definir: a intenção é uma licença permissiva para o código e uma nota de direitos autorais
+separada para os textos em `content/`. O tema, distribuído como submodule, é GPL-3.0 do autor
+original.

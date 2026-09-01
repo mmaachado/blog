@@ -1,0 +1,43 @@
+baseURL = "https://vaultsofparnassus.vercel.app/"
+title = "Vaults of Parnassus"
+theme = "poison"
+locale = "pt-br"
+defaultContentLanguage = "pt-br"
+enableRobotsTXT = true
+enableGitInfo = false
+pluralizeListTitles = false
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  series = "series"
+  tags = "tags"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true          # permite HTML embutido no Markdown
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    tabWidth = 2
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[params]
+  brand = "Vaults of Parnassus"
+  description = "Anotações sobre desenvolvimento, ferramentas e o que aprendo pelo caminho."
+  dark_mode = true
+  front_page_content = ["posts"]
+
+  # Ícone RSS ao final dos links sociais, apontando para o feed dos posts.
+  rss_icon = true
+  rss_section = "posts"
+
+  # Cada item precisa de um arquivo correspondente em content/ para não gerar link morto.
+  menu = [
+    { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 5 },
+  ]
+
+  github_url = "https://github.com/mmaachado"
