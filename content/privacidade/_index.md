@@ -41,15 +41,8 @@ site hospedado lá e independe das opções acima**.
 
 ## Conteúdo externo
 
-As páginas não carregam fontes nem scripts de terceiros: tudo é servido pelo próprio domínio.
-
-A exceção é a foto da barra lateral, que vem do GitHub para acompanhar as mudanças do perfil
-sem depender de uma nova publicação. Como a barra lateral aparece em todas as páginas, o seu
-navegador pede essa imagem ao GitHub em qualquer página que você abrir, e nesse pedido o GitHub
-vê o seu endereço IP, o navegador que você usa e de qual página o pedido partiu. Nenhum cookie
-é enviado, e a imagem fica no cache do navegador depois da primeira visita.
-
-Links para fora são links comuns, e só levam você a outro site quando clicados.
+As páginas não carregam fontes, ícones ou scripts de terceiros, tudo é servido pelo próprio
+domínio. Links para fora são links comuns, e só levam você a outro site quando clicados.
 
 ## Mudanças
 
