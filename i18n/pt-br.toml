@@ -61,3 +61,6 @@ other = "pt"
 
 [commentsNoscript]
 other = "Os comentários precisam de JavaScript. A discussão também fica aberta no GitHub."
+
+[tocTitle]
+other = "Nesta página"

@@ -68,3 +68,27 @@
   line-height: 1.15;
   letter-spacing: -0.01em;
 }
+
+/* Sumário longo: o tema põe max-height e overflow no .article-toc, mas o
+   único filho dele é .toc-wrapper, que é position: fixed e portanto sai do
+   fluxo. Sobra um pai de altura zero, sem nada para rolar, e um filho fixo
+   que passa da janela sem barra nenhuma — em "Vibe Coding", com 31 entradas,
+   as últimas ficam abaixo da dobra e inalcançáveis.
+
+   A rolagem tem de estar em quem está fixo. Com top e bottom definidos, a
+   caixa ocupa a faixa entre os dois e rola por dentro. */
+.article-toc .toc-wrapper {
+  top: 5.5rem;
+  bottom: 2rem;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  scrollbar-width: thin;
+}
+
+.article-toc .toc-wrapper::-webkit-scrollbar {
+  width: 3px;
+}
+
+.article-toc .toc-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 1.5px;
+}
