@@ -52,6 +52,12 @@ description = "No ads. No fluff. Just tech stuff."
 dark_mode = true
 # favicon = "/favicon.svg"
 favicon = "/icon.png"
+
+# Foto da barra lateral, buscada direto do GitHub para acompanhar o perfil sem
+# depender de deploy. O tamanho pedido é o dobro dos 180px do CSS, para telas
+# de alta densidade. Como sai de um domínio de terceiro e a barra lateral está
+# em todas as páginas, a página de privacidade registra isso.
+remote_brand_image = "https://github.com/mmaachado.png?size=360"
 front_page_content = ["posts"]
 
 # Monocromático: sem cor de destaque. Os links se distinguem por sublinhado,
