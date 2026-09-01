@@ -108,16 +108,16 @@ menu = [
 # Métricas. Habilite Analytics no painel do projeto antes de ligar aqui: a rota
 # do script só passa a existir depois disso. Se o painel indicar um caminho
 # específico do projeto, informe em vercel_analytics_script.
-vercel_analytics = false
-# vercel_analytics_script = "/_vercel/insights/script.js"
+vercel_analytics = true
+vercel_analytics_script = "/_vercel/insights/script.js"
 
 # Comentários sobre GitHub Discussions. Os quatro valores saem de giscus.app,
 # depois de habilitar Discussions no repositório e instalar o app giscus.
-giscus = false
-# giscus_repo = "mmaachado/blog"
-# giscus_repo_id = ""
-# giscus_category = "Comentários"
-# giscus_category_id = ""
+giscus = true
+giscus_repo = "mmaachado/blog"
+giscus_repo_id = "R_kgDOUKyCCQ"
+giscus_category = "Comentários"
+giscus_category_id = "DIC_kwDOUKyCCc4DEpeq"
 
 # O tema usa esses valores direto no href: precisam ser URLs completas, não handles.
 github_url = "https://github.com/mmaachado"
