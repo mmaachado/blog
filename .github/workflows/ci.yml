@@ -22,7 +22,7 @@ jobs:
 
       - name: cache do binário do Hugo
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.local/bin/hugo
           key: hugo-${{ steps.hugo.outputs.version }}
