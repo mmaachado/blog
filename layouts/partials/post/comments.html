@@ -1,0 +1,41 @@
+<div class="comments">
+    {{ if .Site.Params.giscus }}
+        {{/* Comentários sobre GitHub Discussions: sem servidor próprio e sem
+             conta nova para o leitor, que comenta com a conta do GitHub.
+             Os quatro identificadores saem de giscus.app. */}}
+        <script src="https://giscus.app/client.js"
+                data-repo="{{ .Site.Params.giscus_repo }}"
+                data-repo-id="{{ .Site.Params.giscus_repo_id }}"
+                data-category="{{ .Site.Params.giscus_category }}"
+                data-category-id="{{ .Site.Params.giscus_category_id }}"
+                data-mapping="pathname"
+                data-strict="1"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="preferred_color_scheme"
+                data-lang="{{ i18n "giscusLang" }}"
+                data-loading="lazy"
+                crossorigin="anonymous"
+                async>
+        </script>
+        <noscript>{{ i18n "commentsNoscript" }}</noscript>
+    {{ else if .Site.Params.remark42 }}
+        <div id="remark42"></div>
+        <script>
+            themeFromLS = localStorage.getItem("theme")
+            themeFromHugo = document.body.classList.contains("dark-theme") ? "dark" : "light"
+            currentTheme = themeFromLS ? themeFromLS : themeFromHugo;
+
+            var remark_config = {
+                host: {{ site.Params.remark42_host }},
+                site_id: {{ site.Params.remark42_site_id }},
+                theme: currentTheme,
+                max_shown_comments: 100,
+            }
+        </script>
+        <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
+    {{ else if .Site.Config.Services.Disqus.Shortname }}
+        {{ template "_internal/disqus.html" . }}
+    {{ end }}
+</div>

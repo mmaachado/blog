@@ -19,8 +19,7 @@
       {{ end }}
       <span> - </span>
       <span class="reading-time">
-        {{ $unidade := cond (gt .ReadingTime 1) "minutos" "minuto" }}
-        <span>{{ .ReadingTime }} {{ $unidade }} de leitura</span>
+        <span>{{ i18n "readingTime" .ReadingTime }}</span>
       </span>
     </div>
 
@@ -38,7 +37,7 @@
   {{ $Site := .Site }}
   {{ if .Params.series }}
   <p class="seriesname">
-    Série: <a href="{{ $Site.BaseURL }}series/{{ .Params.series | urlize }}">{{ .Params.series }}</a>
+    {{ i18n "seriesLabel" }} <a href="{{ $Site.BaseURL }}series/{{ .Params.series | urlize }}">{{ .Params.series }}</a>
   </p>
   {{ end }}
 
