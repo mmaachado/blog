@@ -16,7 +16,7 @@ O problema, é que, a grande maioria das pessoas não sabem como uma LLM funcion
 
 ## 1. Contexto
 
-A qualidade da resposta da LLM está intrinsicamente relacionada à qualidade do prompt enviado, e não me refiro a uma Português bem escrito seguindo todas as normas e formalidades. 
+A qualidade da resposta da LLM está intrinsicamente relacionada à qualidade do prompt enviado, e não me refiro a uma Português bem escrito seguindo todas as normas e formalidades.
 
 Me refiro à enviar um escopo estruturado, com objetivos claros, mostrando com detalhes o que você quer e como quer.
 
