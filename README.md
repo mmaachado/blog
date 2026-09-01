@@ -71,6 +71,11 @@ baixa a versão exata do Hugo extended e garante que o submodule do tema esteja 
 A versão fica em `.hugo-version`, lida tanto pelo `build.sh` quanto pelo workflow do Actions.
 Para trocar, altere esse arquivo e atualize a máquina local junto.
 
+O `baseURL` do build sai do ambiente, não do `hugo.toml`: em produção vem do domínio de
+produção do projeto, em preview vem do domínio daquele deploy. O tema escreve `<base href>`
+com a URL absoluta, então um valor fixo faria o navegador procurar CSS e imagens em outro
+domínio — a página abriria sem estilo. O `baseURL` do `hugo.toml` vale para build local.
+
 ## Estrutura
 
 | Caminho | O que é |

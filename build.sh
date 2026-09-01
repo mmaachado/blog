@@ -21,4 +21,23 @@ fi
 curl -sSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" \
   | tar -xz -C /tmp hugo
 
-/tmp/hugo --gc --minify
+# O tema escreve <base href> com a URL absoluta do site, então todo caminho da
+# página é resolvido contra o baseURL — CSS incluído. Um baseURL fixo faz o
+# navegador buscar os arquivos em outro domínio, e a página abre sem estilo.
+#
+# Cada preview tem domínio próprio e a produção muda quando o domínio
+# definitivo for apontado, então o valor vem do ambiente. Em produção,
+# VERCEL_PROJECT_PRODUCTION_URL é o domínio customizado quando existe um, e o
+# .vercel.app enquanto não existe: a virada de domínio se resolve sozinha.
+dominio=""
+case "${VERCEL_ENV:-}" in
+  production)          dominio="${VERCEL_PROJECT_PRODUCTION_URL:-}" ;;
+  preview|development) dominio="${VERCEL_URL:-}" ;;
+esac
+
+if [ -n "$dominio" ]; then
+  echo "baseURL: https://${dominio}/"
+  set -- --baseURL "https://${dominio}/"
+fi
+
+/tmp/hugo --gc --minify "$@"
