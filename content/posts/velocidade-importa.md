@@ -4,7 +4,7 @@ date: 2025-07-21
 lastmod: 2026-04-12
 draft: false
 description: "Python realmente é lento? Ou essa visão já foi rebatida?"
-tags: ["python", "tech"]
+tags: ["python"]
 ---
 
 ## Introdução

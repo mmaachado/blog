@@ -3,7 +3,6 @@ title: "Hello World"
 date: 2026-04-12
 draft: true
 description: "Post de referência para Markdown, KaTeX e code blocks."
-tags: ["referencia", "markdown", "latex", "code"]
 ---
 
 Este post serve como referência rápida de **formatação**, _estilos_ e exemplos de **KaTeX** e _code blocks_.
