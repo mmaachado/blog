@@ -46,6 +46,31 @@ Antes de abrir o pull request, confirme que o build de produção está limpo:
 hugo --gc --minify
 ```
 
+## Escrevendo no Obsidian
+
+A pasta `08 Blog/` do vault é uma junction para `content/posts/`: os arquivos moram no
+repositório e aparecem no Obsidian, sem cópia nem sincronização. Escreve-se no editor de
+sempre; commita-se pelo repositório.
+
+Para recriar o link em outra máquina, com o Obsidian fechado:
+
+```powershell
+$vault = "<caminho do vault>\08 Blog"
+$alvo  = "<caminho do repositório>\content\posts"
+Remove-Item -LiteralPath $vault -Recurse   # a pasta precisa não existir
+New-Item -ItemType Junction -Path $vault -Target $alvo
+```
+
+Junction, e não symlink: no Windows um symlink de diretório exige elevação ou modo
+desenvolvedor, a junction não.
+
+Duas consequências que o `check.sh` cobre, porque o Obsidian escreve coisas que o Hugo não
+entende: o front matter precisa ser YAML, não TOML, e wikilinks (`[[nota]]`) ou anexos
+embutidos (`![[imagem.png]]`) não são Markdown — o Hugo publica os colchetes como texto e a
+imagem não aparece. Use link e imagem em Markdown normal.
+
+O template `99 Templates/Blog Template.md` do vault espelha o archetype de post.
+
 ## Verificações
 
 ```sh
