@@ -46,6 +46,18 @@ Antes de abrir o pull request, confirme que o build de produção está limpo:
 hugo --gc --minify
 ```
 
+## Verificações
+
+```sh
+./scripts/check.sh          # build de produção + front matter, rascunhos e links internos
+npx markdownlint-cli2       # formatação do Markdown
+```
+
+O `check.sh` constrói sozinho, em `.verify/`, em vez de olhar para `public/`: um `public/`
+deixado por `hugo server` contém rascunhos e livereload, e as verificações passariam ou
+falhariam pelo motivo errado. As mesmas duas linhas rodam no GitHub Actions a cada pull
+request.
+
 ## Deploy
 
 O site é publicado na Vercel a cada push em `master`; pull requests geram um preview com URL
@@ -53,8 +65,8 @@ própria. O build não usa o preset da plataforma: `vercel.json` aponta para `bu
 baixa a versão exata do Hugo extended e garante que o submodule do tema esteja inicializado.
 É isso que faz a nuvem produzir o mesmo site que a máquina local.
 
-Para trocar a versão do Hugo, altere `HUGO_VERSION` em `build.sh` e atualize a máquina local
-junto — as duas devem andar iguais.
+A versão fica em `.hugo-version`, lida tanto pelo `build.sh` quanto pelo workflow do Actions.
+Para trocar, altere esse arquivo e atualize a máquina local junto.
 
 ## Estrutura
 

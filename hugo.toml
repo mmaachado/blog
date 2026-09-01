@@ -27,9 +27,10 @@ endLevel = 4
 
 [params]
 brand = "Vaults of Parnassus"
-description = "Anotações sobre desenvolvimento, ferramentas e o que aprendo pelo caminho."
+description = "No ads. No fluff. Just tech stuff."
 dark_mode = true
-favicon = "/favicon.svg"
+# favicon = "/favicon.svg"
+favicon = "/icon.png"
 front_page_content = ["posts"]
 
 # Monocromático: sem cor de destaque. Os links se distinguem por sublinhado,

@@ -3,7 +3,8 @@
 # exatamente o mesmo site que a máquina local.
 set -euo pipefail
 
-HUGO_VERSION="0.165.0"
+# Versão única, compartilhada com a integração contínua.
+HUGO_VERSION="$(tr -d '[:space:]' < .hugo-version)"
 
 # O tema é um submodule. A Vercel resolve submodules públicos por HTTPS, mas
 # garantir aqui transforma uma falha silenciosa em erro explícito.

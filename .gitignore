@@ -6,3 +6,6 @@ resources/
 # segredos
 .env
 .env.build
+
+# verificações locais
+.verify/
