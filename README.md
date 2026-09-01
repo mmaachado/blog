@@ -50,7 +50,7 @@ hugo --gc --minify
 
 A pasta `08 Blog/` do vault é uma junction para `content/posts/`: os arquivos moram no
 repositório e aparecem no Obsidian, sem cópia nem sincronização. Escreve-se no editor de
-sempre; commita-se pelo repositório.
+sempre, commita-se pelo repositório.
 
 Para recriar o link em outra máquina, com o Obsidian fechado:
 
