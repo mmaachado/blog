@@ -13,4 +13,3 @@ tags:
 > TL;DR: A maioria dos brasileiros já se deparou com um 'ç' virando 'Ã§' alguma vez na vida. O Python 3.15 "conserta" isso, e quebra outra coisa no mesmo movimento.
 
 ## O bug histórico
-

@@ -38,7 +38,7 @@ Quando não há match próximo, o interpretador cai numa tabela estática de nom
 
 ## Camada de consequência
 
-Mensagem de erro virou superfície de produto no CPython. Mas isso tem um preço explícito: é uma tabela mantida à mão, que precisa ser atualizada, e que só serve para quem chega de outra linguagem. 
+Mensagem de erro virou superfície de produto no CPython. Mas isso tem um preço explícito: é uma tabela mantida à mão, que precisa ser atualizada, e que só serve para quem chega de outra linguagem.
 
 O **core team** decidiu que esse público vale o custo de manutenção, a pergunta para deixar no ar: quantas linguagens fazem o caminho inverso e traduzem Python para você?
 
