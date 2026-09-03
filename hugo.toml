@@ -27,6 +27,10 @@ endLevel = 4
 
 [params]
 brand = "Vaults of Parnassus"
+# Foto da barra lateral, buscada direto do GitHub para acompanhar o perfil sem
+# depender de um novo deploy. Pede-se o dobro dos 120px que o CSS desenha, para
+# telas de alta densidade.
+remote_brand_image = "https://github.com/mmaachado.png?size=240"
 description = "No ads. No fluff. Just tech stuff."
 dark_mode = true
 # favicon = "/favicon.svg"

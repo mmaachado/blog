@@ -56,15 +56,72 @@
   overflow-x: auto;
 }
 
-/* Tags como etiquetas discretas, e não como lista. */
+/* Tags como etiquetas discretas, e não como lista. O tema pinta cada uma como
+   bloco cheio, o que numa paleta monocromática vira um botão apagado. O
+   contorno precisa ficar no <a>, que é inline-block e aceita a caixa: no <li>,
+   que é inline, a borda saía torta e ainda por cima da etiqueta do tema. */
 .tags li {
+  border: 0;
+  padding: 0;
+}
+
+.tags li a {
+  background-color: transparent;
+  color: var(--date-color);
   border: 1px solid var(--table-border-color);
   border-radius: 2px;
   padding: 1px 7px;
+}
+
+.tags li a:hover,
+.tags li a:focus-visible {
+  color: var(--text-color);
+  border-color: var(--date-color);
 }
 
 /* Nome do site: o Abril Fatface do tema pede um respiro a mais. */
 .sidebar-about h1 {
   line-height: 1.15;
   letter-spacing: -0.01em;
+}
+
+/* A barra lateral é conteúdo fixo: nada nela rola. O tema liga overflow-y: auto
+   ali, e o CSS promove o eixo horizontal junto quando o outro deixa de ser
+   visible — por isso, assim que a barra vertical aparecia e comia 10px da
+   largura, os 360px do conteúdo não cabiam mais e nascia uma segunda barra,
+   horizontal. Desligar os dois resolve a dupla de uma vez. */
+@media (min-width: 48em) {
+  .sidebar {
+    overflow: hidden;
+  }
+}
+
+/* Título de post longo quebra dentro da coluna em vez de alargá-la. */
+.sidebar-nav a,
+.sidebar .footnote {
+  overflow-wrap: break-word;
+}
+
+/* Com a foto de volta, a barra lateral pedia 1010px de altura e o rodapé caía
+   fora da janela. Estes quatro cortes somam 144px e a trazem para 866px, que
+   cabe em uma tela de 900 sem rolagem nenhuma. */
+.sidebar-about img {
+  width: 120px;
+  height: 120px;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
+.sidebar-nav {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.sidebar .footnote {
+  margin-bottom: 0;
 }
