@@ -1,0 +1,26 @@
+Fontes servidas por este site, com autoria e licença de cada uma.
+Os arquivos .woff2 aqui são recortes latinos das originais, sem alteração
+de desenho: o subset remove glifos que o site não usa.
+
+Open Sans
+    Steve Matteson
+    SIL Open Font License 1.1
+    https://github.com/googlefonts/opensans
+
+Caacupé One
+    Magdalena Alonso Rebollo
+    SIL Open Font License 1.1
+    https://github.com/googlefonts/caacupe
+
+JetBrains Mono
+    JetBrains s.r.o.
+    SIL Open Font License 1.1
+    https://github.com/JetBrains/JetBrainsMono
+
+    Distribuída aqui na variante Nerd Font, cujos glifos adicionais de
+    ícone foram removidos pelo recorte latino.
+
+Nerd Fonts (patcher)
+    Ryan L McIntyre e contribuidores
+    MIT
+    https://github.com/ryanoasis/nerd-fonts

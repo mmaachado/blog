@@ -1,6 +1,101 @@
 /* Ajustes próprios sobre o Poison. As cores vêm dos params em hugo.toml,
    via as variáveis que o tema já gera — aqui só tipografia e espaçamento. */
 
+/* ------------------------------------------------------------------ fontes
+
+   O tema traz Fira Sans, Abril Fatface e PT Sans. As três continuam no
+   themes/, declaradas no fonts.css dele, mas nenhuma regra daqui em diante as
+   referencia — e o navegador só baixa um @font-face que alguma regra usa, de
+   modo que elas simplesmente deixam de ser pedidas.
+
+   Os arquivos são recortes latinos servidos do próprio domínio, em
+   static/fonts/. Nada vem de fonts.googleapis.com: a página de privacidade
+   promete que o site não busca fonte de terceiro, e essa promessa custa caro
+   de quebrar. Autoria e licença de cada uma em static/fonts/LICENSE.txt. */
+
+/* Corpo do site e paginação. Uma fonte variável cobre de 300 a 800, então os
+   dois arquivos abaixo dão conta de todo peso que o tema pede. */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("/fonts/open-sans-latin-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("/fonts/open-sans-latin-variable-italic.woff2") format("woff2");
+}
+
+/* Nome do blog. Caacupé One tem um estilo só, de propósito: é um display
+   pesado, feito para tamanho grande e texto curto. */
+@font-face {
+  font-family: "Caacupe One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/caacupe-one-latin-regular.woff2") format("woff2");
+}
+
+/* Código. É a JetBrains Mono Nerd Font, recortada no latino — o patch da Nerd
+   Font só acrescenta glifos de ícone, e nenhum post usa um. Cada peso custa
+   35KB assim, contra 875KB com a faixa de ícones inteira. Se um dia um ícone
+   entrar num post, é acrescentar U+E000-F8FF e U+F0000-FFFFD ao subset. */
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/jetbrains-mono-nf-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/jetbrains-mono-nf-latin-bold.woff2") format("woff2");
+}
+
+/* Comentário em bloco de código sai em itálico pelo tema (.cm, .sd do Chroma),
+   então o itálico real precisa existir — senão o navegador inclina o regular. */
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/jetbrains-mono-nf-latin-italic.woff2") format("woff2");
+}
+
+/* O tema fixa font-weight: 300 no html porque a Fira Sans traz esse peso. A
+   Open Sans em 300 fica frágil demais para texto corrido; 400 é o peso de
+   leitura dela. */
+html {
+  font-family: "Open Sans", system-ui, sans-serif;
+  font-weight: 400;
+}
+
+.pagination {
+  font-family: "Open Sans", system-ui, sans-serif;
+}
+
+/* Caacupé One tem um peso só, o 400. O tema pede 300 aqui, herdado de quando
+   a fonte era a Abril Fatface — declarar um peso que não existe deixa o
+   navegador escolher sozinho. */
+.sidebar-about h1 {
+  font-family: "Caacupe One", Georgia, serif;
+  font-weight: 400;
+}
+
+code,
+pre {
+  font-family: "JetBrainsMono Nerd Font", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
 /* Medida de leitura: linha longa demais cansa, mesmo em tela larga. */
 .content p,
 .content li {
@@ -40,6 +135,41 @@
 .content a:hover,
 .content a:focus-visible {
   text-decoration-thickness: 2px;
+}
+
+/* Título de post é exceção à regra acima. Ela existe para o link no meio da
+   prosa, que sem sublinhado não se distinguiria do texto ao redor; um título
+   já se distingue por tamanho e peso, e o sublinhado só o deixa pesado. Vale
+   onde quer que o título apareça como link: cartão da home, topo do post,
+   listagens de tag e série, e a navegação do rodapé.
+
+   Como no nome do blog, o esmaecimento no hover fica no lugar do sublinhado —
+   o foco continua sublinhado, para quem navega pelo teclado. */
+.post-title a,
+.entries li .title a,
+a.previous-post,
+.next-post a,
+.series li a {
+  text-decoration: none;
+}
+
+.post-title a:hover,
+.entries li .title a:hover,
+a.previous-post:hover,
+.next-post a:hover,
+.series li a:hover {
+  color: var(--date-color);
+}
+
+/* A regra acima é incondicional e apagaria também o sublinhado do foco, que
+   o tema dá a todo link. Ele volta aqui: é assim que quem navega pelo teclado
+   enxerga onde está. */
+.post-title a:focus-visible,
+.entries li .title a:focus-visible,
+a.previous-post:focus-visible,
+.next-post a:focus-visible,
+.series li a:focus-visible {
+  text-decoration: underline;
 }
 
 /* Citação: barra discreta, sem competir com o texto. */
