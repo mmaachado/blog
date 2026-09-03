@@ -1,0 +1,17 @@
+{{/*
+    O partial do tema deixa o <h4> vazio e manda o JavaScript escrever
+    "Contents" nele quando o primeiro título aparece na tela. Isso cravava
+    inglês numa página em português e sumia com o título sem JavaScript.
+
+    Aqui o título sai pronto do servidor, pelo i18n, e só quando o sumário
+    tem alguma entrada — um post sem título nenhum não ganha um cabeçalho
+    solto acima de um <nav> vazio.
+*/}}
+<div class="article-toc {{ if .Site.Params.layoutReverse }}layout-reverse{{ end }}">
+    <div class="toc-wrapper">
+      {{ if .Fragments.Identifiers }}
+        <h4 id="contents">{{ i18n "tocTitle" }}</h4>
+        {{ .TableOfContents }}
+      {{ end }}
+    </div>
+</div>

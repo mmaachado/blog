@@ -4,8 +4,8 @@
     {{ $Site := .Site }}
     {{ $postTitle := .Title }}
     <p>
-    Este post faz parte da série <b><a href="{{ $Site.BaseURL }}series/{{ .Params.series | urlize }}">{{ .Params.series }}</a></b>.
-        <br>Outros posts desta série:
+    {{ i18n "seriesIntro" }} <b><a href="{{ $Site.BaseURL }}series/{{ .Params.series | urlize }}">{{ .Params.series }}</a></b>.
+        <br>{{ i18n "seriesOthers" }}
         <ul class="series">
             {{ $seriesUrl := print "series/" (.Params.series | urlize) }}
             {{ $series := .Site.GetPage $seriesUrl }}
@@ -23,11 +23,11 @@
     </p>
     {{ else }}
         {{ if .PrevInSection }}
-            <a class="previous-post" href="{{ .PrevInSection.Permalink }}?ref=footer"><span style="font-weight:bold;">« Anterior</span><br>{{ .PrevInSection.Title | truncate 50 "..." }}</a>
+            <a class="previous-post" href="{{ .PrevInSection.Permalink }}?ref=footer"><span style="font-weight:bold;">« {{ i18n "previous" }}</span><br>{{ .PrevInSection.Title | truncate 50 "..." }}</a>
         {{ end }}
         {{ if .NextInSection }}
             <div class="next-post">
-                <a href="{{ .NextInSection.Permalink }}?ref=footer"><span style="font-weight:bold;">Próximo »</span><br>{{ .NextInSection.Title | truncate 50 "..." }}</a>
+                <a href="{{ .NextInSection.Permalink }}?ref=footer"><span style="font-weight:bold;">{{ i18n "next" }} »</span><br>{{ .NextInSection.Title | truncate 50 "..." }}</a>
             </div>
         {{ end }}
     {{ end }}

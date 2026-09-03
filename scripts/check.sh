@@ -8,7 +8,10 @@ set -uo pipefail
 
 saida=".verify"
 falhas=0
-erro() { printf '  x %s\n' "$1"; falhas=1; }
+# Incrementa, não atribui: cada seção compara o contador com o valor de antes
+# dela para decidir se imprime "ok", e um valor fixo tornaria essa comparação
+# verdadeira para sempre depois da primeira falha.
+erro() { printf '  x %s\n' "$1"; falhas=$((falhas + 1)); }
 titulo() { printf '\n%s\n' "$1"; }
 
 trap 'rm -rf "$saida"' EXIT
@@ -35,6 +38,25 @@ while IFS= read -r f; do
 done < <(find content -name '*.md' ! -name '_index.md')
 [ "$falhas" -eq "$antes" ] && echo "  ok"
 
+# ------------------------------------------- front matter no formato do projeto
+titulo "Front matter em YAML"
+antes=$falhas
+while IFS= read -r f; do
+  head -1 "$f" | grep -q '^+++' && erro "$f: front matter em TOML; o padrão do projeto é YAML"
+done < <(find content -name '*.md')
+[ "$falhas" -eq "$antes" ] && echo "  ok"
+
+# ------------------------------------------------- resíduo de editor no texto
+# Wikilinks e anexos embutidos do Obsidian não são Markdown: o Hugo publica os
+# colchetes como texto e a imagem simplesmente não aparece.
+titulo "Sem sintaxe de Obsidian no conteúdo"
+ocorrencias=$(grep -rnE '!?\[\[[^]]+\]\]' content --include='*.md' || true)
+if [ -n "$ocorrencias" ]; then
+  while IFS= read -r linha; do erro "$linha"; done <<< "$ocorrencias"
+else
+  echo "  ok"
+fi
+
 # ------------------------------------------------------------- rascunhos
 titulo "Rascunhos fora da saída"
 antes=$falhas
@@ -54,6 +76,8 @@ quebrados=$(
       | while IFS= read -r alvo; do
           case "$alvo" in
             ''|'#'*|http*|mailto:*|data:*|//*) continue ;;
+            # Rotas servidas pela plataforma, não pelo build: não existem em disco.
+            /_vercel/*) continue ;;
             /*) ;;
             *) continue ;;
           esac

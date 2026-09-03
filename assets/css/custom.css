@@ -56,6 +56,7 @@
   overflow-x: auto;
 }
 
+<<<<<<< HEAD
 /* Tags como etiquetas discretas, e não como lista. O tema pinta cada uma como
    bloco cheio, o que numa paleta monocromática vira um botão apagado. O
    contorno precisa ficar no <a>, que é inline-block e aceita a caixa: no <li>,
@@ -71,6 +72,13 @@
   border: 1px solid var(--table-border-color);
   border-radius: 2px;
   padding: 1px 7px;
+=======
+/* O tema já desenha a tag como pílula. O sublinhado dos links, porém, alcança
+   as tags porque elas ficam dentro de .content — e sublinhado dentro de uma
+   pílula preenchida fica sujo. */
+.tags li a {
+  text-decoration: none;
+>>>>>>> refs/remotes/origin/posts/update-contents
 }
 
 .tags li a:hover,
@@ -85,6 +93,7 @@
   letter-spacing: -0.01em;
 }
 
+<<<<<<< HEAD
 /* A barra lateral é conteúdo fixo: nada nela rola. O tema liga overflow-y: auto
    ali, e o CSS promove o eixo horizontal junto quando o outro deixa de ser
    visible — por isso, assim que a barra vertical aparecia e comia 10px da
@@ -124,4 +133,28 @@
 
 .sidebar .footnote {
   margin-bottom: 0;
+=======
+/* Sumário longo: o tema põe max-height e overflow no .article-toc, mas o
+   único filho dele é .toc-wrapper, que é position: fixed e portanto sai do
+   fluxo. Sobra um pai de altura zero, sem nada para rolar, e um filho fixo
+   que passa da janela sem barra nenhuma — em "Vibe Coding", com 31 entradas,
+   as últimas ficam abaixo da dobra e inalcançáveis.
+
+   A rolagem tem de estar em quem está fixo. Com top e bottom definidos, a
+   caixa ocupa a faixa entre os dois e rola por dentro. */
+.article-toc .toc-wrapper {
+  top: 5.5rem;
+  bottom: 2rem;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  scrollbar-width: thin;
+}
+
+.article-toc .toc-wrapper::-webkit-scrollbar {
+  width: 3px;
+}
+
+.article-toc .toc-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 1.5px;
+>>>>>>> refs/remotes/origin/posts/update-contents
 }
