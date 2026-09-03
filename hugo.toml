@@ -3,9 +3,30 @@ title = "Vaults of Parnassus"
 theme = "poison"
 locale = "pt-br"
 defaultContentLanguage = "pt-br"
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 enableGitInfo = false
 pluralizeListTitles = false
+
+# Estrutura multilíngue pronta, com um idioma só ativo. Os textos de
+# interface vivem em i18n/pt-br.toml e i18n/en.toml; os templates em
+# layouts/ não têm português cravado.
+#
+# Para publicar em inglês: descomente o bloco abaixo, crie
+# content/en/posts/<slug>.md e o seletor de idioma aparece sozinho
+# na barra lateral. Enquanto o bloco estiver comentado, o site é
+# monolíngue e nada muda.
+#
+# [languages]
+#   [languages.pt-br]
+#   languageName = "Português"
+#   contentDir = "content"
+#   weight = 1
+#   [languages.en]
+#   languageName = "English"
+#   contentDir = "content/en"
+#   weight = 2
+#   title = "Vaults of Parnassus"
 
 [pagination]
 pagerSize = 10
@@ -31,6 +52,12 @@ description = "No ads. No fluff. Just tech stuff."
 dark_mode = true
 # favicon = "/favicon.svg"
 favicon = "/icon.png"
+
+# Foto da barra lateral, buscada direto do GitHub para acompanhar o perfil sem
+# depender de deploy. O tamanho pedido é o dobro dos 180px do CSS, para telas
+# de alta densidade. Como sai de um domínio de terceiro e a barra lateral está
+# em todas as páginas, a página de privacidade registra isso.
+remote_brand_image = "https://github.com/mmaachado.png?size=360"
 front_page_content = ["posts"]
 
 # Monocromático: sem cor de destaque. Os links se distinguem por sublinhado,
@@ -83,6 +110,20 @@ menu = [
   { Name = "Sobre", URL = "/sobre/", HasChildren = false },
   { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 5 },
 ]
+
+# Métricas. Habilite Analytics no painel do projeto antes de ligar aqui: a rota
+# do script só passa a existir depois disso. Se o painel indicar um caminho
+# específico do projeto, informe em vercel_analytics_script.
+vercel_analytics = true
+vercel_analytics_script = "/_vercel/insights/script.js"
+
+# Comentários sobre GitHub Discussions. Os quatro valores saem de giscus.app,
+# depois de habilitar Discussions no repositório e instalar o app giscus.
+giscus = true
+giscus_repo = "mmaachado/blog"
+giscus_repo_id = "R_kgDOUKyCCQ"
+giscus_category = "Comentários"
+giscus_category_id = "DIC_kwDOUKyCCc4DEpeq"
 
 # O tema usa esses valores direto no href: precisam ser URLs completas, não handles.
 github_url = "https://github.com/mmaachado"

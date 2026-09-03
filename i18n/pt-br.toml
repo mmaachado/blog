@@ -1,0 +1,66 @@
+# Strings da interface. O tema Poison não traz tradução: tudo o que aparece
+# fora do texto dos posts é definido aqui e usado pelos templates em layouts/.
+
+[readingTime]
+one = "{{ . }} minuto de leitura"
+other = "{{ . }} minutos de leitura"
+
+[seriesLabel]
+other = "Série:"
+
+[seriesIntro]
+other = "Este post faz parte da série"
+
+[seriesOthers]
+other = "Outros posts desta série:"
+
+[previous]
+other = "Anterior"
+
+[next]
+other = "Próximo"
+
+[previousPage]
+other = "Anteriores"
+
+[nextPage]
+other = "Próximos"
+
+[notFoundTitle]
+other = "404: página não encontrada"
+
+[notFoundBody]
+other = "Esse endereço não existe ou aponta para algo que saiu do ar."
+
+[notFoundHome]
+other = "Volte para a home"
+
+[builtWith]
+other = "feito com"
+
+[themedWith]
+other = "e o tema"
+
+[textsUnder]
+other = "textos sob"
+
+[privacy]
+other = "Privacidade"
+
+[licenseUrl]
+other = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br"
+
+[privacyUrl]
+other = "privacidade/"
+
+[languageLabel]
+other = "Idioma"
+
+[giscusLang]
+other = "pt"
+
+[commentsNoscript]
+other = "Os comentários precisam de JavaScript. A discussão também fica aberta no GitHub."
+
+[tocTitle]
+other = "Nesta página"
