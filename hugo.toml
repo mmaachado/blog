@@ -108,7 +108,7 @@ rss_section = "posts"
 # Cada item precisa de um arquivo correspondente em content/ para não gerar link morto.
 menu = [
   { Name = "Sobre", URL = "/sobre/", HasChildren = false },
-  { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 5 },
+  { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 3 },
 ]
 
 # Métricas. Habilite Analytics no painel do projeto antes de ligar aqui: a rota

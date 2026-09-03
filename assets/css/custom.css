@@ -89,6 +89,15 @@
   letter-spacing: -0.01em;
 }
 
+/* O sublinhado que o tema dá em todo link no hover fica pesado num título
+   desse tamanho. Some, e no lugar dele o nome esmaece — ainda é um aviso de
+   que ali se clica. O foco continua sublinhado, que é como quem navega pelo
+   teclado enxerga onde está. */
+.sidebar-about h1 a:hover {
+  text-decoration: none;
+  color: var(--sidebar-p-color);
+}
+
 /* A barra lateral é conteúdo fixo: nada nela rola. O tema liga overflow-y: auto
    ali, e o CSS promove o eixo horizontal junto quando o outro deixa de ser
    visible — por isso, assim que a barra vertical aparecia e comia 10px da
