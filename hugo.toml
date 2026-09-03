@@ -48,16 +48,16 @@ endLevel = 4
 
 [params]
 brand = "Vaults of Parnassus"
+# Foto da barra lateral, buscada direto do GitHub para acompanhar o perfil sem
+# depender de um novo deploy. Pede-se o dobro dos 120px que o CSS desenha, para
+# telas de alta densidade. Como sai de um domínio de terceiro e a barra lateral
+# está em todas as páginas, a página de privacidade registra isso.
+remote_brand_image = "https://github.com/mmaachado.png?size=240"
 description = "No ads. No fluff. Just tech stuff."
 dark_mode = true
 # favicon = "/favicon.svg"
 favicon = "/icon.png"
 
-# Foto da barra lateral, buscada direto do GitHub para acompanhar o perfil sem
-# depender de deploy. O tamanho pedido é o dobro dos 180px do CSS, para telas
-# de alta densidade. Como sai de um domínio de terceiro e a barra lateral está
-# em todas as páginas, a página de privacidade registra isso.
-remote_brand_image = "https://github.com/mmaachado.png?size=360"
 front_page_content = ["posts"]
 
 # Monocromático: sem cor de destaque. Os links se distinguem por sublinhado,
@@ -108,7 +108,7 @@ rss_section = "posts"
 # Cada item precisa de um arquivo correspondente em content/ para não gerar link morto.
 menu = [
   { Name = "Sobre", URL = "/sobre/", HasChildren = false },
-  { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 5 },
+  { Name = "Posts", URL = "/posts/", Pre = "Recentes", HasChildren = true, Limit = 3 },
 ]
 
 # Métricas. Habilite Analytics no painel do projeto antes de ligar aqui: a rota

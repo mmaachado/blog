@@ -1,10 +1,12 @@
 ---
-title: "GNU/Linux e o futuro do mercado de sistemas operacionais"
+title: GNU/Linux e o futuro do mercado de sistemas operacionais
 date: 2025-07-05
 lastmod: 2026-04-12
 draft: false
-description: "Post introdutório do blog, com minhas visões sobre o futuro de sistemas GNU/Linux."
-tags: ["mercado"]
+description: Post introdutório do blog, com minhas visões sobre o futuro de sistemas GNU/Linux.
+tags:
+  - gnu-linux
+  - engenharia-de-software
 ---
 
 ## Hello World

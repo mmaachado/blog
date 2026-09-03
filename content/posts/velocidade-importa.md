@@ -1,10 +1,12 @@
 ---
-title: "Velocidade importa?"
+title: Velocidade importa?
 date: 2025-07-21
 lastmod: 2026-04-12
 draft: false
-description: "Python realmente é lento? Ou essa visão já foi rebatida?"
-tags: ["python"]
+description: Python realmente é lento? Ou essa visão já foi rebatida?
+tags:
+  - python
+  - engenharia-de-software
 ---
 
 ## Introdução
