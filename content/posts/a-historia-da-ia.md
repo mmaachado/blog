@@ -1,7 +1,7 @@
 ---
 title: "A História da I.A."
 date: 2026-09-16T21:12:59-03:00
-draft: true
+draft: false
 description: "De Talos ao ChatGPT: como a ideia de máquinas pensantes nasceu, quase morreu duas vezes e voltou, e o papel dos governos em cada ciclo."
 tags:
   - engenharia-de-software
