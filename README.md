@@ -48,9 +48,9 @@ hugo --gc --minify
 
 ## Escrevendo no Obsidian
 
-A pasta `08 Blog/` do vault é uma junction para `content/posts/`: os arquivos moram no
-repositório e aparecem no Obsidian, sem cópia nem sincronização. Escreve-se no editor de
-sempre, commita-se pelo repositório.
+A pasta `08 Blog/` do vault é uma junction (Windows) ou symlink (macOS/Linux) para
+`content/posts/`: os arquivos moram no repositório e aparecem no Obsidian, sem cópia nem
+sincronização. Escreve-se no editor de sempre, commita-se pelo repositório.
 
 Para recriar o link em outra máquina, com o Obsidian fechado:
 
@@ -63,6 +63,15 @@ New-Item -ItemType Junction -Path $vault -Target $alvo
 
 Junction, e não symlink: no Windows um symlink de diretório exige elevação ou modo
 desenvolvedor, a junction não.
+
+```sh
+vault="<caminho do vault>/08 Blog"
+alvo="<caminho do repositório>/content/posts"
+rm -rf "$vault"   # a pasta precisa não existir
+ln -s "$alvo" "$vault"
+```
+
+No macOS/Linux não há essa restrição, então um symlink comum resolve.
 
 Duas consequências que o `check.sh` cobre, porque o Obsidian escreve coisas que o Hugo não
 entende: o front matter precisa ser YAML, não TOML, e wikilinks (`[[nota]]`) ou anexos
