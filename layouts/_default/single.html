@@ -1,7 +1,27 @@
 {{ define "main" -}}
 <div class="post">
   {{ partial "post/info.html" . }}
-  {{ .Content }}
+  {{/* O Goldmark fecha o conteúdo com as notas de rodapé num <div class="footnotes">.
+       Uma bibliografia com cem entradas não precisa ficar aberta o tempo todo, então
+       esse bloco vira um <details> na saída; o markdown do post não sabe de nada. */}}
+  {{ $notes := `(?s)<div class="footnotes" role="doc-endnotes">\s*<hr>\s*(<ol>.*</ol>)\s*</div>\s*$` }}
+  {{ $fold := printf `<details class="footnotes" role="doc-endnotes"><summary>%s</summary>$1</details>` (i18n "footnotesSummary") }}
+  {{ .Content | replaceRE $notes $fold | safeHTML }}
+  {{ if findRE $notes .Content }}
+    <script>
+      // O link de uma nota aponta para dentro do <details>: se estiver fechado, o
+      // navegador não tem para onde rolar. Abre primeiro, depois rola.
+      (function () {
+        function reveal() {
+          var t = location.hash && document.getElementById(location.hash.slice(1));
+          var d = t && t.closest("details");
+          if (d && !d.open) { d.open = true; t.scrollIntoView(); }
+        }
+        addEventListener("hashchange", reveal);
+        reveal();
+      })();
+    </script>
+  {{ end }}
   {{ if (.Site.Params.listmonk) }}
     {{ partial "post/listmonk_email_newsletters.html" . }}
   {{ end }}

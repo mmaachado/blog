@@ -273,3 +273,20 @@ a.previous-post:focus-visible,
   margin-top: 0.25rem;
   margin-bottom: 0;
 }
+
+/* Notas de rodapé dobradas (ver layouts/_default/single.html). O resumo faz o
+   papel do <hr> que o Goldmark punha antes da lista. */
+details.footnotes {
+  margin-top: 2rem;
+  border-top: 1px solid var(--sidebar-bg-color);
+  padding-top: 0.6rem;
+}
+
+details.footnotes summary {
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+details.footnotes ol {
+  margin-top: 0.8rem;
+}
