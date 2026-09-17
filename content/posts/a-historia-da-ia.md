@@ -6,77 +6,88 @@ description: "De Talos ao ChatGPT: como a ideia de máquinas pensantes nasceu, q
 tags:
   - engenharia-de-software
   - IA
+  - roteiro
 ---
+
 ## Introdução
+
 > **TL;DR**: A I.A. não nasceu com o ChatGPT. Ela nasceu há mais de 80 anos, foi bancada por governos e quase morreu duas vezes quando esses mesmos governos fecharam a torneira. Hoje o jogo virou e ela entrega resultado, virando ativo estratégico de Estado. Os modelos vão continuar crescendo, **só não vai ser para você**.
 
 Há alguns dias li algumas publicações do [Fabio Akita sobre I.A.](https://akitaonrails.com/2026/09/09/propagandas-enganosas-da-openai-anthropic-nvidia/)[^1], principalmente após todo o burburinho causado por [Dario Amodei](https://www.nbcnews.com/news/us-news/anthropic-ceo-dario-amodei-ai-development-rcna597383)[^2] e cia., pedindo que os laboratórios de fronteira desacelerem a evolução dos modelos[^3].
 
-É comum ver o Akita defendendo que boa parte do "*salto*" recente da I.A. vem de força bruta: queimar quantidades absurdas de computação, algo que só meia dúzia de empresas no mundo consegue bancar, e mesmo assim em hardware majoritariamente alugado[^1].
+É comum ver o Akita defendendo que boa parte do "_salto_" recente da I.A. vem de força bruta: queimar quantidades absurdas de computação, algo que só meia dúzia de empresas no mundo consegue bancar, e mesmo assim em hardware majoritariamente alugado[^1].
 
 A literatura acadêmica vai na mesma direção. A computação usada para treinar modelos de ponta vem dobrando a cada ~6 meses[^4], e há pesquisadores argumentando que essa trajetória é econômica e tecnicamente insustentável[^5].
 
-Concordo quando o Akita diz que **o maior limitador da I.A.** é o hardware, mas vou um pouco mais além. 
+Concordo quando o Akita diz que **o maior limitador da I.A.** é o hardware, mas vou um pouco mais além.
 
 Mesmo que tenhamos o hardware suficiente para as I.A.s triplicarem de tamanho nas próximas décadas, **nós, cidadãos comuns, não vamos ter acesso a isso, porque governo nenhum vai deixar**.
 
 E não, não estou falando de governo frear a I.A. por medo do Exterminador do Futuro. Estou falando de dois movimentos que já estão acontecendo ao mesmo tempo:
 
 1. **Para fora, a I.A. virou ativo de soberania**: o governo americano trata a disputa pela I.A. literalmente como uma nova corrida espacial[^6] e controla a exportação de chips avançados desde 2022[^7]. Em junho deste ano, a Anthropic precisou suspender o acesso a dois dos seus modelos para cumprir controles de exportação do Departamento de Comércio dos EUA[^8]. Quem trata uma tecnologia assim não quer pará-la, quer ser o dono dela;
-2. **Para dentro, a I.A. virou problema de identidade digital**: União Europeia e Brasil estão empilhando regras sobre regras para rotulagem de conteúdo sintético, deepfakes, verificação de identidade e responsabilidade de plataformas[^9] [^10] [^11]. Cada nova regra vem justificada por "*segurança*" e "*privacidade*", e cada uma estreita um pouco mais o que o usuário final pode fazer;
+2. **Para dentro, a I.A. virou problema de identidade digital**: União Europeia e Brasil estão empilhando regras sobre regras para rotulagem de conteúdo sintético, deepfakes, verificação de identidade e responsabilidade de plataformas[^9] [^10] [^11]. Cada nova regra vem justificada por "_segurança_" e "_privacidade_", e cada uma estreita um pouco mais o que o usuário final pode fazer;
 
 **NA MINHA OPINIÃO**, o resultado desses dois movimentos é previsível. Os modelos de fronteira vão continuar crescendo, só que dentro de datacenters sob custódia estatal, direta ou regulatória. Para o público, sobra a versão diluída, um chatbot para tirar dúvidas e reestruturar textos, com saída marcada e identificável como gerada por I.A., algo que a UE já exige desde agosto de 2026[^9].
 
 Já modelos com capacidades de gerar conteúdo audiovisual tendem a seguir o caminho de softwares profissionais como o **Visual Studio** ou o **AutoCAD**, com uma camada a mais: uso restrito a empresas, mediante licenciamento, e fiscalização do uso final nos moldes do que a ANPD faz com a LGPD.
 
-**Isso é a minha aposta, não uma profecia**! Mas, antes de discutir para onde a I.A. vai, vale entender de onde ela veio. E a primeira surpresa para muita gente é que a ideia de "*máquinas que pensam*" é mais antiga que o próprio computador, a eletricidade e, em certo sentido, que a própria ciência. A segunda surpresa é que governos sempre estiveram no meio dessa história, às vezes como financiadores e às vezes como freio.
+**Isso é a minha aposta, não uma profecia**! Mas, antes de discutir para onde a I.A. vai, vale entender de onde ela veio. E a primeira surpresa para muita gente é que a ideia de "_máquinas que pensam_" é mais antiga que o próprio computador, a eletricidade e, em certo sentido, que a própria ciência. A segunda surpresa é que governos sempre estiveram no meio dessa história, às vezes como financiadores e às vezes como freio.
 
 ## Antes do silício: mitos, autômatos e robôs
-A vontade de criar seres artificiais aparece já na mitologia grega. Na *Ilíada*, Hefesto, o deus ferreiro, é servido por assistentes feitas de ouro que se movem, falam e têm entendimento[^12]. Na *Argonáutica*, de Apolônio de Rodes, aparece Talos, um gigante de bronze que patrulha a ilha de Creta e é derrotado pela feiticeira Medeia[^13]. A historiadora Adrienne Mayor, de Stanford, dedicou um livro inteiro a mostrar que os gregos já imaginavam "*seres feitos, não nascidos*", com mecanismos internos e objetivos programados, séculos antes de existir tecnologia para isso[^14].
 
-A imaginação virou engenharia na Idade Média islâmica. Por volta de 1206, o engenheiro Ismail al-Jazari documentou dezenas de mecanismos automáticos no seu *Livro do Conhecimento de Dispositivos Mecânicos Engenhosos*. Entre eles havia autômatos musicais e servidores mecânicos controlados por água e cames[^15]. Não havia "*inteligência*" ali, mas havia a ideia central da automação: comportamento complexo emergindo de regras mecânicas.
+A vontade de criar seres artificiais aparece já na mitologia grega. Na _Ilíada_, Hefesto, o deus ferreiro, é servido por assistentes feitas de ouro que se movem, falam e têm entendimento[^12]. Na _Argonáutica_, de Apolônio de Rodes, aparece Talos, um gigante de bronze que patrulha a ilha de Creta e é derrotado pela feiticeira Medeia[^13]. A historiadora Adrienne Mayor, de Stanford, dedicou um livro inteiro a mostrar que os gregos já imaginavam "_seres feitos, não nascidos_", com mecanismos internos e objetivos programados, séculos antes de existir tecnologia para isso[^14].
 
-A palavra "*robô*" é bem mais recente, ela vem da peça *R.U.R.* (1920), do tcheco Karel Čapek, derivada de *robota*, associado a trabalho forçado[^16]. E o enredo já trazia o tema que domina as manchetes de 2026: as criaturas artificiais se rebelam contra os criadores.
+A imaginação virou engenharia na Idade Média islâmica. Por volta de 1206, o engenheiro Ismail al-Jazari documentou dezenas de mecanismos automáticos no seu _Livro do Conhecimento de Dispositivos Mecânicos Engenhosos_. Entre eles havia autômatos musicais e servidores mecânicos controlados por água e cames[^15]. Não havia "_inteligência_" ali, mas havia a ideia central da automação: comportamento complexo emergindo de regras mecânicas.
+
+A palavra "_robô_" é bem mais recente, ela vem da peça _R.U.R._ (1920), do tcheco Karel Čapek, derivada de _robota_, associado a trabalho forçado[^16]. E o enredo já trazia o tema que domina as manchetes de 2026: as criaturas artificiais se rebelam contra os criadores.
 
 ## A ideia que tornou I.A. possível: pensar é calcular
-O mito explica o *desejo*. O que tornou a I.A. *concebível* foi uma ideia filosófica: raciocinar seria uma forma de computação.
 
-- **Ramon Llull (c. 1305)**, na *Ars Magna*, propôs discos giratórios que combinavam conceitos para gerar proposições de forma sistemática. Foi uma tentativa de mecanizar parte do raciocínio[^17];
-- **Thomas Hobbes (1651)**, no capítulo 5 do *Leviatã*, escreveu que a razão "*is nothing but Reckoning (that is, Adding and Subtracting)*"[^18];
-- **Gottfried Leibniz (final do séc. XVII)** sonhou com uma *characteristica universalis*, uma linguagem simbólica universal, e um *calculus ratiocinator* capaz de resolver disputas por cálculo. É o famoso "*Calculemus!*". O matemático Martin Davis usa Leibniz como ponto de partida de uma linha direta até Turing[^19];
+O mito explica o _desejo_. O que tornou a I.A. _concebível_ foi uma ideia filosófica: raciocinar seria uma forma de computação.
+
+- **Ramon Llull (c. 1305)**, na _Ars Magna_, propôs discos giratórios que combinavam conceitos para gerar proposições de forma sistemática. Foi uma tentativa de mecanizar parte do raciocínio[^17];
+- **Thomas Hobbes (1651)**, no capítulo 5 do _Leviatã_, escreveu que a razão "_is nothing but Reckoning (that is, Adding and Subtracting)_"[^18];
+- **Gottfried Leibniz (final do séc. XVII)** sonhou com uma _characteristica universalis_, uma linguagem simbólica universal, e um _calculus ratiocinator_ capaz de resolver disputas por cálculo. É o famoso "_Calculemus!_". O matemático Martin Davis usa Leibniz como ponto de partida de uma linha direta até Turing[^19];
 
 O programa de Leibniz só ganhou ferramentas no século XIX e início do XX:
-- **George Boole (1854)** algebrizou a lógica em *The Laws of Thought*. É daí que vem a "*álgebra booleana*" que todo programador usa[^20];
-- **Gottlob Frege (1879)** criou, no *Begriffsschrift*, a primeira lógica formal de predicados moderna[^21];
-- **David Hilbert** e **Wilhelm Ackermann (1928)** formalizaram o *Entscheidungsproblem*. A pergunta era se existiria um procedimento mecânico capaz de decidir se qualquer afirmação lógica é válida[^22];
-- **Kurt Gödel (1931)** mostrou, com os teoremas da incompletude, que todo sistema formal consistente e expressivo o suficiente para a aritmética contém verdades que não consegue provar[^23]. Foi o primeiro grande "*limite*" teórico, e ele voltaria décadas depois nos debates sobre se máquinas podem pensar;
+
+- **George Boole (1854)** algebrizou a lógica em _The Laws of Thought_. É daí que vem a "_álgebra booleana_" que todo programador usa[^20];
+- **Gottlob Frege (1879)** criou, no _Begriffsschrift_, a primeira lógica formal de predicados moderna[^21];
+- **David Hilbert** e **Wilhelm Ackermann (1928)** formalizaram o _Entscheidungsproblem_. A pergunta era se existiria um procedimento mecânico capaz de decidir se qualquer afirmação lógica é válida[^22];
+- **Kurt Gödel (1931)** mostrou, com os teoremas da incompletude, que todo sistema formal consistente e expressivo o suficiente para a aritmética contém verdades que não consegue provar[^23]. Foi o primeiro grande "_limite_" teórico, e ele voltaria décadas depois nos debates sobre se máquinas podem pensar;
 
 ## Babbage, Lovelace e a primeira objeção à I.A.
-**Charles Babbage** projetou, a partir da década de 1830, a **Máquina Analítica**. Era um computador mecânico de propósito geral, com memória ("*store*"), unidade de processamento ("*mill*") e entrada por cartões perfurados, nunca concluído em vida. Em 1843, **Ada Lovelace** traduziu um artigo do engenheiro italiano Luigi Menabrea sobre a máquina e acrescentou notas mais longas que o texto original[^24].
+
+**Charles Babbage** projetou, a partir da década de 1830, a **Máquina Analítica**. Era um computador mecânico de propósito geral, com memória ("_store_"), unidade de processamento ("_mill_") e entrada por cartões perfurados, nunca concluído em vida. Em 1843, **Ada Lovelace** traduziu um artigo do engenheiro italiano Luigi Menabrea sobre a máquina e acrescentou notas mais longas que o texto original[^24].
 
 Duas contribuições dessas notas importam para a nossa história:
-1. **Generalidade**: Lovelace percebeu que a máquina manipula símbolos, não apenas números. Por isso poderia, em tese, compor música se as regras da harmonia fossem codificadas (Nota A)[^24]. É a intuição de computação simbólica cem anos antes dela sequer existir;
-2. **Ceticismo**: Na Nota G, junto do algoritmo para calcular números de Bernoulli, frequentemente chamado de primeiro programa publicado, ela afirma que a máquina "*has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform*"[^24].
 
-> Guarde essa frase. Mais de um século depois, Turing a batizaria de "*Objeção de Lady Lovelace*" e dedicaria uma seção inteira a respondê-la[^25].
+1. **Generalidade**: Lovelace percebeu que a máquina manipula símbolos, não apenas números. Por isso poderia, em tese, compor música se as regras da harmonia fossem codificadas (Nota A)[^24]. É a intuição de computação simbólica cem anos antes dela sequer existir;
+2. **Ceticismo**: Na Nota G, junto do algoritmo para calcular números de Bernoulli, frequentemente chamado de primeiro programa publicado, ela afirma que a máquina "_has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform_"[^24].
+
+> Guarde essa frase. Mais de um século depois, Turing a batizaria de "_Objeção de Lady Lovelace_" e dedicaria uma seção inteira a respondê-la[^25].
 
 ## Computabilidade: a teoria antes da máquina
+
 Em 1936, dois trabalhos independentes responderam ao desafio de Hilbert, e a resposta foi negativa:
-- **Alonzo Church** usou o cálculo *lambda* para mostrar que não existe um procedimento geral de decisão[^26];
-- **Alan Turing**, em *On Computable Numbers*, definiu uma máquina abstrata que lê e escreve símbolos numa fita e provou o mesmo resultado[^27]. O subproduto foi mais importante que o teorema: a **máquina universal**, uma única máquina capaz de simular qualquer outra a partir de uma descrição codificada. É a ideia de software, formalizada.
 
-A ponte entre lógica e eletrônica veio logo depois. Em 1938, **Claude Shannon** mostrou na sua dissertação de mestrado que a álgebra de Boole descreve circuitos de relés. Com isso, qualquer operação lógica poderia ser implementada fisicamente[^28]. Em 1945, o *First Draft of a Report on the EDVAC*, de **John von Neumann**, descreveu a arquitetura de programa armazenado que usamos até hoje[^29].
+- **Alonzo Church** usou o cálculo _lambda_ para mostrar que não existe um procedimento geral de decisão[^26];
+- **Alan Turing**, em _On Computable Numbers_, definiu uma máquina abstrata que lê e escreve símbolos numa fita e provou o mesmo resultado[^27]. O subproduto foi mais importante que o teorema: a **máquina universal**, uma única máquina capaz de simular qualquer outra a partir de uma descrição codificada. É a ideia de software, formalizada.
 
-Em menos de dez anos, "*pensar é calcular*" deixou de ser filosofia. Havia uma teoria do que é computável e havia máquinas capazes de computar.
+A ponte entre lógica e eletrônica veio logo depois. Em 1938, **Claude Shannon** mostrou na sua dissertação de mestrado que a álgebra de Boole descreve circuitos de relés. Com isso, qualquer operação lógica poderia ser implementada fisicamente[^28]. Em 1945, o _First Draft of a Report on the EDVAC_, de **John von Neumann**, descreveu a arquitetura de programa armazenado que usamos até hoje[^29].
+
+Em menos de dez anos, "_pensar é calcular_" deixou de ser filosofia. Havia uma teoria do que é computável e havia máquinas capazes de computar.
 
 ## Os dois caminhos: neurônios artificiais e cibernética
+
 Enquanto a lógica simbólica avançava, outro grupo buscava inspiração no cérebro.
 
-Em 1943, o neurofisiologista **Warren McCulloch** e o lógico **Walter Pitts** publicaram *A Logical Calculus of the Ideas Immanent in Nervous Activity*. O artigo modelava neurônios como unidades binárias com limiar e mostrava que redes desses "neurônios" podem computar funções lógicas[^30]. É o ancestral direto de toda rede neural moderna.
+Em 1943, o neurofisiologista **Warren McCulloch** e o lógico **Walter Pitts** publicaram _A Logical Calculus of the Ideas Immanent in Nervous Activity_. O artigo modelava neurônios como unidades binárias com limiar e mostrava que redes desses "neurônios" podem computar funções lógicas[^30]. É o ancestral direto de toda rede neural moderna.
 
-No mesmo ano, **Rosenblueth**, **Wiener** e **Bigelow** propuseram que comportamento com propósito pode ser explicado por realimentação (*feedback*)[^31]. Em 1948, **Norbert Wiener** batizou o campo de **Cibernética**: o estudo do controle e da comunicação no animal e na máquina[^32]. Em 1949, o psicólogo **Donald Hebb** propôs que conexões entre neurônios se fortalecem quando eles disparam juntos. Essa "*regra de Hebb*" é a primeira teoria plausível de aprendizado em redes[^33].
+No mesmo ano, **Rosenblueth**, **Wiener** e **Bigelow** propuseram que comportamento com propósito pode ser explicado por realimentação (_feedback_)[^31]. Em 1948, **Norbert Wiener** batizou o campo de **Cibernética**: o estudo do controle e da comunicação no animal e na máquina[^32]. Em 1949, o psicólogo **Donald Hebb** propôs que conexões entre neurônios se fortalecem quando eles disparam juntos. Essa "_regra de Hebb_" é a primeira teoria plausível de aprendizado em redes[^33].
 
-Shannon, por sua vez, publicou em 1950 *Programming a Computer for Playing Chess*. O artigo define a busca em árvore com função de avaliação, que seria a base de programas de xadrez por quase meio século[^34].
+Shannon, por sua vez, publicou em 1950 _Programming a Computer for Playing Chess_. O artigo define a busca em árvore com função de avaliação, que seria a base de programas de xadrez por quase meio século[^34].
 
 Aqui nasce a divisão que atravessa toda a história da I.A.:
 
@@ -85,71 +96,81 @@ Aqui nasce a divisão que atravessa toda a história da I.A.:
 | Simbólica    | Inteligência = manipulação de símbolos com regras explícitas     | Lógica, sistemas especialistas, LISP           |
 | Conexionista | Inteligência = emergente de muitas unidades simples que aprendem | Perceptron, redes neurais, deep learning, LLMs |
 
-## 1950: "*Can machines think?*"
-O artigo *Computing Machinery and Intelligence*, publicado por Turing na revista *Mind* em 1950, é o texto fundador do debate moderno[^25]. Turing considerava a pergunta "*máquinas podem pensar?*" mal definida e a substituiu por um experimento: o **Jogo da Imitação**, hoje chamado de **Teste de Turing**. Um interrogador conversa por texto com um humano e uma máquina. Se não conseguir distinguir os dois de forma confiável, não haveria base prática para negar inteligência à máquina.
+## 1950: "_Can machines think?_"
+
+O artigo _Computing Machinery and Intelligence_, publicado por Turing na revista _Mind_ em 1950, é o texto fundador do debate moderno[^25]. Turing considerava a pergunta "_máquinas podem pensar?_" mal definida e a substituiu por um experimento: o **Jogo da Imitação**, hoje chamado de **Teste de Turing**. Um interrogador conversa por texto com um humano e uma máquina. Se não conseguir distinguir os dois de forma confiável, não haveria base prática para negar inteligência à máquina.
 
 O artigo é mais do que o teste. Nele, Turing:
+
 - **Fez uma previsão concreta**. Em cerca de 50 anos, máquinas com ~$10^9$ bits de armazenamento jogariam o jogo tão bem que um interrogador médio não teria mais de 70% de chance de acertar após cinco minutos[^25];
 - **Respondeu objeções**, incluindo a teológica, a matemática (baseada em Gödel) e a de Lady Lovelace[^25];
-- **Propôs máquinas que aprendem**. Em vez de programar um adulto, sugeriu simular uma "*mente de criança*" e educá-la[^25]. Essa ideia já aparecia no relatório *Intelligent Machinery* (1948), onde ele descreve "*máquinas desorganizadas*" e redes que poderiam ser treinadas[^35].
+- **Propôs máquinas que aprendem**. Em vez de programar um adulto, sugeriu simular uma "_mente de criança_" e educá-la[^25]. Essa ideia já aparecia no relatório _Intelligent Machinery_ (1948), onde ele descreve "_máquinas desorganizadas_" e redes que poderiam ser treinadas[^35].
 
 Ou seja, em 1950 já estavam na mesa os ingredientes centrais: critério comportamental de inteligência, previsão de escala de memória e aprendizado em vez de programação explícita.
 
 ## 1956: Dartmouth e o nascimento do nome
-O termo "*inteligência artificial*" aparece na proposta de 31 de agosto de 1955 assinada por **John McCarthy** (Dartmouth), **Marvin Minsky** (Harvard), **Nathaniel Rochester** (IBM) e **Claude Shannon** (Bell Labs). Eles pediam financiamento à Fundação Rockefeller para um workshop de verão em 1956[^36].
+
+O termo "_inteligência artificial_" aparece na proposta de 31 de agosto de 1955 assinada por **John McCarthy** (Dartmouth), **Marvin Minsky** (Harvard), **Nathaniel Rochester** (IBM) e **Claude Shannon** (Bell Labs). Eles pediam financiamento à Fundação Rockefeller para um workshop de verão em 1956[^36].
 
 A proposta partia de uma conjectura ousada: todo aspecto do aprendizado ou de qualquer outra característica da inteligência poderia, em princípio, ser descrito com precisão suficiente para uma máquina simulá-lo[^36]. Entre os temas listados estavam o uso de linguagem por computadores, redes neurais, abstração, autoaperfeiçoamento e aleatoriedade/criatividade[^36].
 
-O nome foi uma escolha deliberada. McCarthy relatou em entrevistas e textos posteriores que escolheu "*artificial intelligence*" em parte para se distanciar da Cibernética e da figura de Wiener. A versão aparece em relatos históricos[^37].
+O nome foi uma escolha deliberada. McCarthy relatou em entrevistas e textos posteriores que escolheu "_artificial intelligence_" em parte para se distanciar da Cibernética e da figura de Wiener. A versão aparece em relatos históricos[^37].
 
-O resultado concreto mais marcante do workshop foi o **Logic Theorist**, de **Allen Newell**, **Cliff Shaw** e **Herbert Simon**. O programa provava teoremas do *Principia Mathematica* de Russell e Whitehead usando busca heurística[^38]. É amplamente citado que ele provou 38 dos 52 primeiros teoremas do capítulo 2 do *Principia*, e que uma das provas era mais elegante que a original[^39].
+O resultado concreto mais marcante do workshop foi o **Logic Theorist**, de **Allen Newell**, **Cliff Shaw** e **Herbert Simon**. O programa provava teoremas do _Principia Mathematica_ de Russell e Whitehead usando busca heurística[^38]. É amplamente citado que ele provou 38 dos 52 primeiros teoremas do capítulo 2 do _Principia_, e que uma das provas era mais elegante que a original[^39].
 
-Por convenção, Dartmouth 1956 é tratado como o "*nascimento*" da I.A. como disciplina acadêmica[^37][^39].
+Por convenção, Dartmouth 1956 é tratado como o "_nascimento_" da I.A. como disciplina acadêmica[^37][^39].
 
 ## Os anos dourados (1956~1973)
+
 Os primeiros anos produziram resultados que pareciam mágicos para a época:
+
 - **Arthur Samuel (IBM, 1959)** publicou um programa de damas que melhorava jogando contra si mesmo. O título do artigo popularizou o termo **machine learning**[^40];
 - **Frank Rosenblatt (1958)** apresentou o **Perceptron**, um modelo de neurônio com pesos ajustáveis que aprendia a classificar padrões[^41]. O projeto recebeu financiamento da Marinha americana (Office of Naval Research) e virou hardware: o Mark I Perceptron. A cobertura do New York Times de 8 e 13 de julho de 1958 sugeria que a Marinha esperava uma máquina capaz de perceber, reconhecer e identificar os seus arredores sem treinamento ou controle humano[^42].
 - **John McCarthy (1958~1960)** criou o **LISP**, que se tornaria a língua franca da I.A. por décadas e introduziu ideias como coleta de lixo (garbage collector) e código como dado[^43];
 - **Newell**, **Shaw** e **Simon (1959)** desenvolveram o **General Problem Solver (GPS)**, que separava o conhecimento do problema da estratégia de busca[^44];
-- **Joseph Weizenbaum (MIT, 1966)** criou o **ELIZA**, um programa de conversação baseado em casamento de padrões[^45]. Weizenbaum ficou alarmado com a facilidade com que as pessoas atribuíam compreensão e empatia ao programa, e passou a criticar o campo[^46]. É o primeiro caso documentado do que hoje chamamos de "*efeito ELIZA*", e ele é diretamente relevante para a era dos chatbots;
+- **Joseph Weizenbaum (MIT, 1966)** criou o **ELIZA**, um programa de conversação baseado em casamento de padrões[^45]. Weizenbaum ficou alarmado com a facilidade com que as pessoas atribuíam compreensão e empatia ao programa, e passou a criticar o campo[^46]. É o primeiro caso documentado do que hoje chamamos de "_efeito ELIZA_", e ele é diretamente relevante para a era dos chatbots;
 
-O otimismo era proporcional. Em 1958, Simon e Newell previam que, em dez anos, um computador seria campeão mundial de xadrez e descobriria e provaria um teorema matemático importante[^47]. Em 1961, Minsky publicou *Steps Toward Artificial Intelligence*, um mapa do campo com busca, reconhecimento de padrões, aprendizado, planejamento e indução[^48].
+O otimismo era proporcional. Em 1958, Simon e Newell previam que, em dez anos, um computador seria campeão mundial de xadrez e descobriria e provaria um teorema matemático importante[^47]. Em 1961, Minsky publicou _Steps Toward Artificial Intelligence_, um mapa do campo com busca, reconhecimento de padrões, aprendizado, planejamento e indução[^48].
 
 Quase nenhuma dessas previsões saiu no prazo. O xadrez levou 39 anos em vez de 10.
 
 ## O primeiro inverno: quando os governos puxaram o freio
+
 Aqui a história conversa diretamente com a tese da introdução. A I.A. dos anos 1950~1970 era **financiada majoritariamente por governos**, sobretudo pelas agências militares americanas e britânicas. Quando as promessas não se cumpriram, esses mesmos governos cortaram o dinheiro.
 
 **Tradução automática: o relatório ALPAC (EUA, 1966)**. Em 1954, o experimento Georgetown-IBM demonstrou a tradução automática de frases do russo para o inglês e gerou expectativas enormes em plena Guerra Fria[^49]. Após anos de investimento, o comitê ALPAC da Academia Nacional de Ciências concluiu que a tradução automática era mais lenta, menos precisa e mais cara que a humana, e recomendou redirecionar recursos para pesquisa básica em linguística computacional[^50]. O financiamento federal para a área despencou.
 
-**Perceptrons (1969)**. Minsky e Papert publicaram *Perceptrons*, uma análise matemática que demonstrava limitações do perceptron de camada única. Ele não consegue, por exemplo, representar funções como XOR ou decidir conectividade[^51]. A narrativa popular diz que o livro "*matou*" as redes neurais por uma década. O sociólogo Mikel Olazaran mostrou que a história é mais complexa, com disputas por financiamento e legitimidade entre as abordagens simbólica e conexionista[^52].
+**Perceptrons (1969)**. Minsky e Papert publicaram _Perceptrons_, uma análise matemática que demonstrava limitações do perceptron de camada única. Ele não consegue, por exemplo, representar funções como XOR ou decidir conectividade[^51]. A narrativa popular diz que o livro "_matou_" as redes neurais por uma década. O sociólogo Mikel Olazaran mostrou que a história é mais complexa, com disputas por financiamento e legitimidade entre as abordagens simbólica e conexionista[^52].
 
-**O Relatório Lighthill (Reino Unido, 1973)**. O governo britânico encomendou ao matemático Sir James Lighthill uma avaliação do campo. A conclusão foi dura: fora de nichos, a I.A. não havia cumprido suas promessas. O principal obstáculo era a explosão combinatória, porque técnicas que funcionam em "*mundos de brinquedo*" não escalam para problemas reais[^53]. O relatório é frequentemente associado ao corte de financiamento de I.A. no Reino Unido, com poucos centros sobrevivendo (como Edimburgo).
+**O Relatório Lighthill (Reino Unido, 1973)**. O governo britânico encomendou ao matemático Sir James Lighthill uma avaliação do campo. A conclusão foi dura: fora de nichos, a I.A. não havia cumprido suas promessas. O principal obstáculo era a explosão combinatória, porque técnicas que funcionam em "_mundos de brinquedo_" não escalam para problemas reais[^53]. O relatório é frequentemente associado ao corte de financiamento de I.A. no Reino Unido, com poucos centros sobrevivendo (como Edimburgo).
 
-**A Emenda Mansfield (EUA, 1969)**. A Seção 203 da Lei de Autorização Militar para o ano fiscal de 1970 (Public Law 91-121) passou a exigir que pesquisa financiada pelo Departamento de Defesa tivesse relevância militar direta[^54]. Relatos históricos associam essa mudança, somada à frustração com projetos como o de reconhecimento de fala, à redução de verbas "*de exploração*" da DARPA para I.A. no início dos anos 70[^37] [^55].
+**A Emenda Mansfield (EUA, 1969)**. A Seção 203 da Lei de Autorização Militar para o ano fiscal de 1970 (Public Law 91-121) passou a exigir que pesquisa financiada pelo Departamento de Defesa tivesse relevância militar direta[^54]. Relatos históricos associam essa mudança, somada à frustração com projetos como o de reconhecimento de fala, à redução de verbas "_de exploração_" da DARPA para I.A. no início dos anos 70[^37] [^55].
 
-**Críticas filosóficas**. Hubert Dreyfus, contratado pela RAND Corporation, publicou em 1965 *Alchemy and Artificial Intelligence*. O texto argumentava que a I.A. simbólica ignorava o papel do conhecimento tácito e do corpo na inteligência humana[^56]. O livro *What Computers Can't Do* (1972) expandiu a crítica[^57].
+**Críticas filosóficas**. Hubert Dreyfus, contratado pela RAND Corporation, publicou em 1965 _Alchemy and Artificial Intelligence_. O texto argumentava que a I.A. simbólica ignorava o papel do conhecimento tácito e do corpo na inteligência humana[^56]. O livro _What Computers Can't Do_ (1972) expandiu a crítica[^57].
 
 Note o padrão: **governos não frearam a I.A. porque ela era poderosa demais, e sim porque ela prometeu demais e entregou de menos**.
 
 ## Sistemas especialistas, corrida estatal e o segundo inverno (1980~1993)
-A I.A. voltou nos anos 80 com uma proposta mais modesta e comercial: **sistemas especialistas**, programas que codificam conhecimento de especialistas humanos em regras "*se-então*".
+
+A I.A. voltou nos anos 80 com uma proposta mais modesta e comercial: **sistemas especialistas**, programas que codificam conhecimento de especialistas humanos em regras "_se-então_".
+
 - **DENDRAL (Stanford, a partir de 1965)** inferia estruturas moleculares a partir de dados de espectrometria de massa[^58];
-- **MYCIN (Stanford, anos 70)** recomendava antibióticos para infecções sanguíneas e lidava com incerteza usando "*fatores de certeza*"[^59];
+- **MYCIN (Stanford, anos 70)** recomendava antibióticos para infecções sanguíneas e lidava com incerteza usando "_fatores de certeza_"[^59];
 - **R1/XCON (Digital Equipment Corporation, 1980)** configurava pedidos de computadores VAX em ambiente de produção real[^60]. Estimativas frequentemente citadas falam em dezenas de milhões de dólares economizados por ano[^55];
 
 E os governos voltaram, desta vez como **aceleradores**, numa corrida tecnológica:
+
 - **Japão (1982)**: o Ministério do Comércio Internacional e Indústria (MITI) lançou o projeto **Quinta Geração de Computadores (FGCS)**, com o objetivo de construir máquinas de inferência lógica em larga escala[^61];
 - **EUA (1983)**: a DARPA respondeu com a **Strategic Computing Initiative**, que financiou I.A., hardware e aplicações militares[^62];
 - **Reino Unido (1983)**: lançou o **Programa Alvey**[^55];
 
-O resultado se repetiu. Sistemas especialistas eram caros de manter, frágeis fora do domínio e incapazes de aprender. O mercado de hardware especializado (máquinas LISP) perdeu para estações de trabalho genéricas, e os projetos estatais não atingiram suas metas[^55] [^62]. O termo "*A.I. winter*" teria sido cunhado em um debate na conferência anual da AAAI em 1984, em que pesquisadores alertaram para uma bolha prestes a estourar[^55].
+O resultado se repetiu. Sistemas especialistas eram caros de manter, frágeis fora do domínio e incapazes de aprender. O mercado de hardware especializado (máquinas LISP) perdeu para estações de trabalho genéricas, e os projetos estatais não atingiram suas metas[^55] [^62]. O termo "_A.I. winter_" teria sido cunhado em um debate na conferência anual da AAAI em 1984, em que pesquisadores alertaram para uma bolha prestes a estourar[^55].
 
 ## O retorno silencioso: redes neurais e estatística (1980~2011)
+
 Enquanto os sistemas especialistas caíam, a abordagem conexionista se reconstruía com menos holofote.
 
-**O algoritmo que faltava: backpropagation**. O problema apontado por Minsky e Papert era treinar redes com camadas ocultas. A solução matemática, a diferenciação automática em modo reverso, foi descrita por **Seppo Linnainmaa** (1970~1976)[^63]. **Paul Werbos** propôs aplicá-la a redes neurais em sua tese de 1974[^64]. O método ficou famoso com o artigo de **Rumelhart**, **Hinton** e **Williams** na *Nature* (1986), que mostrou redes aprendendo representações internas úteis[^65]. A atribuição de crédito nessa história é disputada; Jürgen Schmidhuber mantém um levantamento detalhado das origens[^66].
+**O algoritmo que faltava: backpropagation**. O problema apontado por Minsky e Papert era treinar redes com camadas ocultas. A solução matemática, a diferenciação automática em modo reverso, foi descrita por **Seppo Linnainmaa** (1970~1976)[^63]. **Paul Werbos** propôs aplicá-la a redes neurais em sua tese de 1974[^64]. O método ficou famoso com o artigo de **Rumelhart**, **Hinton** e **Williams** na _Nature_ (1986), que mostrou redes aprendendo representações internas úteis[^65]. A atribuição de crédito nessa história é disputada; Jürgen Schmidhuber mantém um levantamento detalhado das origens[^66].
 
 Outros marcos:
 
@@ -163,28 +184,31 @@ Paralelamente, a I.A. ficou **estatística**. **Judea Pearl** formalizou o racio
 E a previsão de Simon sobre xadrez finalmente se cumpriu, com 29 anos de atraso. Em 1997, o **Deep Blue** da IBM venceu o campeão mundial Garry Kasparov num match[^73]. Detalhe importante: o Deep Blue usava busca massiva com hardware dedicado e funções de avaliação ajustadas, não aprendizado profundo[^73]. A vitória veio de **força bruta computacional**, um tema que volta no fim deste texto.
 
 ## 2006~2016: a explosão do deep learning
+
 Três fatores convergiram:
 
-1. **Algoritmos**: Hinton, Osindero e Teh (2006) mostraram como pré-treinar redes profundas camada por camada, reacendendo o interesse no "*deep*" learning[^74];
+1. **Algoritmos**: Hinton, Osindero e Teh (2006) mostraram como pré-treinar redes profundas camada por camada, reacendendo o interesse no "_deep_" learning[^74];
 2. **Hardware**: Raina, Madhavan e Ng (2009) demonstraram que **GPUs** aceleravam o treinamento de redes em ordens de grandeza[^75];
 3. **Dados**: o **ImageNet** (Deng et al., 2009) forneceu milhões de imagens rotuladas em milhares de categorias[^76];
 
 O ponto de virada foi em 2012. A **AlexNet** (Krizhevsky, Sutskever e Hinton), treinada em duas GPUs, venceu a competição ImageNet com erro top-5 de 15,3%, contra 26,2% do segundo colocado[^77]. Em poucos anos, visão computacional, reconhecimento de fala e tradução migraram para redes profundas[^78].
 
 Na sequência:
-- **2013**: *word2vec* popularizou representações vetoriais densas de palavras (*embeddings*)[^79];
-- **2014**: o mecanismo de **atenção** para tradução neural (Bahdanau, Cho e Bengio) permitiu que o modelo "*olhasse*" para partes relevantes da entrada[^80];
+
+- **2013**: _word2vec_ popularizou representações vetoriais densas de palavras (_embeddings_)[^79];
+- **2014**: o mecanismo de **atenção** para tradução neural (Bahdanau, Cho e Bengio) permitiu que o modelo "_olhasse_" para partes relevantes da entrada[^80];
 - **2016**: o **AlphaGo**, da DeepMind, combinou redes profundas, aprendizado por reforço e busca em árvore e venceu Lee Sedol no Go[^81], um jogo considerado intratável por força bruta pura;
 - **2019**: Hinton, LeCun e Bengio receberam o **Prêmio Turing** de 2018 pelo trabalho em deep learning[^82];
 
 ## 2017~2022: Transformers, escala e o ChatGPT
-Em 2017, pesquisadores do Google publicaram *Attention Is All You Need*. O artigo apresentou o **Transformer**, arquitetura que descarta a recorrência e usa só atenção, o que permite paralelizar o treinamento em GPUs[^83]. Praticamente todo LLM atual descende desse artigo.
+
+Em 2017, pesquisadores do Google publicaram _Attention Is All You Need_. O artigo apresentou o **Transformer**, arquitetura que descarta a recorrência e usa só atenção, o que permite paralelizar o treinamento em GPUs[^83]. Praticamente todo LLM atual descende desse artigo.
 
 A partir daí, a história é de **escala**:
 
 - **GPT (OpenAI, 2018)**: pré-treinamento generativo não supervisionado seguido de ajuste fino[^84]. No mesmo ano, o Google publicou o BERT[^85];
-- **Leis de escala (Kaplan et al., 2020)**: o desempenho de modelos de linguagem melhora de forma previsível, como lei de potência, com mais parâmetros, dados e computação[^86]. **Hoffmann et al. (2022)**, com o "*Chinchilla*", corrigiram a receita: para um mesmo orçamento de computação, a maioria dos modelos estava subtreinada em dados[^87];
-- **GPT-3 (2020)**: 175 bilhões de parâmetros, com capacidade de executar tarefas a partir de poucos exemplos no próprio prompt (*few-shot*)[^88];
+- **Leis de escala (Kaplan et al., 2020)**: o desempenho de modelos de linguagem melhora de forma previsível, como lei de potência, com mais parâmetros, dados e computação[^86]. **Hoffmann et al. (2022)**, com o "_Chinchilla_", corrigiram a receita: para um mesmo orçamento de computação, a maioria dos modelos estava subtreinada em dados[^87];
+- **GPT-3 (2020)**: 175 bilhões de parâmetros, com capacidade de executar tarefas a partir de poucos exemplos no próprio prompt (_few-shot_)[^88];
 - **RLHF**: Christiano et al. (2017) propuseram aprendizado por reforço a partir de preferências humanas[^89]. A OpenAI aplicou a técnica no InstructGPT (2022) para alinhar o modelo a instruções[^90];
 - **30 de novembro de 2022**: a OpenAI lança o **ChatGPT**[^91]. A marca de 100 milhões de usuários em dois meses, atribuída a uma nota do UBS reportada pela Reuters em fevereiro de 2023, circulou amplamente;
 
@@ -193,14 +217,17 @@ Em 2024, o Nobel de Física foi para **John Hopfield** e **Geoffrey Hinton** por
 > E é aqui que eu constato a afirmação que fiz no TL;DR desse post: **o conceito de I.A. não nasceu com o ChatGPT**. O ChatGPT é **o produto de 80 anos de pesquisa acumulada**, dois invernos e muito dinheiro público.
 
 ## O padrão que se repete: computação, promessas e o Estado
+
 Voltando à provocação da introdução, a história oferece dois padrões que ajudam a pensar sobre o futuro.
 
 ### O progresso sempre dependeu da computação
-Richard Sutton resumiu 70 anos de pesquisa no ensaio *The Bitter Lesson* (2019). A lição é que métodos gerais que escalam com computação (busca e aprendizado) acabam vencendo métodos que embutem conhecimento humano[^93]. O Deep Blue, a AlexNet e as leis de escala confirmam isso[^73] [^77] [^86].
+
+Richard Sutton resumiu 70 anos de pesquisa no ensaio _The Bitter Lesson_ (2019). A lição é que métodos gerais que escalam com computação (busca e aprendizado) acabam vencendo métodos que embutem conhecimento humano[^93]. O Deep Blue, a AlexNet e as leis de escala confirmam isso[^73] [^77] [^86].
 
 O outro lado da moeda é o custo. **Sevilla et al. (2022)** estimaram que a computação usada para treinar modelos de ponta dobrou a cada ~6 meses desde o início da era do deep learning (~2010)[^4]. **Thompson et al. (2020)** argumentaram que a dependência de computação torna a trajetória atual econômica, técnica e ambientalmente insustentável se nada mudar[^5]. Esse é o argumento mais sólido, com literatura revisada, para a tese de que o **hardware é o gargalo**.
 
 ### O Estado sempre esteve na mesa, nos dois papéis
+
 Resumo histórico do que vimos:
 
 | Período   | Governo como acelerador                                            | Governo como freio                                |
@@ -211,47 +238,53 @@ Resumo histórico do que vimos:
 
 E hoje:
 
-- **União Europeia**: o **AI Act** (Regulamento (UE) 2024/1689) não proíbe modelos grandes. Ele impõe obrigações adicionais a modelos de propósito geral com "*risco sistêmico*" e presume esse risco quando o treino ultrapassa $10^{25}$ **FLOPs** (art. 51)[^94];
+- **União Europeia**: o **AI Act** (Regulamento (UE) 2024/1689) não proíbe modelos grandes. Ele impõe obrigações adicionais a modelos de propósito geral com "_risco sistêmico_" e presume esse risco quando o treino ultrapassa $10^{25}$ **FLOPs** (art. 51)[^94];
 - **EUA (federal)**: a **Ordem Executiva 14110** (out/2023) exigia reportar treinamentos acima de $10^{26}$ operações e foi revogada em jan/2025[^95]. Os EUA também impuseram controles de exportação de chips avançados a partir de out/2022, mirando adversários geopolíticos, não o tamanho dos modelos domésticos[^7];
 - **EUA (estadual)**: o projeto **SB 1047** da Califórnia, que impunha obrigações de segurança a modelos de fronteira, foi vetado pelo governador em set/2024[^96];
-- **Junho de 2026**: a **Anthropic** suspendeu o acesso aos modelos **Claude Fable 5** e **Mythos 5** para cumprir controles de exportação do *Departamento de Comércio dos EUA*. Os controles foram retirados em 30/06 e o acesso foi restaurado em 01/07[^8];
-- **Setembro de 2026**: laboratórios de ponta propuseram publicamente desacelerar ("*pacing the frontier*"), e o ensaio de Amodei pede apoio governamental, inclusive uma isenção antitruste, para que a coordenação seja viável[^3][^2]. Segundo o *Washington Post*, citado por Akita, o presidente Trump rejeitou os pedidos de desaceleração citando a competição com a China[^97] [^1]. Segundo a Reuters, também citada por Akita, negociadores do Senado discutiam um "*dever de cuidado*" para riscos catastróficos[^98] [^1];
+- **Junho de 2026**: a **Anthropic** suspendeu o acesso aos modelos **Claude Fable 5** e **Mythos 5** para cumprir controles de exportação do _Departamento de Comércio dos EUA_. Os controles foram retirados em 30/06 e o acesso foi restaurado em 01/07[^8];
+- **Setembro de 2026**: laboratórios de ponta propuseram publicamente desacelerar ("_pacing the frontier_"), e o ensaio de Amodei pede apoio governamental, inclusive uma isenção antitruste, para que a coordenação seja viável[^3][^2]. Segundo o _Washington Post_, citado por Akita, o presidente Trump rejeitou os pedidos de desaceleração citando a competição com a China[^97] [^1]. Segundo a Reuters, também citada por Akita, negociadores do Senado discutiam um "_dever de cuidado_" para riscos catastróficos[^98] [^1];
 
 ## Conclusão
+
 ### O padrão se repete, mas o papel do Estado mudou
+
 Se você chegou até aqui, percebeu o padrão. Nos anos 60 e 70, os governos frearam a I.A. porque ela prometeu demais e entregou de menos. ALPAC, Lighthill e a Emenda Mansfield cortaram verba de uma tecnologia que não funcionava fora de mundos de brinquedo[^50] [^53] [^54]. Nos anos 80, esses mesmos governos voltaram a acelerar quando a I.A. virou disputa entre nações, e Japão, EUA e Reino Unido despejaram dinheiro público em programas estratégicos[^61] [^62] [^55].
 
 A diferença é que, desta vez, **a I.A. entrega resultado**. E tecnologia que entrega resultado não tem a verba cortada, mas sim custodiada.
 
 ### A I.A. como moeda de soberania
+
 O plano de I.A. da Casa Branca abre afirmando que os EUA estão numa corrida pela dominância global em I.A., que quem tiver o maior ecossistema vai colher benefícios econômicos e militares, e compara a disputa à corrida espacial[^6]. Não é retórica solta: os EUA controlam a exportação de chips avançados desde 2022[^7]. Em junho de 2026, uma empresa americana precisou suspender o acesso a modelos de linguagem para cumprir controles de exportação[^8]. E quando os próprios laboratórios pediram para desacelerar, a Casa Branca teria recusado citando a China[^97].
 
-Nós já vimos esse filme. Em 1946, os EUA aprovaram o *Atomic Energy Act*, que colocou o conhecimento nuclear sob controle estatal[^99]. Nos anos 90, criptografia forte chegou a ser tratada como munição para fins de exportação[^100]. Em nenhum dos dois casos o Estado proibiu a tecnologia: ele decidiu quem podia usá-la e em que escala.
+Nós já vimos esse filme. Em 1946, os EUA aprovaram o _Atomic Energy Act_, que colocou o conhecimento nuclear sob controle estatal[^99]. Nos anos 90, criptografia forte chegou a ser tratada como munição para fins de exportação[^100]. Em nenhum dos dois casos o Estado proibiu a tecnologia: ele decidiu quem podia usá-la e em que escala.
 
 É exatamente o cenário que eu vejo: governo nenhum vai abrir mão de ter o modelo mais poderoso. O que ele não vai deixar é você ter.
 
 ### A I.A. como ameaça à identidade digital
+
 A outra ponta aperta pelo lado do usuário:
+
 - **União Europeia**: desde 2 de agosto de 2026, conteúdo gerado por I.A. precisa carregar marcação legível por máquina e deepfakes precisam ser rotulados (AI Act, art. 50)[^9] [^94]. Em paralelo, o bloco implanta a carteira europeia de identidade digital (eIDAS 2.0)[^101];
 - **Brasil**: o ECA Digital, em vigor desde 17 de março de 2026, proíbe a autodeclaração de idade e exige verificação etária confiável em plataformas com conteúdo impróprio para menores, inclusive lojas de aplicativos[^11]. Para as eleições de 2026, o TSE proibiu deepfakes em propaganda eleitoral e vetou a publicação de novos conteúdos sintéticos com imagem ou voz de candidatos entre 72 horas antes e 24 horas depois da votação, mesmo quando rotulados[^102] [^10]. E o Marco Legal da I.A. (PL 2338/2023) segue na Câmara, com um projeto apensado que obriga marca d'água em imagens, vídeos e áudios gerados por I.A.[^103] [^104];
 - **Bloqueios diretos**: a Itália bloqueou o ChatGPT em 2023[^105], a ANPD mandou a Meta suspender o treinamento de I.A. com dados de brasileiros em 2024[^106], e Indonésia e Malásia bloquearam o Grok em janeiro de 2026 após uma onda de deepfakes sexuais[^107];
 
-Sendo honesto: nenhuma dessas normas proíbe, hoje, gerar conteúdo audiovisual com I.A. O que existe é rotulagem, restrição por contexto e bloqueio pontual. A minha aposta está na direção do movimento: de "*rotular*" para "*licenciar*".
+Sendo honesto: nenhuma dessas normas proíbe, hoje, gerar conteúdo audiovisual com I.A. O que existe é rotulagem, restrição por contexto e bloqueio pontual. A minha aposta está na direção do movimento: de "_rotular_" para "_licenciar_".
 
-No Brasil, isso nem seria novidade. Transmitir áudio e vídeo em larga escala, via rádio e TV, sempre dependeu de concessão do Poder Executivo[^108]. Quando qualquer pessoa consegue produzir, com um prompt, um vídeo realista de um político dizendo o que nunca disse, não é difícil imaginar o legislador puxando o audiovisual generativo para a mesma lógica: primeiro nas eleições, depois para todo o resto. O meme do político gerado no GPT ou no Gemini é o primeiro candidato a virar "*conteúdo sem licença*".
+No Brasil, isso nem seria novidade. Transmitir áudio e vídeo em larga escala, via rádio e TV, sempre dependeu de concessão do Poder Executivo[^108]. Quando qualquer pessoa consegue produzir, com um prompt, um vídeo realista de um político dizendo o que nunca disse, não é difícil imaginar o legislador puxando o audiovisual generativo para a mesma lógica: primeiro nas eleições, depois para todo o resto. O meme do político gerado no GPT ou no Gemini é o primeiro candidato a virar "_conteúdo sem licença_".
 
-### "*Mas os modelos já estão por aí*"
+### "_Mas os modelos já estão por aí_"
+
 É o contra-argumento mais forte, e precisa ser enfrentado. Modelos com pesos abertos, como o DeepSeek-R1, podem ser baixados por qualquer um[^109], e o próprio plano americano diz incentivar modelos abertos[^6]. E, na guerra da criptografia dos anos 90, o Estado acabou recuando[^100].
 
 A minha resposta volta ao ponto de partida deste texto: o arquivo é livre, o silício não é. Baixar os pesos é fácil; treinar ou rodar um modelo de fronteira exige datacenters com chips cuja exportação já é controlada[^7] [^5]. E o usuário médio não roda modelo local: ele usa um aplicativo, que passa por uma loja de aplicativos, que já é obrigada a verificar a idade de quem usa[^11]. O controle não precisa estar no modelo. Basta estar no hardware e na distribuição.
 
 ### Então...
+
 A história da I.A. é a história de uma ideia que os governos financiaram quando parecia promissora, abandonaram quando decepcionou e agora disputam quando finalmente funciona.
 
 A I.A. vai sim triplicar de tamanho, mas muito provavelmente não vai triplicar para nós.
 
 Posso estar errado, e sinceramente adoraria estar. Se discorda, ou tem alguma observação, deixa o seu comentário abaixo.
-
 
 ## Bibliografia
 

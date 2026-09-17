@@ -25,24 +25,21 @@ comerciais e as obras derivadas sejam compartilhadas sob a mesma licença.
 ## Quem sou eu?
 
 Prazer, me chamo Marcelo, mas pode me chamar de Marquês. Atualmente sou acadêmico de Ciência da
-Computação, com experiência prévia como desenvolvedor iOS e backend. Hoje, atuo principalmente como Engenheiro de Software em uma trading, meu principal desafio é a implementação e estruturação da área de T.I. e desenvolvimento interno.
+Computação, com experiência prévia como desenvolvedor iOS e backend. Hoje, atuo principalmente como Engenheiro de Software em uma trading e meu principal desafio é a implementação e estruturação da área de T.I. e desenvolvimento interno.
 
 Uso **Python** diariamente, mas tenho bastante familiaridade com **Node.js**, **Bash** e **Rust**. Tenho como hobby estudar sobre sistemas UNIX/UNIX-like, atualmente estou usando macOS como meu principal, mas tenho como sistema preferido o FreeBSD.
 
 ## Quais minhas qualificações?
 
 Meu envolvimento com computadores começou cedo, mas foi somente há cerca de 6 anos que
-iniciei meus estudos de forma consistente. Minha primeira linguagem de programação foi Ruby,
-graças ao RPG Maker VX e VX Ace.
+iniciei meus estudos de forma consistente. Minha primeira linguagem de programação foi **Ruby**,
+graças ao _RPG Maker VX_ e _VX Ace_.
 
 Tive oportunidades profissionais importantes, como atuar no desenvolvimento de aplicativos iOS
-utilizando Swift e SwiftUI. No entanto, minha maior evolução técnica ocorreu durante meu
-estágio, onde trabalhei com Python, RPA e backend. Foi nesse período, enquanto ainda cursava
-Engenharia de Software, que conheci a área de segurança da informação e comecei a explorar o
-ecossistema GNU/Linux por conta própria. Instalei minhas primeiras distribuições (Ubuntu, Kali
-Linux e Debian) e mergulhei no universo da Cibersegurança.
+utilizando _Swift_ e _SwiftUI_. No entanto, minha maior evolução técnica ocorreu durante meu
+estágio, onde trabalhei com _Python_, _RPA_ e _backend_. Foi nesse período, enquanto ainda cursava **Engenharia de Software**, que conheci a área de _segurança da informação_ e comecei a explorar o ecossistema _GNU/Linux_ por conta própria. Instalei minhas primeiras distribuições (Ubuntu, Kali Linux e Debian) e mergulhei no universo da **Cibersegurança**.
 
-Atualmente, estou embarcado no ecossistema da Apple através do meu mac mini e estou com projetos para migrar para o Omarchy no meu Desktop e ressucitar um antigo HP G42 com o FreeBSD.
+Bagagem experimental é o que não falta, já estudei os vários caminhos da área de desenvolvimento, desde aplicações web (Django, Flask, FastAPI), a aplicações desktop (Electron.js, PyQT), automação de processos (Python), jogos (Unity, Unreal, RPG Maker) e até drivers (Rust, C).
 
 ## Vaults of Parnassus?
 
@@ -51,10 +48,7 @@ Python há alguns anos atrás, tinha experiências muito ruins no quesito de mó
 _— basicamente por que o PyPI não existia ainda_. Então, a comunidade criou um repositório não
 oficial para servir como um hub comunitário para compartilhar código reutilizável.
 
-Posteriormente, nosso querido PyPI entrou em cena, e oficializou um local para guardar todos os scripts
-reutilizáveis, módulos e bibliotecas do Python, e, desde 2008, Vaults of Parnassus deixou de
-receber atualizações. Hoje o site só é possível de ser acessado através do Wayback Machine, mas
-o portal teve um papel fundamental na era inicial da linguagem.
+Posteriormente, nosso querido PyPI entrou em cena, e oficializou um local para guardar todos os scripts reutilizáveis, módulos e bibliotecas do Python, e, desde 2008, Vaults of Parnassus deixou de receber atualizações. Hoje o site só é possível de ser acessado através do Wayback Machine, mas o portal teve um papel fundamental na era inicial da linguagem.
 
 O nome que escolhi para esse blog, foi justamente em homenagem a esse projeto que foi
 extremamente útil à comunidade Python na época.
@@ -67,14 +61,10 @@ conhecimento.
 
 Assim, posso listar os seguintes motivos:
 
-- Para organizar ideias e aprender melhor.
-- Para compartilhar o que funciona (e o que não funciona) em projetos reais.
-- Para criar um histórico de estudos e experimentos.
+- Para organizar ideias e aprender melhor;
+- Para compartilhar o que funciona (e o que não funciona) em projetos reais;
+- Para criar um histórico de estudos e experimentos;
 
 ## O que você encontra por aqui?
 
-Conteúdo sobre tecnologia em geral, principalmente, mas não se limitando a:
-
-- Engenharia de software;
-- Artigos sobre Cibersegurança;
-- Muita coisa sobre Python e Linux.
+Conteúdo sobre tecnologia, principalmente, mas não se limitando a Python, sistemas UNIX e Ciência da Computação em geral.
