@@ -24,8 +24,6 @@ Mas, antes de discutir para onde a I.A. vai vale entender de onde ela veio. E a 
 ## Antes do silício: mitos, autômatos e robôs
 A vontade de criar seres artificiais aparece já na mitologia grega. Na *Ilíada*, Hefesto, o deus ferreiro, é servido por assistentes feitas de ouro que se movem, falam e têm entendimento[^4]. Na *Argonáutica*, de Apolônio de Rodes, aparece Talos, um gigante de bronze que patrulha a ilha de Creta e é derrotado pela feiticeira Medeia[^5]. A historiadora Adrienne Mayor, de Stanford, dedicou um livro inteiro a mostrar que os gregos já imaginavam "seres feitos, não nascidos", com mecanismos internos e objetivos programados, séculos antes de existir tecnologia para isso[^3].
 
-
-
 A imaginação virou engenharia na Idade Média islâmica. Por volta de 1206, o engenheiro Ismail al-Jazari documentou dezenas de mecanismos automáticos no seu *Livro do Conhecimento de Dispositivos Mecânicos Engenhosos*. Entre eles havia autômatos musicais e servidores mecânicos controlados por água e cames[^6]. Não havia "inteligência" ali, mas havia a ideia central da automação: comportamento complexo emergindo de regras mecânicas.
 
 A palavra "*robô*" é bem mais recente, ela vem da peça *R.U.R.* (1920), do tcheco Karel Čapek, derivada de *robota*, associado a trabalho forçado[^7]. E o enredo já trazia o tema que domina as manchetes de 2026: as criaturas artificiais se rebelam contra os criadores.
@@ -36,6 +34,8 @@ O mito explica o *desejo*. O que tornou a I.A. *concebível* foi uma ideia filos
 - **Ramon Llull (c. 1305)**, na *Ars Magna*, propôs discos giratórios que combinavam conceitos para gerar preposições de forma sistemática. Foi uma tentativa de mecanizar parte do raciocínio[^8].
 - **Thomas Hobbes (1651)**, no capítulo 5 do *Leviatã*, escreveu que a razão "*is nothing but Reckoning (thats it, Adding and Subtracting)*"[^9].
 - **Gottfried Leibniz (final do séc. XVII)** sonhou com uma *characteristica universalis*, uma linguagem simbólica universal, e um *calculus ratiocinator* capaz de resolver disputas por cálculo. É o famoso "*Calculemus!*". O matemático Martin Davis usa Leibniz como ponto de partida de uma linha direta até Turing[^10].
+
+O programa de Leibniz
 
 [^1]: AKITA, Fabio. _Você é um idiota se acredita nas propagandas enganosas da OpenAI, Anthropic, NVIDIA, DeepSeek. Entenda_. AkitaOnRails, 9 set. 2026. [https://akitaonrails.com/2026/09/09/propagandas-enganosas-da-openai-anthropic-nvidia/](https://akitaonrails.com/2026/09/09/propagandas-enganosas-da-openai-anthropic-nvidia/)
 

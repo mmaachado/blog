@@ -3,19 +3,18 @@ title: "Sobre"
 description: "Quem escreve o Vaults of Parnassus."
 layout: single
 date: 2026-04-20
+lastmod: 2026-09-08
 aliases: ["/about/"]
 ---
-
-Atualizado em 20 de abril de 2026.
 
 ## Introdução
 
 Bem-vindo(a) ao meu espaço pessoal na web. Este blog tem como propósito compartilhar conteúdos
-relacionados a tecnologia, com foco principal em Engenharia de Software e Cibersegurança. As
+relacionados a tecnologia, com foco em Ciências da Computação em geral. As
 publicações não vão ter uma frequência regular visto que meu tempo é limitado devido às
 demandas profissionais e acadêmicas, o que me impossibilita de produzir conteúdo com
 periodicidade. Ainda assim, pretendo utilizar meu tempo livre para escrever sobre os temas
-mencionados anteriormente.
+de meu interesse.
 
 Todo o conteúdo publicado neste espaço está licenciado sob a
 [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).
@@ -26,15 +25,13 @@ comerciais e as obras derivadas sejam compartilhadas sob a mesma licença.
 ## Quem sou eu?
 
 Prazer, me chamo Marcelo, mas pode me chamar de Marquês. Atualmente sou acadêmico de Ciência da
-Computação, com experiência prévia na área de desenvolvimento. Hoje, atuo profissionalmente na
-Avell.
+Computação, com experiência prévia como desenvolvedor iOS e backend. Hoje, atuo principalmente como Engenheiro de Software em uma trading, meu principal desafio é a implementação e estruturação da área de T.I. e desenvolvimento interno.
 
-Minhas principais ferramentas do dia a dia são Python, Node.js, Bash e sistemas baseados em
-GNU/Linux (aliás, eu uso Arch!).
+Uso **Python** diariamente, mas tenho bastante familiaridade com **Node.js**, **Bash** e **Rust**. Tenho como hobby estudar sobre sistemas UNIX/UNIX-like, atualmente estou usando macOS como meu principal, mas tenho como sistema preferido o FreeBSD.
 
 ## Quais minhas qualificações?
 
-Meu envolvimento com computadores começou cedo, mas foi somente há cerca de cinco anos que
+Meu envolvimento com computadores começou cedo, mas foi somente há cerca de 6 anos que
 iniciei meus estudos de forma consistente. Minha primeira linguagem de programação foi Ruby,
 graças ao RPG Maker VX e VX Ace.
 
@@ -45,17 +42,16 @@ Engenharia de Software, que conheci a área de segurança da informação e come
 ecossistema GNU/Linux por conta própria. Instalei minhas primeiras distribuições (Ubuntu, Kali
 Linux e Debian) e mergulhei no universo da Cibersegurança.
 
-Atualmente, atuo no setor de Suporte Técnico da Avell. Migrei para o curso de Ciência da
-Computação e substituí o Debian por Arch Linux no meu computador pessoal.
+Atualmente, estou embarcado no ecossistema da Apple através do meu mac mini e estou com projetos para migrar para o Omarchy no meu Desktop e ressucitar um antigo HP G42 com o FreeBSD.
 
 ## Vaults of Parnassus?
 
 O nome não dá uma boa primeira impressão, mas não foi escolhido aleatoriamente. Quem conheceu
 Python há alguns anos atrás, tinha experiências muito ruins no quesito de módulos e bibliotecas
-— basicamente por que o PyPI não existia ainda. Então, a comunidade criou um repositório não
+_— basicamente por que o PyPI não existia ainda_. Então, a comunidade criou um repositório não
 oficial para servir como um hub comunitário para compartilhar código reutilizável.
 
-Posteriormente foi criado o PyPI que oficializou um local para guardar todos os scripts
+Posteriormente, nosso querido PyPI entrou em cena, e oficializou um local para guardar todos os scripts
 reutilizáveis, módulos e bibliotecas do Python, e, desde 2008, Vaults of Parnassus deixou de
 receber atualizações. Hoje o site só é possível de ser acessado através do Wayback Machine, mas
 o portal teve um papel fundamental na era inicial da linguagem.
