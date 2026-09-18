@@ -292,23 +292,23 @@ Posso estar errado, e sinceramente adoraria estar. Se discorda, ou tem alguma ob
 
 [^2]: NBC NEWS. _Two of the world's top AI chief executives publicly agree on slowing AI development_. Set. 2026. [https://www.nbcnews.com/news/us-news/anthropic-ceo-dario-amodei-ai-development-rcna597383](https://www.nbcnews.com/news/us-news/anthropic-ceo-dario-amodei-ai-development-rcna597383)
 
-[^3]: AMODEI, Dario. We Must Pace the Frontier. 12 set. 2026. https://darioamodei.com/post/we-must-pace-the-frontier
+[^3]: AMODEI, Dario. We Must Pace the Frontier. 12 set. 2026. <https://darioamodei.com/post/we-must-pace-the-frontier>
 
-[^4]: SEVILLA, J. et al. Compute Trends Across Three Eras of Machine Learning. 2022. https://arxiv.org/abs/2202.05426
+[^4]: SEVILLA, J. et al. Compute Trends Across Three Eras of Machine Learning. 2022. <https://arxiv.org/abs/2202.05426>
 
-[^5]: THOMPSON, N. C. et al. The Computational Limits of Deep Learning. 2020. https://arxiv.org/abs/2007.05558
+[^5]: THOMPSON, N. C. et al. The Computational Limits of Deep Learning. 2020. <https://arxiv.org/abs/2007.05558>
 
-[^6]: THE WHITE HOUSE. Winning the Race: America's AI Action Plan. Jul. 2025. https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf
+[^6]: THE WHITE HOUSE. Winning the Race: America's AI Action Plan. Jul. 2025. <https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf>
 
 [^7]: U.S. DEPARTMENT OF COMMERCE, BIS. Regras de controle de exportação de computação avançada e semicondutores, 7 out. 2022 (87 FR 62186).
 
-[^8]: ANTHROPIC. Comunicado sobre suspensão e restauração do acesso ao Claude Fable 5 e Mythos 5 (jun./jul. 2026). https://www.anthropic.com/news/fable-mythos-access
+[^8]: ANTHROPIC. Comunicado sobre suspensão e restauração do acesso ao Claude Fable 5 e Mythos 5 (jun./jul. 2026). <https://www.anthropic.com/news/fable-mythos-access>
 
-[^9]: EUROPEAN COMMISSION. Transparency obligations under Article 50 of the AI Act (FAQ). 2026. https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act
+[^9]: EUROPEAN COMMISSION. Transparency obligations under Article 50 of the AI Act (FAQ). 2026. <https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act>
 
-[^10]: TRIBUNAL SUPERIOR ELEITORAL. TSE fixa tese sobre deepfake e delimita regra para as Eleições 2026. Set. 2026. https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026
+[^10]: TRIBUNAL SUPERIOR ELEITORAL. TSE fixa tese sobre deepfake e delimita regra para as Eleições 2026. Set. 2026. <https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026>
 
-[^11]: BRASIL. Lei nº 15.211, de 17 de setembro de 2025 (ECA Digital). Resumo: MACHADO MEYER. Estatuto Digital da Criança e do Adolescente entra em vigor em 17 de março de 2026. https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/direito-digital/estatuto-digital-da-crianca-e-do-adolescente-lei-n-15-211-2025-entra-em-vigor-em-17-de-marco-de-2026
+[^11]: BRASIL. Lei nº 15.211, de 17 de setembro de 2025 (ECA Digital). Resumo: MACHADO MEYER. Estatuto Digital da Criança e do Adolescente entra em vigor em 17 de março de 2026. <https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/direito-digital/estatuto-digital-da-crianca-e-do-adolescente-lei-n-15-211-2025-entra-em-vigor-em-17-de-marco-de-2026>
 
 [^12]: HOMERO. _Ilíada_, Canto XVIII (v. ~417–421). Tradução em inglês (Samuel Butler), Project Gutenberg. [https://www.gutenberg.org/ebooks/2199](https://www.gutenberg.org/ebooks/2199)
 
@@ -326,25 +326,25 @@ Posso estar errado, e sinceramente adoraria estar. Se discorda, ou tem alguma ob
 
 [^19]: DAVIS, Martin. _The Universal Computer: The Road from Leibniz to Turing_. New York: W. W. Norton, 2000. (Publicado também como _Engines of Logic_.)
 
-[^20]: BOOLE, George. An Investigation of the Laws of Thought. London: Walton and Maberly, 1854. https://www.gutenberg.org/ebooks/15114
+[^20]: BOOLE, George. An Investigation of the Laws of Thought. London: Walton and Maberly, 1854. <https://www.gutenberg.org/ebooks/15114>
 
 [^21]: FREGE, Gottlob. Begriffsschrift. Halle: Louis Nebert, 1879.
 
 [^22]: HILBERT, David; ACKERMANN, Wilhelm. Grundzüge der theoretischen Logik. Berlin: Springer, 1928.
 
-[^23]: GÖDEL, Kurt. Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. Monatshefte für Mathematik und Physik, v. 38, p. 173–198, 1931. https://doi.org/10.1007/BF01700692
+[^23]: GÖDEL, Kurt. Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. Monatshefte für Mathematik und Physik, v. 38, p. 173–198, 1931. <https://doi.org/10.1007/BF01700692>
 
-[^24]: MENABREA, L. F.; LOVELACE, Ada (trad. e notas). Sketch of the Analytical Engine Invented by Charles Babbage. Scientific Memoirs, v. 3, p. 666–731, 1843. https://www.fourmilab.ch/babbage/sketch.html
+[^24]: MENABREA, L. F.; LOVELACE, Ada (trad. e notas). Sketch of the Analytical Engine Invented by Charles Babbage. Scientific Memoirs, v. 3, p. 666–731, 1843. <https://www.fourmilab.ch/babbage/sketch.html>
 
-[^25]: TURING, Alan M. Computing Machinery and Intelligence. Mind, 59(236), p. 433–460, 1950. https://doi.org/10.1093/mind/LIX.236.433
+[^25]: TURING, Alan M. Computing Machinery and Intelligence. Mind, 59(236), p. 433–460, 1950. <https://doi.org/10.1093/mind/LIX.236.433>
 
-[^26]: CHURCH, Alonzo. An Unsolvable Problem of Elementary Number Theory. American Journal of Mathematics, 58(2), p. 345–363, 1936. https://doi.org/10.2307/2371045
+[^26]: CHURCH, Alonzo. An Unsolvable Problem of Elementary Number Theory. American Journal of Mathematics, 58(2), p. 345–363, 1936. <https://doi.org/10.2307/2371045>
 
-[^27]: TURING, Alan M. On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, s2-42(1), p. 230–265, 1936/1937. https://doi.org/10.1112/plms/s2-42.1.230
+[^27]: TURING, Alan M. On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, s2-42(1), p. 230–265, 1936/1937. <https://doi.org/10.1112/plms/s2-42.1.230>
 
-[^28]: SHANNON, Claude E. A Symbolic Analysis of Relay and Switching Circuits. Transactions of the AIEE, 57(12), p. 713–723, 1938. https://doi.org/10.1109/T-AIEE.1938.5057767
+[^28]: SHANNON, Claude E. A Symbolic Analysis of Relay and Switching Circuits. Transactions of the AIEE, 57(12), p. 713–723, 1938. <https://doi.org/10.1109/T-AIEE.1938.5057767>
 
-[^29]: VON NEUMANN, John. First Draft of a Report on the EDVAC (1945). Reimpr. IEEE Annals of the History of Computing, 15(4), p. 27–75, 1993. https://doi.org/10.1109/85.238389
+[^29]: VON NEUMANN, John. First Draft of a Report on the EDVAC (1945). Reimpr. IEEE Annals of the History of Computing, 15(4), p. 27–75, 1993. <https://doi.org/10.1109/85.238389>
 
 [^30]: McCULLOCH, Warren S.; PITTS, Walter. A Logical Calculus of the Ideas Immanent in Nervous Activity. _Bulletin of Mathematical Biophysics_, 5, p. 115–133, 1943. [https://doi.org/10.1007/BF02478259](https://doi.org/10.1007/BF02478259)
 
@@ -354,35 +354,35 @@ Posso estar errado, e sinceramente adoraria estar. Se discorda, ou tem alguma ob
 
 [^33]: HEBB, Donald O. The Organization of Behavior. New York: Wiley, 1949.
 
-[^34]: SHANNON, Claude E. Programming a Computer for Playing Chess. Philosophical Magazine, ser. 7, 41(314), p. 256–275, 1950. https://doi.org/10.1080/14786445008521796
+[^34]: SHANNON, Claude E. Programming a Computer for Playing Chess. Philosophical Magazine, ser. 7, 41(314), p. 256–275, 1950. <https://doi.org/10.1080/14786445008521796>
 
 [^35]: TURING, Alan M. Intelligent Machinery. Relatório, National Physical Laboratory, 1948. Publicado em MELTZER, B.; MICHIE, D. (eds.). Machine Intelligence 5. Edinburgh University Press, 1969.
 
-[^36]: McCARTHY, J.; MINSKY, M.; ROCHESTER, N.; SHANNON, C. A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (31 ago. 1955). Reimpr. AI Magazine, 27(4), p. 12, 2006. https://doi.org/10.1609/aimag.v27i4.1904 http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf
+[^36]: McCARTHY, J.; MINSKY, M.; ROCHESTER, N.; SHANNON, C. A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (31 ago. 1955). Reimpr. AI Magazine, 27(4), p. 12, 2006. <https://doi.org/10.1609/aimag.v27i4.1904> <http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf>
 
-[^37]: NILSSON, Nils J. The Quest for Artificial Intelligence: A History of Ideas and Achievements. Cambridge University Press, 2010. PDF gratuito do autor: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+[^37]: NILSSON, Nils J. The Quest for Artificial Intelligence: A History of Ideas and Achievements. Cambridge University Press, 2010. PDF gratuito do autor: <https://ai.stanford.edu/~nilsson/QAI/qai.pdf>
 
-[^38]: NEWELL, Allen; SIMON, Herbert A. The Logic Theory Machine: A Complex Information Processing System. IRE Transactions on Information Theory, 2(3), p. 61–79, 1956. https://doi.org/10.1109/TIT.1956.1056797
+[^38]: NEWELL, Allen; SIMON, Herbert A. The Logic Theory Machine: A Complex Information Processing System. IRE Transactions on Information Theory, 2(3), p. 61–79, 1956. <https://doi.org/10.1109/TIT.1956.1056797>
 
 [^39]: McCORDUCK, Pamela. Machines Who Think. 2. ed. Natick, MA: A K Peters, 2004.
 
-[^40]: SAMUEL, Arthur L. Some Studies in Machine Learning Using the Game of Checkers. IBM Journal of Research and Development, 3(3), p. 210–229, 1959. https://doi.org/10.1147/rd.33.0210
+[^40]: SAMUEL, Arthur L. Some Studies in Machine Learning Using the Game of Checkers. IBM Journal of Research and Development, 3(3), p. 210–229, 1959. <https://doi.org/10.1147/rd.33.0210>
 
-[^41]: ROSENBLATT, Frank. The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain. Psychological Review, 65(6), p. 386–408, 1958. https://doi.org/10.1037/h0042519
+[^41]: ROSENBLATT, Frank. The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain. Psychological Review, 65(6), p. 386–408, 1958. <https://doi.org/10.1037/h0042519>
 
-[^42]: THE NEW YORK TIMES. New Navy Device Learns by Doing. 8 jul. 1958. https://www.nytimes.com/1958/07/08/archives/new-navy-device-learns-by-doing-psychologist-shows-embryo-of.html. Electronic 'Brain' Teaches Itself - July 13, 1958, Section E, Page 9. https://www.nytimes.com/1958/07/13/archives/electronic-brain-teaches-itself.html
+[^42]: THE NEW YORK TIMES. New Navy Device Learns by Doing. 8 jul. 1958. <https://www.nytimes.com/1958/07/08/archives/new-navy-device-learns-by-doing-psychologist-shows-embryo-of.html>. Electronic 'Brain' Teaches Itself - July 13, 1958, Section E, Page 9. <https://www.nytimes.com/1958/07/13/archives/electronic-brain-teaches-itself.html>
 
-[^43]: McCARTHY, John. Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I. Communications of the ACM, 3(4), p. 184–195, 1960. https://doi.org/10.1145/367177.367199
+[^43]: McCARTHY, John. Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I. Communications of the ACM, 3(4), p. 184–195, 1960. <https://doi.org/10.1145/367177.367199>
 
 [^44]: NEWELL, A.; SHAW, J. C.; SIMON, H. A. Report on a General Problem-Solving Program. Proceedings of the International Conference on Information Processing, Paris: UNESCO, 1959.
 
-[^45]: WEIZENBAUM, Joseph. ELIZA — A Computer Program for the Study of Natural Language Communication Between Man and Machine. Communications of the ACM, 9(1), p. 36–45, 1966. https://doi.org/10.1145/365153.365168
+[^45]: WEIZENBAUM, Joseph. ELIZA — A Computer Program for the Study of Natural Language Communication Between Man and Machine. Communications of the ACM, 9(1), p. 36–45, 1966. <https://doi.org/10.1145/365153.365168>
 
 [^46]: WEIZENBAUM, Joseph. Computer Power and Human Reason. San Francisco: W. H. Freeman, 1976.
 
-[^47]: SIMON, Herbert A.; NEWELL, Allen. Heuristic Problem Solving: The Next Advance in Operations Research. Operations Research, 6(1), p. 1–10, 1958. https://doi.org/10.1287/opre.6.1.1
+[^47]: SIMON, Herbert A.; NEWELL, Allen. Heuristic Problem Solving: The Next Advance in Operations Research. Operations Research, 6(1), p. 1–10, 1958. <https://doi.org/10.1287/opre.6.1.1>
 
-[^48]: MINSKY, Marvin. Steps Toward Artificial Intelligence. Proceedings of the IRE, 49(1), p. 8–30, 1961. https://doi.org/10.1109/JRPROC.1961.287775
+[^48]: MINSKY, Marvin. Steps Toward Artificial Intelligence. Proceedings of the IRE, 49(1), p. 8–30, 1961. <https://doi.org/10.1109/JRPROC.1961.287775>
 
 [^49]: HUTCHINS, W. John. The Georgetown-IBM Experiment Demonstrated in January 1954. In: Machine Translation: From Real Users to Research (AMTA 2004), LNCS 3265. Springer, 2004.
 
@@ -390,118 +390,118 @@ Posso estar errado, e sinceramente adoraria estar. Se discorda, ou tem alguma ob
 
 [^51]: MINSKY, Marvin; PAPERT, Seymour. Perceptrons: An Introduction to Computational Geometry. Cambridge, MA: MIT Press, 1969.
 
-[^52]: OLAZARAN, Mikel. A Sociological Study of the Official History of the Perceptrons Controversy. Social Studies of Science, 26(3), p. 611–659, 1996. https://doi.org/10.1177/030631296026003005
+[^52]: OLAZARAN, Mikel. A Sociological Study of the Official History of the Perceptrons Controversy. Social Studies of Science, 26(3), p. 611–659, 1996. <https://doi.org/10.1177/030631296026003005>
 
-[^53]: LIGHTHILL, James. Artificial Intelligence: A General Survey. In: Artificial Intelligence: a paper symposium. London: Science Research Council, 1973. http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm
+[^53]: LIGHTHILL, James. Artificial Intelligence: A General Survey. In: Artificial Intelligence: a paper symposium. London: Science Research Council, 1973. <http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm>
 
 [^54]: ESTADOS UNIDOS. Public Law 91-121 (Military Procurement Authorization Act, FY1970), Seção 203 ("Emenda Mansfield"), 1969.
 
 [^55]: CREVIER, Daniel. AI: The Tumultuous History of the Search for Artificial Intelligence. New York: Basic Books, 1993.
 
-[^56]: DREYFUS, Hubert L. Alchemy and Artificial Intelligence. RAND Corporation, P-3244, 1965. https://www.rand.org/pubs/papers/P3244.html
+[^56]: DREYFUS, Hubert L. Alchemy and Artificial Intelligence. RAND Corporation, P-3244, 1965. <https://www.rand.org/pubs/papers/P3244.html>
 
 [^57]: DREYFUS, Hubert L. What Computers Can't Do. New York: Harper & Row, 1972.
 
-[^58]: LINDSAY, R. K.; BUCHANAN, B. G.; FEIGENBAUM, E. A.; LEDERBERG, J. DENDRAL: A Case Study of the First Expert System for Scientific Hypothesis Formation. Artificial Intelligence, 61(2), p. 209–261, 1993. https://doi.org/10.1016/0004-3702(93)90068-M
+[^58]: LINDSAY, R. K.; BUCHANAN, B. G.; FEIGENBAUM, E. A.; LEDERBERG, J. DENDRAL: A Case Study of the First Expert System for Scientific Hypothesis Formation. Artificial Intelligence, 61(2), p. 209–261, 1993. <https://doi.org/10.1016/0004-3702(93)90068-M>
 
 [^59]: SHORTLIFFE, Edward H. Computer-Based Medical Consultations: MYCIN. New York: Elsevier, 1976.
 
-[^60]: McDERMOTT, John. R1: A Rule-Based Configurer of Computer Systems. Artificial Intelligence, 19(1), p. 39–88, 1982. https://doi.org/10.1016/0004-3702(82)90021-2
+[^60]: McDERMOTT, John. R1: A Rule-Based Configurer of Computer Systems. Artificial Intelligence, 19(1), p. 39–88, 1982. <https://doi.org/10.1016/0004-3702(82)90021-2>
 
 [^61]: FEIGENBAUM, Edward A.; McCORDUCK, Pamela. The Fifth Generation: Artificial Intelligence and Japan's Computer Challenge to the World. Reading, MA: Addison-Wesley, 1983.
 
 [^62]: ROLAND, Alex; SHIMAN, Philip. Strategic Computing: DARPA and the Quest for Machine Intelligence, 1983–1993. Cambridge, MA: MIT Press, 2002.
 
-[^63]: LINNAINMAA, Seppo. Taylor Expansion of the Accumulated Rounding Error. BIT Numerical Mathematics, 16(2), p. 146–160, 1976. https://doi.org/10.1007/BF01931367
+[^63]: LINNAINMAA, Seppo. Taylor Expansion of the Accumulated Rounding Error. BIT Numerical Mathematics, 16(2), p. 146–160, 1976. <https://doi.org/10.1007/BF01931367>
 
 [^64]: WERBOS, Paul J. Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. Tese (Doutorado), Harvard University, 1974.
 
-[^65]: RUMELHART, D. E.; HINTON, G. E.; WILLIAMS, R. J. Learning Representations by Back-Propagating Errors. Nature, 323, p. 533–536, 1986. https://doi.org/10.1038/323533a0
+[^65]: RUMELHART, D. E.; HINTON, G. E.; WILLIAMS, R. J. Learning Representations by Back-Propagating Errors. Nature, 323, p. 533–536, 1986. <https://doi.org/10.1038/323533a0>
 
-[^66]: SCHMIDHUBER, Jürgen. Deep Learning in Neural Networks: An Overview. Neural Networks, 61, p. 85–117, 2015. https://doi.org/10.1016/j.neunet.2014.09.003
+[^66]: SCHMIDHUBER, Jürgen. Deep Learning in Neural Networks: An Overview. Neural Networks, 61, p. 85–117, 2015. <https://doi.org/10.1016/j.neunet.2014.09.003>
 
-[^67]: FUKUSHIMA, Kunihiko. Neocognitron. Biological Cybernetics, 36(4), p. 193–202, 1980. https://doi.org/10.1007/BF00344251
+[^67]: FUKUSHIMA, Kunihiko. Neocognitron. Biological Cybernetics, 36(4), p. 193–202, 1980. <https://doi.org/10.1007/BF00344251>
 
-[^68]: HOPFIELD, John J. Neural Networks and Physical Systems with Emergent Collective Computational Abilities. PNAS, 79(8), p. 2554–2558, 1982. https://doi.org/10.1073/pnas.79.8.2554
+[^68]: HOPFIELD, John J. Neural Networks and Physical Systems with Emergent Collective Computational Abilities. PNAS, 79(8), p. 2554–2558, 1982. <https://doi.org/10.1073/pnas.79.8.2554>
 
-[^69]: LeCUN, Y. et al. Backpropagation Applied to Handwritten Zip Code Recognition. Neural Computation, 1(4), p. 541–551, 1989. https://doi.org/10.1162/neco.1989.1.4.541
+[^69]: LeCUN, Y. et al. Backpropagation Applied to Handwritten Zip Code Recognition. Neural Computation, 1(4), p. 541–551, 1989. <https://doi.org/10.1162/neco.1989.1.4.541>
 
-[^70]: HOCHREITER, Sepp; SCHMIDHUBER, Jürgen. Long Short-Term Memory. Neural Computation, 9(8), p. 1735–1780, 1997. https://doi.org/10.1162/neco.1997.9.8.1735
+[^70]: HOCHREITER, Sepp; SCHMIDHUBER, Jürgen. Long Short-Term Memory. Neural Computation, 9(8), p. 1735–1780, 1997. <https://doi.org/10.1162/neco.1997.9.8.1735>
 
 [^71]: PEARL, Judea. Probabilistic Reasoning in Intelligent Systems. San Mateo, CA: Morgan Kaufmann, 1988.
 
-[^72]: CORTES, Corinna; VAPNIK, Vladimir. Support-Vector Networks. Machine Learning, 20, p. 273–297, 1995. https://doi.org/10.1007/BF00994018
+[^72]: CORTES, Corinna; VAPNIK, Vladimir. Support-Vector Networks. Machine Learning, 20, p. 273–297, 1995. <https://doi.org/10.1007/BF00994018>
 
-[^73]: CAMPBELL, M.; HOANE, A. J.; HSU, F. Deep Blue. Artificial Intelligence, 134(1–2), p. 57–83, 2002. https://doi.org/10.1016/S0004-3702(01)00129-1
+[^73]: CAMPBELL, M.; HOANE, A. J.; HSU, F. Deep Blue. Artificial Intelligence, 134(1–2), p. 57–83, 2002. <https://doi.org/10.1016/S0004-3702(01)00129-1>
 
-[^74]: HINTON, G. E.; OSINDERO, S.; TEH, Y.-W. A Fast Learning Algorithm for Deep Belief Nets. Neural Computation, 18(7), p. 1527–1554, 2006. https://doi.org/10.1162/neco.2006.18.7.1527
+[^74]: HINTON, G. E.; OSINDERO, S.; TEH, Y.-W. A Fast Learning Algorithm for Deep Belief Nets. Neural Computation, 18(7), p. 1527–1554, 2006. <https://doi.org/10.1162/neco.2006.18.7.1527>
 
-[^75]: RAINA, R.; MADHAVAN, A.; NG, A. Y. Large-Scale Deep Unsupervised Learning Using Graphics Processors. ICML, 2009. https://doi.org/10.1145/1553374.1553486
+[^75]: RAINA, R.; MADHAVAN, A.; NG, A. Y. Large-Scale Deep Unsupervised Learning Using Graphics Processors. ICML, 2009. <https://doi.org/10.1145/1553374.1553486>
 
-[^76]: DENG, J. et al. ImageNet: A Large-Scale Hierarchical Image Database. CVPR, 2009. https://doi.org/10.1109/CVPR.2009.5206848
+[^76]: DENG, J. et al. ImageNet: A Large-Scale Hierarchical Image Database. CVPR, 2009. <https://doi.org/10.1109/CVPR.2009.5206848>
 
-[^77]: KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G. E. ImageNet Classification with Deep Convolutional Neural Networks. NeurIPS, 2012. Versão CACM (2017): https://doi.org/10.1145/3065386
+[^77]: KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G. E. ImageNet Classification with Deep Convolutional Neural Networks. NeurIPS, 2012. Versão CACM (2017): <https://doi.org/10.1145/3065386>
 
-[^78]: LeCUN, Y.; BENGIO, Y.; HINTON, G. Deep Learning. Nature, 521, p. 436–444, 2015. https://doi.org/10.1038/nature14539
+[^78]: LeCUN, Y.; BENGIO, Y.; HINTON, G. Deep Learning. Nature, 521, p. 436–444, 2015. <https://doi.org/10.1038/nature14539>
 
-[^79]: MIKOLOV, T. et al. Efficient Estimation of Word Representations in Vector Space. 2013. https://arxiv.org/abs/1301.3781
+[^79]: MIKOLOV, T. et al. Efficient Estimation of Word Representations in Vector Space. 2013. <https://arxiv.org/abs/1301.3781>
 
-[^80]: BAHDANAU, D.; CHO, K.; BENGIO, Y. Neural Machine Translation by Jointly Learning to Align and Translate. 2014. https://arxiv.org/abs/1409.0473
+[^80]: BAHDANAU, D.; CHO, K.; BENGIO, Y. Neural Machine Translation by Jointly Learning to Align and Translate. 2014. <https://arxiv.org/abs/1409.0473>
 
-[^81]: SILVER, D. et al. Mastering the Game of Go with Deep Neural Networks and Tree Search. Nature, 529, p. 484–489, 2016. https://doi.org/10.1038/nature16961
+[^81]: SILVER, D. et al. Mastering the Game of Go with Deep Neural Networks and Tree Search. Nature, 529, p. 484–489, 2016. <https://doi.org/10.1038/nature16961>
 
-[^82]: ACM. Fathers of the Deep Learning Revolution Receive ACM A.M. Turing Award (2018). https://awards.acm.org/about/2018-turing
+[^82]: ACM. Fathers of the Deep Learning Revolution Receive ACM A.M. Turing Award (2018). <https://awards.acm.org/about/2018-turing>
 
-[^83]: VASWANI, A. et al. Attention Is All You Need. NeurIPS, 2017. https://arxiv.org/abs/1706.03762
+[^83]: VASWANI, A. et al. Attention Is All You Need. NeurIPS, 2017. <https://arxiv.org/abs/1706.03762>
 
-[^84]: RADFORD, A. et al. Improving Language Understanding by Generative Pre-Training. OpenAI, 2018. https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf
+[^84]: RADFORD, A. et al. Improving Language Understanding by Generative Pre-Training. OpenAI, 2018. <https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf>
 
-[^85]: DEVLIN, J. et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 2018. https://arxiv.org/abs/1810.04805
+[^85]: DEVLIN, J. et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 2018. <https://arxiv.org/abs/1810.04805>
 
-[^86]: KAPLAN, J. et al. Scaling Laws for Neural Language Models. 2020. https://arxiv.org/abs/2001.08361
+[^86]: KAPLAN, J. et al. Scaling Laws for Neural Language Models. 2020. <https://arxiv.org/abs/2001.08361>
 
-[^87]: HOFFMANN, J. et al. Training Compute-Optimal Large Language Models. 2022. https://arxiv.org/abs/2203.15556
+[^87]: HOFFMANN, J. et al. Training Compute-Optimal Large Language Models. 2022. <https://arxiv.org/abs/2203.15556>
 
-[^88]: BROWN, T. et al. Language Models are Few-Shot Learners. NeurIPS, 2020. https://arxiv.org/abs/2005.14165
+[^88]: BROWN, T. et al. Language Models are Few-Shot Learners. NeurIPS, 2020. <https://arxiv.org/abs/2005.14165>
 
-[^89]: CHRISTIANO, P. et al. Deep Reinforcement Learning from Human Preferences. NeurIPS, 2017. https://arxiv.org/abs/1706.03741
+[^89]: CHRISTIANO, P. et al. Deep Reinforcement Learning from Human Preferences. NeurIPS, 2017. <https://arxiv.org/abs/1706.03741>
 
-[^90]: OUYANG, L. et al. Training Language Models to Follow Instructions with Human Feedback. 2022. https://arxiv.org/abs/2203.02155
+[^90]: OUYANG, L. et al. Training Language Models to Follow Instructions with Human Feedback. 2022. <https://arxiv.org/abs/2203.02155>
 
-[^91]: OPENAI. Introducing ChatGPT. 30 nov. 2022. https://openai.com/index/chatgpt/
+[^91]: OPENAI. Introducing ChatGPT. 30 nov. 2022. <https://openai.com/index/chatgpt/>
 
-[^92]: THE NOBEL PRIZE. The Nobel Prize in Physics 2024. https://www.nobelprize.org/prizes/physics/2024/summary/
+[^92]: THE NOBEL PRIZE. The Nobel Prize in Physics 2024. <https://www.nobelprize.org/prizes/physics/2024/summary/>
 
-[^93]: SUTTON, Richard S. The Bitter Lesson. 13 mar. 2019. http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+[^93]: SUTTON, Richard S. The Bitter Lesson. 13 mar. 2019. <http://www.incompleteideas.net/IncIdeas/BitterLesson.html>
 
-[^94]: UNIÃO EUROPEIA. Regulamento (UE) 2024/1689 (AI Act), arts. 50 e 51. https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+[^94]: UNIÃO EUROPEIA. Regulamento (UE) 2024/1689 (AI Act), arts. 50 e 51. <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
 
-[^95]: ESTADOS UNIDOS. Executive Order 14110 (30 out. 2023), revogada pela Executive Order 14148 (20 jan. 2025). https://www.govinfo.gov/content/pkg/DCPD-202300949/pdf/DCPD-202300949.pdf
+[^95]: ESTADOS UNIDOS. Executive Order 14110 (30 out. 2023), revogada pela Executive Order 14148 (20 jan. 2025). <https://www.govinfo.gov/content/pkg/DCPD-202300949/pdf/DCPD-202300949.pdf>
 
-[^96]: CALIFÓRNIA. SB 1047 (2024) — Safe and Secure Innovation for Frontier Artificial Intelligence Models Act; vetado em set. 2024. https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047
+[^96]: CALIFÓRNIA. SB 1047 (2024) — Safe and Secure Innovation for Frontier Artificial Intelligence Models Act; vetado em set. 2024. <https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047>
 
-[^97]: THE WASHINGTON POST. Trump rejeita pedidos para desacelerar a IA, citando competição chinesa. 13 set. 2026. https://www.washingtonpost.com/politics/2026/09/13/trump-rejects-calls-so-slow-ai-development-citing-chinese-competition/
+[^97]: THE WASHINGTON POST. Trump rejeita pedidos para desacelerar a IA, citando competição chinesa. 13 set. 2026. <https://www.washingtonpost.com/politics/2026/09/13/trump-rejects-calls-so-slow-ai-development-citing-chinese-competition/>
 
-[^98]: REUTERS. Negociadores do Senado dos EUA consideram exigir que empresas de IA mitiguem riscos conhecidos. 11 set. 2026. https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/
+[^98]: REUTERS. Negociadores do Senado dos EUA consideram exigir que empresas de IA mitiguem riscos conhecidos. 11 set. 2026. <https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/>
 
 [^99]: ESTADOS UNIDOS. Atomic Energy Act of 1946 (Public Law 79-585).
 
 [^100]: BERNSTEIN v. U.S. DEPARTMENT OF JUSTICE, 176 F.3d 1132 (9th Cir. 1999). Caso central da disputa sobre o controle de exportação de criptografia nos EUA.
 
-[^101]: UNIÃO EUROPEIA. Regulamento (UE) 2024/1183 (eIDAS 2.0 — Carteira Europeia de Identidade Digital). https://eur-lex.europa.eu/eli/reg/2024/1183/oj
+[^101]: UNIÃO EUROPEIA. Regulamento (UE) 2024/1183 (eIDAS 2.0 — Carteira Europeia de Identidade Digital). <https://eur-lex.europa.eu/eli/reg/2024/1183/oj>
 
-[^102]: TRIBUNAL SUPERIOR ELEITORAL. Por Dentro das Eleições: conheça as regras sobre uso de IA na campanha eleitoral de 2026 (Resolução nº 23.755/2026). Abr. 2026. https://www.tse.jus.br/comunicacao/noticias/2026/Abril/por-dentro-das-eleicoes-conheca-as-regras-sobre-uso-de-ia-na-campanha-eleitoral-de-2026
+[^102]: TRIBUNAL SUPERIOR ELEITORAL. Por Dentro das Eleições: conheça as regras sobre uso de IA na campanha eleitoral de 2026 (Resolução nº 23.755/2026). Abr. 2026. <https://www.tse.jus.br/comunicacao/noticias/2026/Abril/por-dentro-das-eleicoes-conheca-as-regras-sobre-uso-de-ia-na-campanha-eleitoral-de-2026>
 
-[^103]: CÂMARA DOS DEPUTADOS. PL 2338/2023 — ficha de tramitação e projetos apensados. https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262
+[^103]: CÂMARA DOS DEPUTADOS. PL 2338/2023 — ficha de tramitação e projetos apensados. <https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262>
 
-[^104]: MOBILE TIME. Marco de IA ganha força para ser votado no final do ano. 24 ago. 2026. https://www.mobiletime.com.br/noticias/24/08/2026/marco-ia-voto-fim-do-ano/
+[^104]: MOBILE TIME. Marco de IA ganha força para ser votado no final do ano. 24 ago. 2026. <https://www.mobiletime.com.br/noticias/24/08/2026/marco-ia-voto-fim-do-ano/>
 
-[^105]: GARANTE PER LA PROTEZIONE DEI DATI PERSONALI (Itália). Limitação provisória do tratamento de dados pelo ChatGPT/OpenAI. 30 mar. 2023. https://www.garanteprivacy.it
+[^105]: GARANTE PER LA PROTEZIONE DEI DATI PERSONALI (Itália). Limitação provisória do tratamento de dados pelo ChatGPT/OpenAI. 30 mar. 2023. <https://www.garanteprivacy.it>
 
-[^106]: AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS (ANPD). Medida preventiva determinando à Meta a suspensão do uso de dados pessoais para treinamento de I.A. Jul. 2024. https://www.gov.br/anpd
+[^106]: AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS (ANPD). Medida preventiva determinando à Meta a suspensão do uso de dados pessoais para treinamento de I.A. Jul. 2024. <https://www.gov.br/anpd>
 
-[^107]: CNN BUSINESS. Musk's Grok blocked by Indonesia, Malaysia over sexualized images in world first. 12 jan. 2026. https://www.cnn.com/2026/01/12/business/indonesia-malaysia-grok-elon-musk-intl-hnk
+[^107]: CNN BUSINESS. Musk's Grok blocked by Indonesia, Malaysia over sexualized images in world first. 12 jan. 2026. <https://www.cnn.com/2026/01/12/business/indonesia-malaysia-grok-elon-musk-intl-hnk>
 
-[^108]: BRASIL. Constituição da República Federativa do Brasil de 1988, art. 223. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+[^108]: BRASIL. Constituição da República Federativa do Brasil de 1988, art. 223. <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>
 
-[^109]: DEEPSEEK-AI. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. 2025. https://arxiv.org/abs/2501.12948
+[^109]: DEEPSEEK-AI. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. 2025. <https://arxiv.org/abs/2501.12948>
