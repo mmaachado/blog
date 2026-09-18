@@ -12,4 +12,4 @@ Antigamente, metade do tempo gasto ao iniciar um projeto do zero era de planejar
 
 O problema mudou de configurar o projeto na mão, pra configurar uma LLM que irá configurar o projeto. Se engana quem pensa que "é só botar a IA para criar as configurações e estruturas", um bom desenvolvedor sabe que não dá para confiar cegamente no que um modelo sugere, ainda mais no que diz em configurações do projeto.
 
-## 
+##
