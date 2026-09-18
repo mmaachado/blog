@@ -19,20 +19,20 @@ Há alguns dias li algumas publicações do [Fabio Akita sobre I.A.](https://aki
 
 A literatura acadêmica vai na mesma direção. A computação usada para treinar modelos de ponta vem dobrando a cada ~6 meses[^4], e há pesquisadores argumentando que essa trajetória é econômica e tecnicamente insustentável[^5].
 
-Concordo quando o Akita diz que **o maior limitador da I.A.** é o hardware, mas vou um pouco mais além.
+Concordo quando o Akita diz que o maior limitador da I.A. é o hardware, mas vou um pouco mais além.
 
-Mesmo que tenhamos o hardware suficiente para as I.A.s triplicarem de tamanho nas próximas décadas, **nós, cidadãos comuns, não vamos ter acesso a isso, porque governo nenhum vai deixar**.
+Mesmo que tenhamos o hardware suficiente para as I.A.s triplicarem de tamanho nas próximas décadas, nós, cidadãos comuns, não vamos ter acesso a isso, porque governo nenhum vai deixar.
 
 E não, não estou falando de governo frear a I.A. por medo do Exterminador do Futuro. Estou falando de dois movimentos que já estão acontecendo ao mesmo tempo:
 
-1. **Para fora, a I.A. virou ativo de soberania**: o governo americano trata a disputa pela I.A. literalmente como uma nova corrida espacial[^6] e controla a exportação de chips avançados desde 2022[^7]. Em junho deste ano, a Anthropic precisou suspender o acesso a dois dos seus modelos para cumprir controles de exportação do Departamento de Comércio dos EUA[^8]. Quem trata uma tecnologia assim não quer pará-la, quer ser o dono dela;
-2. **Para dentro, a I.A. virou problema de identidade digital**: União Europeia e Brasil estão empilhando regras sobre regras para rotulagem de conteúdo sintético, deepfakes, verificação de identidade e responsabilidade de plataformas[^9] [^10] [^11]. Cada nova regra vem justificada por "_segurança_" e "_privacidade_", e cada uma estreita um pouco mais o que o usuário final pode fazer;
+1. **Para fora**, a I.A. virou ativo de soberania: o governo americano trata a disputa pela I.A. literalmente como uma nova corrida espacial[^6] e controla a exportação de chips avançados desde 2022[^7]. Em junho deste ano, a Anthropic precisou suspender o acesso a dois dos seus modelos para cumprir controles de exportação do Departamento de Comércio dos EUA[^8]. Quem trata uma tecnologia assim não quer pará-la, quer ser o dono dela;
+2. **Para dentro**, a I.A. virou problema de identidade digital: União Europeia e Brasil estão empilhando regras sobre regras para rotulagem de conteúdo sintético, deepfakes, verificação de identidade e responsabilidade de plataformas[^9] [^10] [^11]. Cada nova regra vem justificada por "_segurança_" e "_privacidade_", e cada uma estreita um pouco mais o que o usuário final pode fazer;
 
-**NA MINHA OPINIÃO**, o resultado desses dois movimentos é previsível. Os modelos de fronteira vão continuar crescendo, só que dentro de datacenters sob custódia estatal, direta ou regulatória. Para o público, sobra a versão diluída, um chatbot para tirar dúvidas e reestruturar textos, com saída marcada e identificável como gerada por I.A., algo que a UE já exige desde agosto de 2026[^9].
+Na minha opinião, o resultado desses dois movimentos é previsível. Os modelos de fronteira vão continuar crescendo, só que dentro de datacenters sob custódia estatal, direta ou regulatória. Para o público, sobra a versão diluída, um chatbot para tirar dúvidas e reestruturar textos, com saída marcada e identificável como gerada por I.A., algo que a UE já exige desde agosto de 2026[^9].
 
-Já modelos com capacidades de gerar conteúdo audiovisual tendem a seguir o caminho de softwares profissionais como o **Visual Studio** ou o **AutoCAD**, com uma camada a mais: uso restrito a empresas, mediante licenciamento, e fiscalização do uso final nos moldes do que a ANPD faz com a LGPD.
+Já modelos com capacidades de gerar conteúdo audiovisual tendem a seguir o caminho de softwares profissionais como o Visual Studio ou o AutoCAD, com uma camada a mais: uso restrito a empresas, mediante licenciamento, e fiscalização do uso final nos moldes do que a ANPD faz com a LGPD.
 
-**Isso é a minha aposta, não uma profecia**! Mas, antes de discutir para onde a I.A. vai, vale entender de onde ela veio. E a primeira surpresa para muita gente é que a ideia de "_máquinas que pensam_" é mais antiga que o próprio computador, a eletricidade e, em certo sentido, que a própria ciência. A segunda surpresa é que governos sempre estiveram no meio dessa história, às vezes como financiadores e às vezes como freio.
+Isso é uma aposta, não uma profecia. Mas, antes de discutir para onde a I.A. vai, vale entender de onde ela veio. E a primeira surpresa para muita gente é que a ideia de "_máquinas que pensam_" é mais antiga que o próprio computador, a eletricidade e, em certo sentido, que a própria ciência. A segunda surpresa é que governos sempre estiveram no meio dessa história, às vezes como financiadores e às vezes como freio.
 
 ## Antes do silício: mitos, autômatos e robôs
 
@@ -66,7 +66,7 @@ Duas contribuições dessas notas importam para a nossa história:
 1. **Generalidade**: Lovelace percebeu que a máquina manipula símbolos, não apenas números. Por isso poderia, em tese, compor música se as regras da harmonia fossem codificadas (Nota A)[^24]. É a intuição de computação simbólica cem anos antes dela sequer existir;
 2. **Ceticismo**: Na Nota G, junto do algoritmo para calcular números de Bernoulli, frequentemente chamado de primeiro programa publicado, ela afirma que a máquina "_has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform_"[^24].
 
-> Guarde essa frase. Mais de um século depois, Turing a batizaria de "_Objeção de Lady Lovelace_" e dedicaria uma seção inteira a respondê-la[^25].
+> Essa frase voltaria mais de um século depois: Turing a batizaria de "_Objeção de Lady Lovelace_" e dedicaria uma seção inteira a respondê-la[^25].
 
 ## Computabilidade: a teoria antes da máquina
 
@@ -100,11 +100,7 @@ Aqui nasce a divisão que atravessa toda a história da I.A.:
 
 O artigo _Computing Machinery and Intelligence_, publicado por Turing na revista _Mind_ em 1950, é o texto fundador do debate moderno[^25]. Turing considerava a pergunta "_máquinas podem pensar?_" mal definida e a substituiu por um experimento: o **Jogo da Imitação**, hoje chamado de **Teste de Turing**. Um interrogador conversa por texto com um humano e uma máquina. Se não conseguir distinguir os dois de forma confiável, não haveria base prática para negar inteligência à máquina.
 
-O artigo é mais do que o teste. Nele, Turing:
-
-- **Fez uma previsão concreta**. Em cerca de 50 anos, máquinas com ~$10^9$ bits de armazenamento jogariam o jogo tão bem que um interrogador médio não teria mais de 70% de chance de acertar após cinco minutos[^25];
-- **Respondeu objeções**, incluindo a teológica, a matemática (baseada em Gödel) e a de Lady Lovelace[^25];
-- **Propôs máquinas que aprendem**. Em vez de programar um adulto, sugeriu simular uma "_mente de criança_" e educá-la[^25]. Essa ideia já aparecia no relatório _Intelligent Machinery_ (1948), onde ele descreve "_máquinas desorganizadas_" e redes que poderiam ser treinadas[^35].
+O artigo é mais do que o teste. Nele, Turing fez uma previsão concreta: em cerca de 50 anos, máquinas com ~$10^9$ bits de armazenamento jogariam o jogo tão bem que um interrogador médio não teria mais de 70% de chance de acertar após cinco minutos[^25]. Respondeu a objeções, incluindo a teológica, a matemática (baseada em Gödel) e a de Lady Lovelace[^25]. E propôs máquinas que aprendem: em vez de programar um adulto, sugeriu simular uma "_mente de criança_" e educá-la[^25], ideia que já aparecia no relatório _Intelligent Machinery_ (1948), onde ele descreve "_máquinas desorganizadas_" e redes que poderiam ser treinadas[^35].
 
 Ou seja, em 1950 já estavam na mesa os ingredientes centrais: critério comportamental de inteligência, previsão de escala de memória e aprendizado em vez de programação explícita.
 
@@ -148,7 +144,7 @@ Aqui a história conversa diretamente com a tese da introdução. A I.A. dos ano
 
 **Críticas filosóficas**. Hubert Dreyfus, contratado pela RAND Corporation, publicou em 1965 _Alchemy and Artificial Intelligence_. O texto argumentava que a I.A. simbólica ignorava o papel do conhecimento tácito e do corpo na inteligência humana[^56]. O livro _What Computers Can't Do_ (1972) expandiu a crítica[^57].
 
-Note o padrão: **governos não frearam a I.A. porque ela era poderosa demais, e sim porque ela prometeu demais e entregou de menos**.
+Governos não frearam a I.A. porque ela era poderosa demais; frearam porque ela prometeu demais e entregou de menos.
 
 ## Sistemas especialistas, corrida estatal e o segundo inverno (1980~1993)
 
@@ -214,7 +210,7 @@ A partir daí, a história é de **escala**:
 
 Em 2024, o Nobel de Física foi para **John Hopfield** e **Geoffrey Hinton** por descobertas fundamentais que permitem o aprendizado de máquina com redes neurais artificiais[^92]. O prêmio encerra simbolicamente o arco que começou com McCulloch e Pitts em 1943.
 
-> E é aqui que eu constato a afirmação que fiz no TL;DR desse post: **o conceito de I.A. não nasceu com o ChatGPT**. O ChatGPT é **o produto de 80 anos de pesquisa acumulada**, dois invernos e muito dinheiro público.
+> Essa é a afirmação do TL;DR deste post: o conceito de I.A. não nasceu com o ChatGPT. O ChatGPT é o produto de 80 anos de pesquisa acumulada, dois invernos e muito dinheiro público.
 
 ## O padrão que se repete: computação, promessas e o Estado
 
@@ -250,7 +246,7 @@ E hoje:
 
 Se você chegou até aqui, percebeu o padrão. Nos anos 60 e 70, os governos frearam a I.A. porque ela prometeu demais e entregou de menos. ALPAC, Lighthill e a Emenda Mansfield cortaram verba de uma tecnologia que não funcionava fora de mundos de brinquedo[^50] [^53] [^54]. Nos anos 80, esses mesmos governos voltaram a acelerar quando a I.A. virou disputa entre nações, e Japão, EUA e Reino Unido despejaram dinheiro público em programas estratégicos[^61] [^62] [^55].
 
-A diferença é que, desta vez, **a I.A. entrega resultado**. E tecnologia que entrega resultado não tem a verba cortada, mas sim custodiada.
+A diferença é que, desta vez, a I.A. entrega resultado. E tecnologia que entrega resultado não tem a verba cortada: tem a verba custodiada.
 
 ### A I.A. como moeda de soberania
 
@@ -258,7 +254,7 @@ O plano de I.A. da Casa Branca abre afirmando que os EUA estão numa corrida pel
 
 Nós já vimos esse filme. Em 1946, os EUA aprovaram o _Atomic Energy Act_, que colocou o conhecimento nuclear sob controle estatal[^99]. Nos anos 90, criptografia forte chegou a ser tratada como munição para fins de exportação[^100]. Em nenhum dos dois casos o Estado proibiu a tecnologia: ele decidiu quem podia usá-la e em que escala.
 
-É exatamente o cenário que eu vejo: governo nenhum vai abrir mão de ter o modelo mais poderoso. O que ele não vai deixar é você ter.
+É o cenário que eu vejo: governo nenhum vai abrir mão de ter o modelo mais poderoso. O que ele não vai deixar é você ter.
 
 ### A I.A. como ameaça à identidade digital
 
@@ -268,7 +264,7 @@ A outra ponta aperta pelo lado do usuário:
 - **Brasil**: o ECA Digital, em vigor desde 17 de março de 2026, proíbe a autodeclaração de idade e exige verificação etária confiável em plataformas com conteúdo impróprio para menores, inclusive lojas de aplicativos[^11]. Para as eleições de 2026, o TSE proibiu deepfakes em propaganda eleitoral e vetou a publicação de novos conteúdos sintéticos com imagem ou voz de candidatos entre 72 horas antes e 24 horas depois da votação, mesmo quando rotulados[^102] [^10]. E o Marco Legal da I.A. (PL 2338/2023) segue na Câmara, com um projeto apensado que obriga marca d'água em imagens, vídeos e áudios gerados por I.A.[^103] [^104];
 - **Bloqueios diretos**: a Itália bloqueou o ChatGPT em 2023[^105], a ANPD mandou a Meta suspender o treinamento de I.A. com dados de brasileiros em 2024[^106], e Indonésia e Malásia bloquearam o Grok em janeiro de 2026 após uma onda de deepfakes sexuais[^107];
 
-Sendo honesto: nenhuma dessas normas proíbe, hoje, gerar conteúdo audiovisual com I.A. O que existe é rotulagem, restrição por contexto e bloqueio pontual. A minha aposta está na direção do movimento: de "_rotular_" para "_licenciar_".
+Nenhuma dessas normas proíbe, hoje, gerar conteúdo audiovisual com I.A. O que existe é rotulagem, restrição por contexto e bloqueio pontual. A minha aposta está na direção do movimento: de "_rotular_" para "_licenciar_".
 
 No Brasil, isso nem seria novidade. Transmitir áudio e vídeo em larga escala, via rádio e TV, sempre dependeu de concessão do Poder Executivo[^108]. Quando qualquer pessoa consegue produzir, com um prompt, um vídeo realista de um político dizendo o que nunca disse, não é difícil imaginar o legislador puxando o audiovisual generativo para a mesma lógica: primeiro nas eleições, depois para todo o resto. O meme do político gerado no GPT ou no Gemini é o primeiro candidato a virar "_conteúdo sem licença_".
 
