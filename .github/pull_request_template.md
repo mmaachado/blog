@@ -4,7 +4,7 @@
 
 ## Por quê
 
-<!-- O problema que isso resolve. Em mudança de conteúdo, basta dizer o que estava errado. -->
+<!-- O problema que isso resolve. Se a mudança é no conteúdo, basta dizer o que estava errado. -->
 
 ## Verificação
 

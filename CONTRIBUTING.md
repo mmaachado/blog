@@ -1,19 +1,22 @@
 # Como contribuir
 
-Este é um blog pessoal. O conteúdo é escrito por uma pessoa só, e não há intenção de aceitar
-posts de terceiros — mas correções e melhorias no site são bem-vindas.
+Este é um blog pessoal e todos os posts são meus, então não aceito posts de terceiros.
+Correções e melhorias no site, por outro lado, são bem-vindas.
 
 ## Corrigindo um post
 
-Erro de digitação, link quebrado, informação desatualizada ou trecho de código que não roda:
-abra uma issue de **Defeito** apontando a página, ou mande um pull request direto.
+Achou um erro de digitação, um link quebrado, uma informação desatualizada ou um trecho de
+código que não roda? Abra uma issue de Defeito com o endereço da página, ou mande um pull
+request direto.
 
-Cada post é um arquivo em `content/posts/`. O caminho segue a URL: `/posts/velocidade-importa/`
-vive em `content/posts/velocidade-importa.md`.
+Cada post é um arquivo em `content/posts/` com o mesmo nome da URL: `/posts/velocidade-importa/`
+está em `content/posts/velocidade-importa.md`. Um post com imagens é um diretório com esse
+nome e um `index.md` dentro.
 
-O que muda o texto e o que muda o sentido são coisas diferentes. Correção objetiva — grafia,
-sintaxe, um número errado — entra direto. Discordância sobre o conteúdo é assunto de issue,
-não de pull request: a opinião do post é de quem assina.
+Correção objetiva, como grafia, sintaxe ou um número errado, pode vir direto em pull request.
+Se você discorda do conteúdo, comente no próprio post: cada um tem uma seção de comentários
+no fim da página, ligada às Discussions do repositório. O post diz o que eu penso, e mudar
+isso começa por uma conversa, não por um pull request.
 
 ## Mexendo no site
 
@@ -23,27 +26,27 @@ cd blog
 hugo server -D
 ```
 
-Antes de abrir o pull request:
+Antes de abrir o pull request, rode as verificações:
 
 ```sh
 ./scripts/check.sh
 npx markdownlint-cli2
 ```
 
-As mesmas verificações rodam no GitHub Actions e precisam passar para o merge acontecer.
+O GitHub Actions roda as mesmas duas, e o merge só acontece se elas passarem.
 
-Duas regras que economizam revisão:
+Duas regras poupam idas e vindas na revisão:
 
-- **Nada dentro de `themes/` é editado.** O tema é um submodule e precisa continuar
-  atualizável. Para mudar um template, copie o arquivo para `layouts/` na raiz e edite lá — o
-  Hugo dá precedência ao projeto sobre o tema.
-- **Post publicado não muda de nome.** O nome do arquivo é a URL. Se renomear for necessário,
-  registre a URL antiga em `aliases` no front matter.
+- Não edite nada dentro de `themes/`. O tema é um submodule e precisa continuar atualizável.
+  Para mudar um template, copie o arquivo para `layouts/` na raiz e edite a cópia, que o Hugo
+  usa no lugar da versão do tema.
+- Não renomeie um post publicado, porque o nome do arquivo é a URL. Se a troca for
+  inevitável, coloque a URL antiga em `aliases` no front matter.
 
-O restante das convenções — front matter obrigatório, taxonomia, imagens em page bundle — está
-no `README.md`.
+Os campos de front matter de cada tipo de conteúdo, `tags` e `series` incluídos, estão nos
+modelos em `archetypes/`. O `README.md` explica como criar um post e onde ficam as imagens.
 
 ## Licença
 
-Contribuições de código entram sob GPL-3.0, a mesma licença do repositório. Os textos em
-`content/` seguem CC BY-NC-SA 4.0.
+Contribuições de código entram sob GPL-3.0, a mesma licença do repositório. Contribuições aos
+textos em `content/` entram sob CC BY-NC-SA 4.0.

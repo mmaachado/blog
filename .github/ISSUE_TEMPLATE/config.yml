@@ -3,4 +3,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Falha de segurança
     url: https://github.com/mmaachado/blog/security/advisories/new
-    about: Não abra issue pública. Use o relato privado de vulnerabilidade.
+    about: Use o relato privado de vulnerabilidade, e não uma issue pública.

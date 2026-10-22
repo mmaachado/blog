@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Sugestões são bem-vindas, mas a fila anda no ritmo do tempo livre.
+        Sugestões são bem-vindas. Só não prometo prazo, porque escrevo no tempo livre.
 
   - type: textarea
     id: assunto
     attributes:
       label: O assunto
-      description: Sobre o que seria o post, e por que ele valeria a pena.
+      description: Sobre o que seria o post e por que vale a pena escrever sobre isso.
     validations:
       required: true
 
