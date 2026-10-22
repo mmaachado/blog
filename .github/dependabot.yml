@@ -1,7 +1,6 @@
 version: 2
 
 updates:
-  # As actions do workflow de verificação.
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
@@ -9,7 +8,6 @@ updates:
     commit-message:
       prefix: "chore"
 
-  # O tema, que é um submodule. O upstream anda devagar, então mensal basta.
   - package-ecosystem: gitsubmodule
     directory: "/"
     schedule:
