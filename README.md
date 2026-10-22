@@ -1,7 +1,7 @@
 # Vaults of Parnassus
 
 Meu blog pessoal. Escrevo os posts em Markdown, o [Hugo](https://gohugo.io/) gera o site com o
-tema [Poison](https://github.com/lukeorth/poison) e a Vercel publica a cada push em `master`.
+tema [Poison](https://github.com/mmaachado/poison) e a Vercel publica a cada push em `master`.
 
 ## Requisitos
 
@@ -48,7 +48,7 @@ hugo --gc --minify
 
 ## Escrevendo no Obsidian
 
-A pasta `08 Blog/` do vault aponta para `content/posts/`, via junction no Windows e symlink no
+A pasta `08 Blog/` do meu vault aponta para `content/posts/`, via junction no Windows e symlink no
 macOS/Linux. Os arquivos ficam no repositório e o Obsidian apenas os enxerga, então não existe
 cópia nem sincronização para manter. Escrevo no Obsidian e faço o commit pelo repositório.
 
@@ -114,15 +114,15 @@ local.
 
 ## Estrutura
 
-| Caminho | O que é |
-| --- | --- |
-| `content/posts/` | os posts |
-| `archetypes/` | modelos de front matter usados pelo `hugo new` |
-| `layouts/` | só os templates que sobrescrevem os do tema |
-| `assets/css/custom.css` | CSS próprio |
-| `static/` | favicon e arquivos servidos sem processamento |
-| `themes/poison/` | submodule; mudanças no tema vão para o fork, não para cá |
-| `hugo.toml` | configuração do site |
+| Caminho                 | O que é                                                  |
+| ----------------------- | -------------------------------------------------------- |
+| `content/posts/`        | os posts                                                 |
+| `archetypes/`           | modelos de front matter usados pelo `hugo new`           |
+| `layouts/`              | só os templates que sobrescrevem os do tema              |
+| `assets/css/custom.css` | CSS próprio                                              |
+| `static/`               | favicon e arquivos servidos sem processamento            |
+| `themes/poison/`        | submodule; mudanças no tema vão para o fork, não para cá |
+| `hugo.toml`             | configuração do site                                     |
 
 ## Licença
 
