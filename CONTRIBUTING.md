@@ -14,8 +14,9 @@ está em `content/posts/velocidade-importa.md`. Um post com imagens é um diret�
 nome e um `index.md` dentro.
 
 Correção objetiva, como grafia, sintaxe ou um número errado, pode vir direto em pull request.
-Se você discorda do conteúdo, abra uma issue: o post diz o que eu penso, e mudar isso começa
-por uma conversa.
+Se você discorda do conteúdo, comente no próprio post: cada um tem uma seção de comentários
+no fim da página, ligada às Discussions do repositório. O post diz o que eu penso, e mudar
+isso começa por uma conversa, não por um pull request.
 
 ## Mexendo no site
 
