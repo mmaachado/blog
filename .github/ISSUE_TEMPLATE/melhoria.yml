@@ -15,6 +15,6 @@ body:
     id: motivo
     attributes:
       label: Por quê
-      description: O problema que isso resolve. O blog prefere menos peças móveis, então toda adição precisa se justificar.
+      description: O problema que isso resolve. Prefiro manter o blog com poucas peças, então cada adição precisa de um bom motivo.
     validations:
       required: true
