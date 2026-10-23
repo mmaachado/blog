@@ -33,7 +33,7 @@ Dessa forma:
 
 ```python
 with open('arquivo.txt') as file:
-	content = file.read()
+    content = file.read()
 ```
 
 Poderia retornar um resultado diferente de acordo com o sistema em que esse código fosse executado. O `open()` utilizava o `encoding` associado ao `locale` quando `encoding` não era informado. Em sistemas Unix modernos, isso frequentemente significava **UTF-8**. No Windows, porém, o resultado poderia ser uma `code page` específica do sistema.
@@ -82,14 +82,14 @@ Então o trecho que antes era:
 
 ```python
 with open('arquivo.txt') as file:
-	content = file.read()
+    content = file.read()
 ```
 
 Passa a significar na prática quando nenhum encoding é fornecido:
 
 ```python
 with open('arquivo.txt', encoding='utf-8') as file:
-	content = file.read()
+    content = file.read()
 ```
 
 Isso também vale para outras operações de I/O que dependem desse comportamento padrão. A motivação é bastante simples: **UTF-8 deixou de ser apenas mais uma codificação** e tornou-se o **padrão de facto da internet**, de formatos modernos de arquivo e de grande parte do ecossistema de software.
@@ -102,7 +102,7 @@ O Python 3.15 corrige uma inconsistência de portabilidade, mas também altera o
 
 ```python
 with open('arquivo.txt') as file:
-	data = file.read()
+    data = file.read()
 ```
 
 O desenvolvedor pode ter pensado: _"Esse arquivo é padrão UTF-8"_, quando talvez, o arquivo não seja **UTF-8**. Talvez ele seja um arquivo legado gerado por um ERP, ou até uma exportação de um sistema Windows antigo. Talvez ele seja `cp1252`, ou `latin-1`. Talvez o programa tenha sido escrito justamente esperando o `encoding` do sistema.
