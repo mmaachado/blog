@@ -114,10 +114,10 @@ Nesse caso, o **Python 3.15** não está _"consertando"_ o problema, ele está m
 Essa é, na minha opinião, a parte mais importante dessa mudança.
 
 Antes tínhamos:
-![[encoding_before.png]]
+![encoding_before.png](encoding_before.png)
 
 Com o Python 3.15 teremos:
-![[encoding_after.png]]
+![encoding_after.png](encoding_after.png)
 
 A segunda situação é claramente melhor para software moderno, mas ainda existe uma pergunta que o Python não pode responder por nós:
 
