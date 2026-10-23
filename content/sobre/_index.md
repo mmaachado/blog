@@ -41,12 +41,21 @@ estágio, onde trabalhei com _Python_, _RPA_ e _backend_. Foi nesse período, en
 
 Bagagem experimental é o que não falta, já estudei os vários caminhos da área de desenvolvimento, desde aplicações web (Django, Flask, FastAPI), a aplicações desktop (Electron.js, PyQT), automação de processos (Python), jogos (Unity, Unreal, RPG Maker) e até drivers (Rust, C).
 
+Hoje sou o principal _Engenheiro de Software_ da **Parter Trading**, fundador da **Parter Research** e contribuidor ativo de vários projetos open-source.
+
+Dedico meu tempo integralmente na pesquisa e implementação de soluções para o mercado de comércio exterior, e também na área de Inteligencia Artificial.
+
 ## Vaults of Parnassus?
 
 O nome não dá uma boa primeira impressão, mas não foi escolhido aleatoriamente. Quem conheceu
 Python há alguns anos atrás, tinha experiências muito ruins no quesito de módulos e bibliotecas
 _— basicamente por que o PyPI não existia ainda_. Então, a comunidade criou um repositório não
 oficial para servir como um hub comunitário para compartilhar código reutilizável.
+
+Segundo a própria [wiki do Python](https://wiki.python.org/python/archive/VaultsOfParnassus.html):
+
+> Quite a while ago the “Vaults of Parnassus” was a portal serving as a general storehouse of Python goodies.
+
 
 Posteriormente, nosso querido PyPI entrou em cena, e oficializou um local para guardar todos os scripts reutilizáveis, módulos e bibliotecas do Python, e, desde 2008, Vaults of Parnassus deixou de receber atualizações. Hoje o site só é possível de ser acessado através do Wayback Machine, mas o portal teve um papel fundamental na era inicial da linguagem.
 
