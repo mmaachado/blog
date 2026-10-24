@@ -9,6 +9,7 @@ tags:
 series: A história das tecnologias
 banner: banner.png
 bannerAlt: Gravura de uma serpente enrolada em uma coluna grega tombada
+bannerInk: true
 ---
 ## Introdução
 
