@@ -9,6 +9,7 @@ tags:
 series: A história das tecnologias
 ---
 ## Introdução
+
 Amsterdã, uma manhã de Janeiro de 1990. Um programador do Centrum Wiskunde & Informatica (CWI) convida um dos pesquisadores mais velhos do instituto para ver uma demonstração. O programador era Guido Van Rossum, a demonstração é a sua mais nova invenção, uma linguagem chamada Python, escrita durante o recesso entre o Natal e o Ano Novo.
 
 O pesquisador, Lambert Meertens, e o pior: ele não se empolgou. Anos depois, ele mesmo escreveu que o objetivo da linguagem lhe escapou naquele momento.
@@ -20,4 +21,5 @@ Esse é o primeiro post de uma série sobre a história do Python, como a lingua
 Para entender o Natal de 1989, precisamos voltar vinte anos.
 
 ## Um fim de semana em Londres, 1970
-Domingo, 21 de Julho de 1970. Em um prédio da Great 
+
+Domingo, 21 de Julho de 1970. Em um prédio da Great
