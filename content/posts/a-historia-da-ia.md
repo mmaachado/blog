@@ -7,6 +7,7 @@ tags:
   - engenharia-de-software
   - IA
   - roteiro
+series: "A história da tecnologia"
 ---
 
 ## Introdução
