@@ -56,7 +56,6 @@ Segundo a própria [wiki do Python](https://wiki.python.org/python/archive/Vault
 
 > Quite a while ago the “Vaults of Parnassus” was a portal serving as a general storehouse of Python goodies.
 
-
 Posteriormente, nosso querido PyPI entrou em cena, e oficializou um local para guardar todos os scripts reutilizáveis, módulos e bibliotecas do Python, e, desde 2008, Vaults of Parnassus deixou de receber atualizações. Hoje o site só é possível de ser acessado através do Wayback Machine, mas o portal teve um papel fundamental na era inicial da linguagem.
 
 O nome que escolhi para esse blog, foi justamente em homenagem a esse projeto que foi
