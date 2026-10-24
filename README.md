@@ -34,7 +34,12 @@ hugo new --kind post-bundle posts/nome-do-post       # post com imagens
 hugo new --kind page nome-da-pagina/_index.md        # página avulsa, fora do blog
 ```
 
-Depois é escrever, preencher o `description` e trocar `draft: true` por `false`.
+Depois é escrever, preencher o `description` e trocar `draft: true` por `false`. O
+`description` é também o resumo do post na home; sem ele, a home mostra o começo do texto.
+
+Para pôr uma imagem no topo do post, descomente `banner` no front matter. Num post com imagens,
+basta o nome do arquivo. O `bannerAlt` descreve a imagem para leitores de tela e fica vazio
+quando ela é só decorativa. O banner aparece só no próprio post, nunca na home.
 
 Um post com imagens é um diretório: o `index.md` e as imagens ao lado, referenciadas só pelo
 nome do arquivo (`![legenda](imagem.jpg)`). Como texto e imagens ficam na mesma pasta, dá para
