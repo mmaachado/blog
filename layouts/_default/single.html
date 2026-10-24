@@ -1,5 +1,6 @@
 {{ define "main" -}}
 <div class="post">
+  {{ partial "post/banner.html" . }}
   {{ partial "post/info.html" . }}
   {{/* O Goldmark fecha o conteúdo com as notas de rodapé num <div class="footnotes">.
        Uma bibliografia com cem entradas não precisa ficar aberta o tempo todo, então
