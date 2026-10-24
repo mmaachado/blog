@@ -83,6 +83,10 @@ quebrados=$(
           esac
           alvo=${alvo%%#*}; alvo=${alvo%%\?*}
           [ -z "$alvo" ] && continue
+          # O Hugo escreve a URL percent-encoded (história vira hist%C3%B3ria),
+          # mas o diretório no disco tem o nome acentuado. Decodifica antes de
+          # procurar, senão toda série ou tag com acento conta como quebrada.
+          alvo=$(printf '%b' "${alvo//%/\\x}")
           destino="$saida$alvo"
           [ -f "$destino" ] && continue
           [ -f "${destino%/}/index.html" ] && continue
