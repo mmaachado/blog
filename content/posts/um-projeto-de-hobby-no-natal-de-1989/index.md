@@ -7,6 +7,8 @@ tags:
   - engenharia-de-software
   - python
 series: A história das tecnologias
+banner: banner.png
+bannerAlt: Gravura de uma serpente enrolada em uma coluna grega tombada
 ---
 ## Introdução
 
